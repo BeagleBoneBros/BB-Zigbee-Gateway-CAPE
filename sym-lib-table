@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
+  (lib (name cc1352)(type Legacy)(uri ${KIPRJMOD}/cc1352.lib)(options "")(descr ""))
 )
