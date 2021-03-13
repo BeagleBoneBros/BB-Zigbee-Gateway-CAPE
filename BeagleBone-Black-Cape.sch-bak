@@ -29,7 +29,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3500 2600 3600
 Wire Wire Line
-	2600 3800 2200 3800
+	2600 3800 2500 3800
 Wire Wire Line
 	1800 3800 1800 3600
 Wire Wire Line
@@ -250,9 +250,16 @@ Wire Wire Line
 Wire Wire Line
 	2200 3800 1800 3800
 $Sheet
-S 0    8650 11700 8250
+S -50  8500 11700 8250
 U 60365D6B
 F0 "1352_antenna_subsystem" 50
 F1 "1352_antenna_subsystem.sch" 50
 $EndSheet
+Text GLabel 2500 3950 3    50   Input ~ 0
+GND8
+Wire Wire Line
+	2500 3800 2500 3950
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 2200 3800
 $EndSCHEMATC
