@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
   (lib (name cc1352)(type Legacy)(uri ${KIPRJMOD}/cc1352.lib)(options "")(descr ""))
+  (lib (name SKY13317-373)(type Legacy)(uri C:/Users/tjb31/Source/Repos/KiCadTest/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/2021-04-02_19-11-57.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
 )

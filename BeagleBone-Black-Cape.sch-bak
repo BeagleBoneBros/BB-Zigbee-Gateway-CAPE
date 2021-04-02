@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3800 1800 3800
 $Sheet
-S -50  8500 11700 8250
+S 250  8450 11700 8250
 U 60365D6B
 F0 "1352_antenna_subsystem" 50
 F1 "1352_antenna_subsystem.sch" 50

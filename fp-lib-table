@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name LPP2)(type KiCad)(uri "E:/Google Drive/1. Spring 2021/Capstone/Project Documents/LPP2")(options "")(descr ""))
+  (lib (name SKY13317-373)(type KiCad)(uri C:/Users/tjb31/Source/Repos/KiCadTest/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/footprints.pretty)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/SamacSys_Parts.pretty)(options "")(descr ""))
 )
