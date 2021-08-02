@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -561,10 +561,8 @@ Text GLabel 2250 4650 1    50   BiDi ~ 0
 TX_20dB_P
 Wire Wire Line
 	2250 4700 2250 4650
-Text GLabel 2350 4650 1    50   Input ~ 0
+Text GLabel 2350 4650 1    50   BiDi ~ 0
 RX_20dB_N
-Wire Wire Line
-	2350 4700 2350 4650
 Text GLabel 4200 5750 0    50   BiDi ~ 0
 TX_20dB_P
 Text GLabel 4200 6400 0    50   BiDi ~ 0
@@ -583,23 +581,14 @@ $EndComp
 $Comp
 L Device:L L52
 U 1 1 605D71FC
-P 4450 5900
-F 0 "L52" H 4600 5850 50  0000 C CNN
-F 1 "15nH" H 4600 5950 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 5900 50  0001 C CNN
-F 3 "~" H 4450 5900 50  0001 C CNN
-	1    4450 5900
+P 4450 6050
+F 0 "L52" H 4600 6000 50  0000 C CNN
+F 1 "15nH" H 4600 6100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 6050 50  0001 C CNN
+F 3 "~" H 4450 6050 50  0001 C CNN
+	1    4450 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 5750 4450 5750
-Wire Wire Line
-	4450 6400 4200 6400
-Wire Wire Line
-	4450 6050 4450 6400
-Wire Wire Line
-	4450 6400 4750 6400
-Connection ~ 4450 6400
 Wire Wire Line
 	4750 6400 4750 6500
 $Comp
@@ -1015,16 +1004,16 @@ GND8
 Text GLabel 8150 4900 3    50   Input ~ 0
 GND8
 Wire Wire Line
-	8150 4500 8600 4500
+	8150 4500 8550 4500
 $Comp
 L Device:C Z63
 U 1 1 6075DD50
-P 8750 4500
-F 0 "Z63" V 9000 4450 50  0000 L CNN
-F 1 "5.6pF" V 8900 4400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8788 4350 50  0001 C CNN
-F 3 "~" H 8750 4500 50  0001 C CNN
-	1    8750 4500
+P 8700 4500
+F 0 "Z63" V 8950 4450 50  0000 L CNN
+F 1 "5.6pF" V 8850 4400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8738 4350 50  0001 C CNN
+F 3 "~" H 8700 4500 50  0001 C CNN
+	1    8700 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1088,13 +1077,10 @@ Wire Wire Line
 	4600 3150 4500 3150
 Wire Wire Line
 	4500 3150 4500 3500
-Connection ~ 4450 5750
 Wire Wire Line
 	5250 5750 5350 5750
 Wire Wire Line
 	5350 5750 5350 6200
-Wire Wire Line
-	4450 5750 4750 5750
 Connection ~ 4750 5750
 Wire Wire Line
 	4750 5750 4950 5750
@@ -1113,4 +1099,23 @@ F 3 "" H 7000 1050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6850 1050 7000 1050
+Connection ~ 8550 4500
+Wire Wire Line
+	8550 4500 8600 4500
+Wire Wire Line
+	4200 5750 4450 5750
+Wire Wire Line
+	4200 6400 4450 6400
+Wire Wire Line
+	4450 5900 4450 5750
+Connection ~ 4450 5750
+Wire Wire Line
+	4450 5750 4750 5750
+Wire Wire Line
+	4450 6200 4450 6400
+Connection ~ 4450 6400
+Wire Wire Line
+	4450 6400 4750 6400
+Wire Wire Line
+	2350 4650 2350 4700
 $EndSCHEMATC
