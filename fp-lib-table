@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name ul_SKY13317373LF)(type KiCad)(uri ${KIPRJMOD}/ul_SKY13317373LF)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/footprints.pretty)(options "")(descr ""))
 )

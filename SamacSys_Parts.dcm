@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TPD1E0B04DPYR
+D 1-Channel ESD Protection Diode for USB Type-C and Antenna Protection
+K
+F http://www.ti.com/lit/gpn/tpd1e0b04
+$ENDCMP
+#
+#End Doc Library
