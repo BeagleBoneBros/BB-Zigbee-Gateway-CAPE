@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -289,5 +289,11 @@ S -12100 2000 11950 7750
 U 60837686
 F0 "UI_subsystem" 50
 F1 "UI_subsystem.sch" 50
+$EndSheet
+$Sheet
+S 13500 3750 7500 3800
+U 610F5588
+F0 "Power Sub System" 50
+F1 "PowerSubSystem.sch" 50
 $EndSheet
 $EndSCHEMATC
