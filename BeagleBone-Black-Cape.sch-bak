@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -185,27 +185,14 @@ F 3 "" H 1350 1200 60  0000 C CNN
 	1    1350 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L pwr_BeagleBone:VDD_ADC #PWR012
-U 1 1 558985D8
-P 2800 2800
-F 0 "#PWR012" H 2800 2650 50  0001 C CNN
-F 1 "VDD_ADC" H 2800 2940 50  0000 C CNN
-F 2 "" H 2800 2800 60  0000 C CNN
-F 3 "" H 2800 2800 60  0000 C CNN
-	1    2800 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 2900 2800 2900
-Wire Wire Line
-	2800 2900 2800 2800
 $Comp
 L pwr_BeagleBone:GNDA_ADC #PWR013
 U 1 1 5589865D
 P 2800 3000
 F 0 "#PWR013" H 2800 2750 50  0001 C CNN
-F 1 "GNDA_ADC" H 2800 2850 50  0000 C CNN
+F 1 "GNDA_ADC" H 2700 2850 50  0000 C CNN
 F 2 "" H 2800 3000 60  0000 C CNN
 F 3 "" H 2800 3000 60  0000 C CNN
 	1    2800 3000
@@ -250,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3800 1800 3800
 $Sheet
-S -50  8500 11700 8250
+S 250  8450 11700 8250
 U 60365D6B
 F0 "1352_antenna_subsystem" 50
 F1 "1352_antenna_subsystem.sch" 50
@@ -262,4 +249,51 @@ Wire Wire Line
 Connection ~ 2500 3800
 Wire Wire Line
 	2500 3800 2200 3800
+Text GLabel 1750 2800 0    50   Output ~ 0
+MISO_TFT
+Text GLabel 1750 2900 0    50   Output ~ 0
+SCK_TFT
+Text GLabel 2600 2700 2    50   Output ~ 0
+CS_TFT
+Text GLabel 2600 2800 2    50   Output ~ 0
+MOSI_TFT
+$Comp
+L pwr_BeagleBone:VDD_ADC #PWR012
+U 1 1 558985D8
+P 2800 2900
+F 0 "#PWR012" H 2800 2750 50  0001 C CNN
+F 1 "VDD_ADC" H 2800 3150 50  0000 C CNN
+F 2 "" H 2800 2900 60  0000 C CNN
+F 3 "" H 2800 2900 60  0000 C CNN
+	1    2800 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2800 1950 2800
+Wire Wire Line
+	1750 2900 1950 2900
+Wire Wire Line
+	2450 2800 2600 2800
+Wire Wire Line
+	2450 2700 2600 2700
+Text GLabel 1750 2100 0    50   Output ~ 0
+D.C_TFT
+Text GLabel 2550 1900 2    50   Output ~ 0
+RST_TFT
+Wire Wire Line
+	2450 1900 2550 1900
+Wire Wire Line
+	1750 2100 1950 2100
+$Sheet
+S -12100 2000 11950 7750
+U 60837686
+F0 "UI_subsystem" 50
+F1 "UI_subsystem.sch" 50
+$EndSheet
+$Sheet
+S 13500 3750 7500 3800
+U 610F5588
+F0 "Power Sub System" 50
+F1 "PowerSubSystem.sch" 50
+$EndSheet
 $EndSCHEMATC
