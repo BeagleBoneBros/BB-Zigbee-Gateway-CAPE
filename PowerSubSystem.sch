@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pwr_BeagleBone:TR05S3V3 U?
+L pwr_BeagleBone:TR05S3V3 U1
 U 1 1 610F8923
 P 7000 2950
-F 0 "U?" H 7778 2796 50  0000 L CNN
+F 0 "U1" H 7778 2796 50  0000 L CNN
 F 1 "TR05S3V3" H 7778 2705 50  0000 L CNN
 F 2 "" H 7000 2950 50  0001 C CNN
 F 3 "" H 7000 2950 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 7000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L1
+L BeagleBone-Black-Cape-rescue:INDUCTOR-pspice L1
 U 1 1 610F8FF3
 P 5950 3050
 F 0 "L1" H 5950 3265 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 5950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C1
+L BeagleBone-Black-Cape-rescue:CAP-pspice C1
 U 1 1 610F97C7
 P 5550 3450
 F 0 "C1" H 5550 3550 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 5550 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C2
+L BeagleBone-Black-Cape-rescue:CAP-pspice C2
 U 1 1 610FA119
 P 6350 3450
 F 0 "C2" H 6350 3550 50  0000 L CNN
@@ -97,15 +97,15 @@ Wire Wire Line
 	5550 3850 5400 3850
 Connection ~ 5550 3850
 Text GLabel 7400 3750 2    50   Output ~ 0
-3V3Out+
+PSU_3V3Out+
 Text GLabel 7400 3850 2    50   Output ~ 0
-3V3Out-
+PSU_3V3Out-
 Text GLabel 5400 3050 0    50   Input ~ 0
-5VIn+
+PSU_5VIn+
 Text GLabel 5400 3850 0    50   Input ~ 0
-5VIn-
+PSU_5VIn-
 $Comp
-L power:GND #PWR?
+L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 611018D2
 P 6350 3950
 F 0 "#PWR?" H 6350 3700 50  0001 C CNN
