@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -295,5 +295,11 @@ S 13500 3750 7500 3800
 U 610F5588
 F0 "Power Sub System" 50
 F1 "PowerSubSystem.sch" 50
+$EndSheet
+$Sheet
+S 14700 -300 5600 3550
+U 613805C9
+F0 "CrystolOscillator" 50
+F1 "CrystolOscillator.sch" 50
 $EndSheet
 $EndSCHEMATC
