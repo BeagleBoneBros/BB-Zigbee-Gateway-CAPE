@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP2108AUJ-1.1
+D 3MHz switching bucK regulator, 600mA 1.1V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-1.2
+D 3MHz switching bucK regulator, 600mA 1.2V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-1.3
+D 3MHz switching bucK regulator, 600mA 1.3V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-1.5
+D 3MHz switching bucK regulator, 600mA 1.5V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-1.8
+D 3MHz switching bucK regulator, 600mA 1.8V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-1.82
+D 3MHz switching bucK regulator, 600mA 1.82V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-2.3
+D 3MHz switching bucK regulator, 600mA 2.3V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-2.5
+D 3MHz switching bucK regulator, 600mA 2.5V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-3.0
+D 3MHz switching bucK regulator, 600mA 3.0V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJ-3.3
+D 3MHz switching bucK regulator, 600mA 3.3V output voltage,
+K Voltage regulator switching buck fixed output analog
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP LM3670MF
+D Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5
+K DC-DC buck conveter step down voltage regulator
+F http://www.ti.com/lit/ds/symlink/lm3670.pdf
+$ENDCMP
+#
+#End Doc Library

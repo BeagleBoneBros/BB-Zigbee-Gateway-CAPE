@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0101
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0101
 U 1 1 603957EF
 P 3800 3950
 F 0 "#PWR0101" H 3800 3700 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 3800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L BeagleBone-Black-Cape-rescue:C-Device C21
 U 1 1 6039A1F9
 P 2250 3800
 F 0 "C21" H 2365 3846 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 2250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L12
+L BeagleBone-Black-Cape-rescue:L-Device L12
 U 1 1 6039AD96
 P 2300 3200
 F 0 "L12" H 2150 3250 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 2300 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L22
+L BeagleBone-Black-Cape-rescue:L-Device L22
 U 1 1 6039B183
 P 2550 3650
 F 0 "L22" V 2650 3750 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 2550 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L21
+L BeagleBone-Black-Cape-rescue:L-Device L21
 U 1 1 6039B788
 P 2100 3500
 F 0 "L21" H 1950 3600 50  0000 L CNN
@@ -84,7 +84,7 @@ Connection ~ 2100 3350
 Wire Wire Line
 	2100 3350 2300 3350
 $Comp
-L Device:C C12
+L BeagleBone-Black-Cape-rescue:C-Device C12
 U 1 1 603CD7B2
 P 2550 3350
 F 0 "C12" V 2600 3500 50  0000 C CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 3500 3300 3500
 $Comp
-L Device:L L13
+L BeagleBone-Black-Cape-rescue:L-Device L13
 U 1 1 603CF711
 P 3450 3500
 F 0 "L13" V 3640 3500 50  0000 C CNN
@@ -125,7 +125,7 @@ Connection ~ 2300 3050
 Wire Wire Line
 	2300 3050 2750 3050
 $Comp
-L power:GND #PWR0103
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0103
 U 1 1 603D2468
 P 3350 3050
 F 0 "#PWR0103" H 3350 2800 50  0001 C CNN
@@ -138,7 +138,7 @@ $EndComp
 Wire Wire Line
 	3050 3050 3350 3050
 $Comp
-L Device:C C494
+L BeagleBone-Black-Cape-rescue:C-Device C494
 U 1 1 603D700A
 P 2900 3050
 F 0 "C494" V 2648 3050 50  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "~" H 2900 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L14
+L BeagleBone-Black-Cape-rescue:L-Device L14
 U 1 1 603D983C
 P 4150 3500
 F 0 "L14" V 4340 3500 50  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "~" H 4150 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C13
+L BeagleBone-Black-Cape-rescue:C-Device C13
 U 1 1 603DBF1C
 P 3800 3650
 F 0 "C13" H 3915 3696 50  0000 L CNN
@@ -180,7 +180,7 @@ Connection ~ 3800 3500
 Wire Wire Line
 	4300 3500 4400 3500
 $Comp
-L Device:Antenna AE1
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE1
 U 1 1 603E2167
 P 5100 2950
 F 0 "AE1" H 5180 2939 50  0000 L CNN
@@ -210,7 +210,7 @@ Sub1N
 Text Label 1800 3350 0    50   ~ 0
 2.4N
 $Comp
-L Device:L L338
+L BeagleBone-Black-Cape-rescue:L-Device L338
 U 1 1 603F32AE
 P 2200 1850
 F 0 "L338" V 2390 1850 50  0000 C CNN
@@ -221,7 +221,7 @@ F 3 "~" H 2200 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L339
+L BeagleBone-Black-Cape-rescue:L-Device L339
 U 1 1 603F44B7
 P 2800 2250
 F 0 "L339" H 2950 2300 50  0000 C CNN
@@ -232,7 +232,7 @@ F 3 "~" H 2800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L336
+L BeagleBone-Black-Cape-rescue:L-Device L336
 U 1 1 603F61A0
 P 3600 2600
 F 0 "L336" V 3790 2600 50  0000 C CNN
@@ -243,7 +243,7 @@ F 3 "~" H 3600 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L335
+L BeagleBone-Black-Cape-rescue:L-Device L335
 U 1 1 603F7059
 P 3150 1650
 F 0 "L335" H 3300 1700 50  0000 C CNN
@@ -254,7 +254,7 @@ F 3 "~" H 3150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L BeagleBone-Black-Cape-rescue:C-Device C31
 U 1 1 603F96C0
 P 3150 1250
 F 0 "C31" H 2950 1200 50  0000 C CNN
@@ -265,7 +265,7 @@ F 3 "~" H 3150 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C487
+L BeagleBone-Black-Cape-rescue:C-Device C487
 U 1 1 603FBA21
 P 2450 2250
 F 0 "C487" H 2350 2350 50  0000 C CNN
@@ -276,7 +276,7 @@ F 3 "~" H 2450 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L340
+L BeagleBone-Black-Cape-rescue:L-Device L340
 U 1 1 603FD936
 P 2200 2600
 F 0 "L340" V 2390 2600 50  0000 C CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1100 2750 1100
 $Comp
-L power:GND #PWR0104
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0104
 U 1 1 6041EDC0
 P 2750 1100
 F 0 "#PWR0104" H 2750 850 50  0001 C CNN
@@ -334,7 +334,7 @@ Wire Wire Line
 	3150 1850 3150 1800
 Connection ~ 2800 1850
 $Comp
-L Device:C C489
+L BeagleBone-Black-Cape-rescue:C-Device C489
 U 1 1 60424D8F
 P 3600 1850
 F 0 "C489" V 3348 1850 50  0000 C CNN
@@ -359,7 +359,7 @@ Connection ~ 3750 2250
 Wire Wire Line
 	3750 2250 3750 2600
 $Comp
-L Device:C C488
+L BeagleBone-Black-Cape-rescue:C-Device C488
 U 1 1 6042F403
 P 3300 2750
 F 0 "C488" V 3250 2600 50  0000 C CNN
@@ -374,7 +374,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 2750 3150 2750
 $Comp
-L power:GND #PWR0105
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0105
 U 1 1 604321C0
 P 3750 2750
 F 0 "#PWR0105" H 3750 2500 50  0001 C CNN
@@ -387,7 +387,7 @@ $EndComp
 Wire Wire Line
 	3450 2750 3750 2750
 $Comp
-L Device:L L337
+L BeagleBone-Black-Cape-rescue:L-Device L337
 U 1 1 60435A6E
 P 4500 2250
 F 0 "L337" V 4690 2250 50  0000 C CNN
@@ -398,7 +398,7 @@ F 3 "~" H 4500 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C37
+L BeagleBone-Black-Cape-rescue:C-Device C37
 U 1 1 604367DD
 P 5200 2250
 F 0 "C37" V 4948 2250 50  0000 C CNN
@@ -409,7 +409,7 @@ F 3 "~" H 5200 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C33
+L BeagleBone-Black-Cape-rescue:C-Device C33
 U 1 1 60437EE0
 P 4200 2450
 F 0 "C33" H 4000 2500 50  0000 C CNN
@@ -420,7 +420,7 @@ F 3 "~" H 4200 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C490
+L BeagleBone-Black-Cape-rescue:C-Device C490
 U 1 1 60438EA3
 P 4800 2450
 F 0 "C490" H 4600 2500 50  0000 C CNN
@@ -445,7 +445,7 @@ Wire Wire Line
 	4800 2250 4950 2250
 Connection ~ 4800 2250
 $Comp
-L power:GND #PWR0106
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0106
 U 1 1 6043F32A
 P 4200 2600
 F 0 "#PWR0106" H 4200 2350 50  0001 C CNN
@@ -456,7 +456,7 @@ F 3 "" H 4200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0107
 U 1 1 604402F0
 P 4800 2600
 F 0 "#PWR0107" H 4800 2350 50  0001 C CNN
@@ -467,7 +467,7 @@ F 3 "" H 4800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Antenna AE2
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE2
 U 1 1 60442B72
 P 5600 2050
 F 0 "AE2" H 5680 2039 50  0000 L CNN
@@ -482,7 +482,7 @@ Wire Wire Line
 Text GLabel 2950 1450 0    50   BiDi ~ 0
 RX_TX
 $Comp
-L power:GND #PWR0108
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0108
 U 1 1 604464CB
 P 4400 3950
 F 0 "#PWR0108" H 4400 3700 50  0001 C CNN
@@ -493,7 +493,7 @@ F 3 "" H 4400 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L BeagleBone-Black-Cape-rescue:C-Device C14
 U 1 1 604464D1
 P 4400 3650
 F 0 "C14" H 4515 3696 50  0000 L CNN
@@ -568,7 +568,7 @@ TX_20dB_P
 Text GLabel 4200 6400 0    50   BiDi ~ 0
 RX_20dB_N
 $Comp
-L Device:L L62
+L BeagleBone-Black-Cape-rescue:L-Device L62
 U 1 1 605CA70F
 P 5150 6400
 F 0 "L62" V 5340 6400 50  0000 C CNN
@@ -579,7 +579,7 @@ F 3 "~" H 5150 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L52
+L BeagleBone-Black-Cape-rescue:L-Device L52
 U 1 1 605D71FC
 P 4450 6050
 F 0 "L52" H 4600 6000 50  0000 C CNN
@@ -592,7 +592,7 @@ $EndComp
 Wire Wire Line
 	4750 6400 4750 6500
 $Comp
-L Device:C C61
+L BeagleBone-Black-Cape-rescue:C-Device C61
 U 1 1 605E8A57
 P 4750 6650
 F 0 "C61" H 4865 6696 50  0000 L CNN
@@ -605,7 +605,7 @@ $EndComp
 Text GLabel 4750 6800 3    50   Input ~ 0
 GND8
 $Comp
-L Device:L L53
+L BeagleBone-Black-Cape-rescue:L-Device L53
 U 1 1 605F1A20
 P 4750 5250
 F 0 "L53" H 4900 5200 50  0000 C CNN
@@ -639,7 +639,7 @@ Connection ~ 4750 6400
 Wire Wire Line
 	5300 6400 5350 6400
 $Comp
-L Device:C C53
+L BeagleBone-Black-Cape-rescue:C-Device C53
 U 1 1 60611067
 P 5100 5750
 F 0 "C53" V 5350 5700 50  0000 L CNN
@@ -655,7 +655,7 @@ Connection ~ 5350 6200
 Wire Wire Line
 	5350 6200 5350 6400
 $Comp
-L Device:C C51
+L BeagleBone-Black-Cape-rescue:C-Device C51
 U 1 1 60620B7F
 P 5300 5100
 F 0 "C51" H 5415 5146 50  0000 L CNN
@@ -668,7 +668,7 @@ $EndComp
 Wire Wire Line
 	5300 5250 5700 5250
 $Comp
-L Device:C C52
+L BeagleBone-Black-Cape-rescue:C-Device C52
 U 1 1 6062771A
 P 5700 5100
 F 0 "C52" H 5815 5146 50  0000 L CNN
@@ -690,7 +690,7 @@ GND8
 Wire Wire Line
 	5500 6200 5500 6350
 $Comp
-L Device:C C62
+L BeagleBone-Black-Cape-rescue:C-Device C62
 U 1 1 60632FC0
 P 5500 6500
 F 0 "C62" H 5615 6546 50  0000 L CNN
@@ -706,7 +706,7 @@ Wire Wire Line
 	5500 6200 5650 6200
 Connection ~ 5500 6200
 $Comp
-L Device:L L54
+L BeagleBone-Black-Cape-rescue:L-Device L54
 U 1 1 606403DF
 P 5800 6200
 F 0 "L54" V 5990 6200 50  0000 C CNN
@@ -719,7 +719,7 @@ $EndComp
 Wire Wire Line
 	5950 6200 6050 6200
 $Comp
-L Device:C C496
+L BeagleBone-Black-Cape-rescue:C-Device C496
 U 1 1 60645553
 P 6050 6500
 F 0 "C496" H 6165 6546 50  0000 L CNN
@@ -734,7 +734,7 @@ Wire Wire Line
 Text GLabel 6050 6650 3    50   Input ~ 0
 GND8
 $Comp
-L Device:L L55
+L BeagleBone-Black-Cape-rescue:L-Device L55
 U 1 1 6064D542
 P 6200 6200
 F 0 "L55" V 6390 6200 50  0000 C CNN
@@ -745,7 +745,7 @@ F 3 "~" H 6200 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C497
+L BeagleBone-Black-Cape-rescue:C-Device C497
 U 1 1 60652D1E
 P 6550 6500
 F 0 "C497" H 6665 6546 50  0000 L CNN
@@ -770,7 +770,7 @@ Wire Wire Line
 	6650 6200 6850 6200
 Connection ~ 6650 6200
 $Comp
-L Device:C C58
+L BeagleBone-Black-Cape-rescue:C-Device C58
 U 1 1 606661BA
 P 7000 6200
 F 0 "C58" V 7250 6150 50  0000 L CNN
@@ -783,7 +783,7 @@ $EndComp
 Wire Wire Line
 	6650 5750 6950 5750
 $Comp
-L Device:C C59
+L BeagleBone-Black-Cape-rescue:C-Device C59
 U 1 1 6066C58A
 P 7100 5750
 F 0 "C59" V 7350 5700 50  0000 L CNN
@@ -794,7 +794,7 @@ F 3 "~" H 7100 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Antenna AE3
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE3
 U 1 1 6066FAEC
 P 7250 5250
 F 0 "AE3" H 7330 5239 50  0000 L CNN
@@ -807,7 +807,7 @@ $EndComp
 Wire Wire Line
 	7250 5750 7250 5450
 $Comp
-L Device:R R53
+L BeagleBone-Black-Cape-rescue:R-Device R53
 U 1 1 6067AEFA
 P 4850 4500
 F 0 "R53" H 4920 4546 50  0000 L CNN
@@ -818,7 +818,7 @@ F 3 "~" H 4850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R54
+L BeagleBone-Black-Cape-rescue:R-Device R54
 U 1 1 6067CE21
 P 5150 4500
 F 0 "R54" H 5220 4546 50  0000 L CNN
@@ -834,7 +834,7 @@ Text GLabel 5150 4100 3    50   Output ~ 0
 VDDR
 Connection ~ 5300 4950
 $Comp
-L Device:C C36
+L BeagleBone-Black-Cape-rescue:C-Device C36
 U 1 1 6068D5E7
 P 5650 1650
 F 0 "C36" V 5900 1600 50  0000 L CNN
@@ -850,7 +850,7 @@ Wire Wire Line
 	4500 3500 4700 3500
 Connection ~ 4500 3500
 $Comp
-L Device:C C491
+L BeagleBone-Black-Cape-rescue:C-Device C491
 U 1 1 606984A5
 P 4850 3500
 F 0 "C491" V 5100 3450 50  0000 L CNN
@@ -944,7 +944,7 @@ Connection ~ 7300 2850
 Wire Wire Line
 	7700 2850 7700 3250
 $Comp
-L Device:C C482
+L BeagleBone-Black-Cape-rescue:C-Device C482
 U 1 1 6071990F
 P 7700 3400
 F 0 "C482" H 7850 3450 50  0000 L CNN
@@ -955,7 +955,7 @@ F 3 "~" H 7700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L Z60
+L BeagleBone-Black-Cape-rescue:L-Device Z60
 U 1 1 6071EEC0
 P 7700 4150
 F 0 "Z60" H 7850 4200 50  0000 C CNN
@@ -975,7 +975,7 @@ Connection ~ 7700 4500
 Wire Wire Line
 	8150 4500 8150 4600
 $Comp
-L Device:C Z61
+L BeagleBone-Black-Cape-rescue:C-Device Z61
 U 1 1 6073AC13
 P 7700 4750
 F 0 "Z61" H 7850 4800 50  0000 L CNN
@@ -989,7 +989,7 @@ Wire Wire Line
 	7700 4500 8150 4500
 Connection ~ 8150 4500
 $Comp
-L Device:L Z62
+L BeagleBone-Black-Cape-rescue:L-Device Z62
 U 1 1 6074E2B9
 P 8150 4750
 F 0 "Z62" H 8300 4800 50  0000 C CNN
@@ -1006,7 +1006,7 @@ GND8
 Wire Wire Line
 	8150 4500 8550 4500
 $Comp
-L Device:C Z63
+L BeagleBone-Black-Cape-rescue:C-Device Z63
 U 1 1 6075DD50
 P 8700 4500
 F 0 "Z63" V 8950 4450 50  0000 L CNN
@@ -1019,7 +1019,7 @@ $EndComp
 Wire Wire Line
 	8900 4500 9100 4500
 $Comp
-L Device:Antenna AE4
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE4
 U 1 1 60766F16
 P 9100 4000
 F 0 "AE4" H 9180 3989 50  0000 L CNN
@@ -1037,7 +1037,7 @@ Connection ~ 7700 2850
 Wire Wire Line
 	8050 2850 8050 2500
 $Comp
-L Device:C C483
+L BeagleBone-Black-Cape-rescue:C-Device C483
 U 1 1 60773C96
 P 8050 2350
 F 0 "C483" H 8200 2400 50  0000 L CNN
@@ -1048,7 +1048,7 @@ F 3 "~" H 8050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Antenna AE5
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE5
 U 1 1 607787F8
 P 8050 1950
 F 0 "AE5" H 8130 1939 50  0000 L CNN
@@ -1061,7 +1061,7 @@ $EndComp
 Wire Wire Line
 	8050 2150 8050 2200
 $Comp
-L Device:C C492
+L BeagleBone-Black-Cape-rescue:C-Device C492
 U 1 1 60788C39
 P 4750 3150
 F 0 "C492" V 4950 3050 50  0000 L CNN

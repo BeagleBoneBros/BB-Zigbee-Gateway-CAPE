@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GNDD #PWR01
+L BeagleBone-Black-Cape-rescue:GNDD-power #PWR01
 U 1 1 5589785A
 P 2200 3900
 F 0 "#PWR01" H 2200 3650 50  0001 C CNN
@@ -44,7 +44,7 @@ Wire Wire Line
 	2200 3900 2200 3800
 Connection ~ 2200 3800
 $Comp
-L power:GNDD #PWR02
+L BeagleBone-Black-Cape-rescue:GNDD-power #PWR02
 U 1 1 558978D3
 P 3250 1400
 F 0 "#PWR02" H 3250 1150 50  0001 C CNN
@@ -55,7 +55,7 @@ F 3 "" H 3250 1400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR03
+L BeagleBone-Black-Cape-rescue:GNDD-power #PWR03
 U 1 1 5589790A
 P 1150 1400
 F 0 "#PWR03" H 1150 1150 50  0001 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 1150 1400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDD #PWR04
+L BeagleBone-Black-Cape-rescue:GNDD-power #PWR04
 U 1 1 558979C1
 P 9850 750
 F 0 "#PWR04" H 9850 500 50  0001 C CNN
@@ -77,7 +77,7 @@ F 3 "" H 9850 750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDD #PWR05
+L BeagleBone-Black-Cape-rescue:GNDD-power #PWR05
 U 1 1 558979E8
 P 10850 750
 F 0 "#PWR05" H 10850 500 50  0001 C CNN
@@ -88,7 +88,7 @@ F 3 "" H 10850 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR06
+L BeagleBone-Black-Cape-rescue:+3.3V-power #PWR06
 U 1 1 55897A67
 P 2600 1200
 F 0 "#PWR06" H 2600 1050 50  0001 C CNN
@@ -99,7 +99,7 @@ F 3 "" H 2600 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR07
+L BeagleBone-Black-Cape-rescue:+5V-power #PWR07
 U 1 1 55897A7F
 P 2800 1200
 F 0 "#PWR07" H 2800 1050 50  0001 C CNN
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1700 2450 1700
 $Comp
-L power:+3.3V #PWR08
+L BeagleBone-Black-Cape-rescue:+3.3V-power #PWR08
 U 1 1 55897EE7
 P 1800 1200
 F 0 "#PWR08" H 1800 1050 50  0001 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 1800 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR09
+L BeagleBone-Black-Cape-rescue:+5V-power #PWR09
 U 1 1 55897EF8
 P 1600 1200
 F 0 "#PWR09" H 1600 1050 50  0001 C CNN
@@ -209,7 +209,7 @@ PWR_BUT
 Wire Wire Line
 	1950 1800 1850 1800
 $Comp
-L Connector_Generic:Conn_02x23_Odd_Even P9
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P9
 U 1 1 55DF7DBA
 P 2150 2500
 F 0 "P9" H 2150 3700 50  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 2150 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x23_Odd_Even P8
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P8
 U 1 1 55DF7DE1
 P 10300 1850
 F 0 "P8" H 10300 3050 50  0000 C CNN
