@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pwr_BeagleBone:TR05S3V3 U?
+L pwr_BeagleBone:TR05S3V3 U401
 U 1 1 610F8923
 P 7000 2950
-F 0 "U?" H 7778 2796 50  0000 L CNN
+F 0 "U401" H 7778 2796 50  0000 L CNN
 F 1 "TR05S3V3" H 7778 2705 50  0000 L CNN
 F 2 "" H 7000 2950 50  0001 C CNN
 F 3 "" H 7000 2950 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 7000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:INDUCTOR-pspice L?
+L BeagleBone-Black-Cape-rescue:INDUCTOR-pspice L401
 U 1 1 610F8FF3
 P 5950 3050
-F 0 "L?" H 5950 3265 50  0000 C CNN
+F 0 "L401" H 5950 3265 50  0000 C CNN
 F 1 "6.8uH" H 5950 3174 50  0000 C CNN
 F 2 "" H 5950 3050 50  0001 C CNN
 F 3 "~" H 5950 3050 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 5950 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:CAP-pspice C?
+L BeagleBone-Black-Cape-rescue:CAP-pspice C401
 U 1 1 610F97C7
 P 5550 3450
-F 0 "C?" H 5550 3550 50  0000 L CNN
+F 0 "C401" H 5550 3550 50  0000 L CNN
 F 1 "10uF_35V" H 5550 3350 50  0000 L CNN
 F 2 "" H 5550 3450 50  0001 C CNN
 F 3 "~" H 5550 3450 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 5550 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:CAP-pspice C?
+L BeagleBone-Black-Cape-rescue:CAP-pspice C402
 U 1 1 610FA119
 P 6350 3450
-F 0 "C?" H 6350 3550 50  0000 L CNN
+F 0 "C402" H 6350 3550 50  0000 L CNN
 F 1 "10uF_35V" H 6350 3350 50  0000 L CNN
 F 2 "" H 6350 3450 50  0001 C CNN
 F 3 "~" H 6350 3450 50  0001 C CNN
