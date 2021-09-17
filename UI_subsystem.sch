@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -33,7 +33,7 @@ U 1 1 6083DD31
 P 3800 2750
 F 0 "TFT1" H 4550 1850 50  0000 R CNN
 F 1 "ST7735_TFT" H 4700 1950 50  0000 R CNN
-F 2 "" V 4527 1935 50  0001 C CNN
+F 2 "pwr_Beaglebone:ST7735" V 4527 1935 50  0001 C CNN
 F 3 "" V 4527 1935 50  0001 C CNN
 	1    3800 2750
 	-1   0    0    1   
