@@ -18,21 +18,21 @@ L Device:Crystal Y1
 U 1 1 613837BD
 P 2700 1750
 F 0 "Y1" H 2700 2018 50  0000 C CNN
-F 1 "31.768kHz" H 2700 1927 50  0000 C CNN
-F 2 "" H 2700 1750 50  0001 C CNN
-F 3 "~" H 2700 1750 50  0001 C CNN
+F 1 "32.768kHz" H 2700 1927 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 2700 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/122/ECX-12R-1314062.pdf" H 2700 1750 50  0001 C CNN
 	1    2700 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Crystal_GND2 Y2
 U 1 1 613841EB
-P 4000 2050
-F 0 "Y2" H 4000 2318 50  0000 C CNN
-F 1 "48MHz" H 4000 2227 50  0000 C CNN
-F 2 "" H 4000 2050 50  0001 C CNN
-F 3 "~" H 4000 2050 50  0001 C CNN
-	1    4000 2050
+P 5000 1850
+F 0 "Y2" H 5000 2118 50  0000 C CNN
+F 1 "48MHz" H 5000 2027 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 5000 1850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/909/cx2016db_e-1316650.pdf" H 5000 1850 50  0001 C CNN
+	1    5000 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -68,12 +68,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0109
 U 1 1 613863D7
-P 4000 2350
-F 0 "#PWR0109" H 4000 2100 50  0001 C CNN
-F 1 "GND" H 4005 2177 50  0000 C CNN
-F 2 "" H 4000 2350 50  0001 C CNN
-F 3 "" H 4000 2350 50  0001 C CNN
-	1    4000 2350
+P 5000 2150
+F 0 "#PWR0109" H 5000 1900 50  0001 C CNN
+F 1 "GND" H 5005 1977 50  0000 C CNN
+F 2 "" H 5000 2150 50  0001 C CNN
+F 3 "" H 5000 2150 50  0001 C CNN
+	1    5000 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -126,4 +126,6 @@ Text GLabel 2350 1550 1    50   Input ~ 0
 X32K_Q1
 Text GLabel 3050 1550 1    50   Input ~ 0
 X32K_Q1
+Text Notes 2100 1100 0    50   ~ 0
+Exact cap Value will need to be \ndetermined by measuring the board. \nThis will also affect the exact \ncrystal we end up getting.
 $EndSCHEMATC
