@@ -31,10 +31,10 @@ $EndComp
 Text GLabel 4500 3450 0    50   Input ~ 0
 PSU_5VIn+
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 613D8B5E
 P 4700 3700
-F 0 "C?" H 4500 3750 50  0000 L CNN
+F 0 "C1" H 4500 3750 50  0000 L CNN
 F 1 "4.7uF" H 4400 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 3700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4700 3700 50  0001 C CNN
@@ -63,10 +63,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 3650 4900 3950
 $Comp
-L Device:L_Small L?
+L Device:L_Small L1
 U 1 1 613E2221
 P 5900 3450
-F 0 "L?" V 6085 3450 50  0000 C CNN
+F 0 "L1" V 6085 3450 50  0000 C CNN
 F 1 "2.2uH" V 5994 3450 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5900 3450 50  0001 C CNN
 F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 5900 3450 50  0001 C CNN
@@ -91,10 +91,10 @@ $EndComp
 Wire Wire Line
 	4700 4050 4700 3950
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 613E66FD
 P 6350 3700
-F 0 "C?" H 6442 3746 50  0000 L CNN
+F 0 "C2" H 6442 3746 50  0000 L CNN
 F 1 "10uF" H 6442 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6350 3700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 3700 50  0001 C CNN

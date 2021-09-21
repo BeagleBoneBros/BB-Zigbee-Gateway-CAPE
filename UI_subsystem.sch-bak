@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -293,126 +293,112 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 61481C85
-P 8300 4500
-F 0 "R?" H 8368 4546 50  0000 L CNN
-F 1 "R_US" H 8368 4455 50  0000 L CNN
-F 2 "" V 8340 4490 50  0001 C CNN
-F 3 "~" H 8300 4500 50  0001 C CNN
-	1    8300 4500
+P 8000 4000
+F 0 "R?" H 8068 4046 50  0000 L CNN
+F 1 "100" H 8068 3955 50  0000 L CNN
+F 2 "" V 8040 3990 50  0001 C CNN
+F 3 "~" H 8000 4000 50  0001 C CNN
+	1    8000 4000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R_US R?
-U 1 1 61482BE5
-P 9050 4500
-F 0 "R?" H 9118 4546 50  0000 L CNN
-F 1 "R_US" H 9118 4455 50  0000 L CNN
-F 2 "" V 9090 4490 50  0001 C CNN
-F 3 "~" H 9050 4500 50  0001 C CNN
-	1    9050 4500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 614833DA
-P 9800 4500
-F 0 "R?" H 9868 4546 50  0000 L CNN
-F 1 "R_US" H 9868 4455 50  0000 L CNN
-F 2 "" V 9840 4490 50  0001 C CNN
-F 3 "~" H 9800 4500 50  0001 C CNN
-	1    9800 4500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 614839E0
-P 10550 4500
-F 0 "R?" H 10618 4546 50  0000 L CNN
-F 1 "R_US" H 10618 4455 50  0000 L CNN
-F 2 "" V 10590 4490 50  0001 C CNN
-F 3 "~" H 10550 4500 50  0001 C CNN
-	1    10550 4500
-	-1   0    0    1   
-$EndComp
-Text GLabel 8000 4150 1    50   Input ~ 0
+Text GLabel 8000 3850 1    50   Input ~ 0
 ZNP_BTN_1
-Wire Wire Line
-	10550 4650 10550 4900
 Wire Wire Line
 	8000 4700 8000 4900
 Connection ~ 8000 4900
 Wire Wire Line
-	8300 4650 8300 4900
-Connection ~ 8300 4900
-Wire Wire Line
-	8300 4900 8000 4900
-Wire Wire Line
 	8750 4700 8750 4900
 Connection ~ 8750 4900
-Wire Wire Line
-	8750 4900 8300 4900
-Wire Wire Line
-	9050 4650 9050 4900
-Connection ~ 9050 4900
-Wire Wire Line
-	9050 4900 8750 4900
 Wire Wire Line
 	9500 4700 9500 4900
 Connection ~ 9500 4900
 Wire Wire Line
-	9500 4900 9050 4900
-Wire Wire Line
-	9800 4650 9800 4900
-Wire Wire Line
-	9500 4900 9800 4900
-Connection ~ 9800 4900
-Wire Wire Line
-	9800 4900 10250 4900
-Wire Wire Line
 	10250 4700 10250 4900
-Connection ~ 10250 4900
-Wire Wire Line
-	10250 4900 10550 4900
-Wire Wire Line
-	8300 4350 8300 4250
-Wire Wire Line
-	8300 4250 8000 4250
-Wire Wire Line
-	8000 4250 8000 4300
-Wire Wire Line
-	8000 4150 8000 4250
-Connection ~ 8000 4250
-Text GLabel 8750 4150 1    50   Input ~ 0
+Text GLabel 8750 3850 1    50   Input ~ 0
 ZNP_BTN_2
 Text GLabel 9500 4150 1    50   Input ~ 0
 BB_BTN_1
 Text GLabel 10250 4150 1    50   Input ~ 0
 BB_BTN_2
 Wire Wire Line
-	8750 4150 8750 4250
-Wire Wire Line
 	9500 4150 9500 4250
 Wire Wire Line
 	10250 4150 10250 4250
-Wire Wire Line
-	9800 4350 9800 4250
 Wire Wire Line
 	9800 4250 9500 4250
 Connection ~ 9500 4250
 Wire Wire Line
 	9500 4250 9500 4300
 Wire Wire Line
-	9050 4350 9050 4250
-Wire Wire Line
-	9050 4250 8750 4250
-Connection ~ 8750 4250
-Wire Wire Line
-	8750 4250 8750 4300
-Wire Wire Line
-	10550 4350 10550 4250
-Wire Wire Line
 	10550 4250 10250 4250
 Connection ~ 10250 4250
 Wire Wire Line
 	10250 4250 10250 4300
+Wire Wire Line
+	8000 4150 8000 4300
+Wire Wire Line
+	8750 4900 9500 4900
+Wire Wire Line
+	8750 4150 8750 4300
+Wire Wire Line
+	8000 4900 8750 4900
+Wire Wire Line
+	9500 4900 10250 4900
+Wire Wire Line
+	9800 4250 9800 4100
+Wire Wire Line
+	10550 4250 10550 4100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6149F0CA
+P 10550 3600
+F 0 "#PWR?" H 10550 3450 50  0001 C CNN
+F 1 "+3V3" H 10565 3773 50  0000 C CNN
+F 2 "" H 10550 3600 50  0001 C CNN
+F 3 "" H 10550 3600 50  0001 C CNN
+	1    10550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3800 9800 3650
+Wire Wire Line
+	9800 3650 10550 3650
+Wire Wire Line
+	10550 3650 10550 3600
+Wire Wire Line
+	10550 3800 10550 3650
+Connection ~ 10550 3650
+$Comp
+L Device:R_US R?
+U 1 1 61482BE5
+P 8750 4000
+F 0 "R?" H 8818 4046 50  0000 L CNN
+F 1 "100" H 8818 3955 50  0000 L CNN
+F 2 "" V 8790 3990 50  0001 C CNN
+F 3 "~" H 8750 4000 50  0001 C CNN
+	1    8750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 614833DA
+P 9800 3950
+F 0 "R?" H 9868 3996 50  0000 L CNN
+F 1 "10k" H 9868 3905 50  0000 L CNN
+F 2 "" V 9840 3940 50  0001 C CNN
+F 3 "~" H 9800 3950 50  0001 C CNN
+	1    9800 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 614839E0
+P 10550 3950
+F 0 "R?" H 10618 3996 50  0000 L CNN
+F 1 "10k" H 10618 3905 50  0000 L CNN
+F 2 "" V 10590 3940 50  0001 C CNN
+F 3 "~" H 10550 3950 50  0001 C CNN
+	1    10550 3950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
