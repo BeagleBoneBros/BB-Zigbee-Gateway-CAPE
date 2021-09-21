@@ -1146,4 +1146,14 @@ Text GLabel 3050 5700 2    50   Input ~ 0
 ZNP_LED_1
 Wire Wire Line
 	3050 5700 2900 5700
+Text GLabel 900  6400 0    50   Input ~ 0
+ZNP_TMS
+Text GLabel 900  6300 0    50   Input ~ 0
+ZNP_TCK
+Text GLabel 900  5400 0    50   Input ~ 0
+ZNP_RESET
+Text GLabel 1350 7000 3    50   Input ~ 0
+ZNP_TDO
+Text GLabel 2450 4700 1    50   Input ~ 0
+ZNP_TDI
 $EndSCHEMATC
