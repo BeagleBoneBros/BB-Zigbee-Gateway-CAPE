@@ -1,4 +1,4 @@
-19218686976732318
+19092348668801975
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83055,9 +83055,23 @@ SKY13317-373LF
 9
 9
 pwr_Beaglebone
+ST7735
+
+
+0
+14
+11
+pwr_Beaglebone
 TR05S3V3
 
 
 0
 3
 3
+ul_SKY13317373LF
+SKY13317-373LF-BH
+
+
+0
+9
+9

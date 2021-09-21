@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -205,7 +205,7 @@ SYS_RESETN
 Wire Wire Line
 	2450 1800 2550 1800
 Text GLabel 1850 1800 0    50   Input ~ 0
-PWR_BUT
+PWR_BTN
 Wire Wire Line
 	1950 1800 1850 1800
 $Comp
@@ -296,4 +296,26 @@ U 610F5588
 F0 "Power Sub System" 50
 F1 "PowerSubSystem.sch" 50
 $EndSheet
+$Sheet
+S 14700 -300 5600 3550
+U 613805C9
+F0 "CrystolOscillator" 50
+F1 "CrystolOscillator.sch" 50
+$EndSheet
+Text GLabel 1850 1900 0    50   Input ~ 0
+ZNP_TX
+Text GLabel 1850 2000 0    50   Input ~ 0
+ZNP_RX
+Wire Wire Line
+	1850 1900 1950 1900
+Wire Wire Line
+	1850 2000 1950 2000
+Text GLabel 2550 2000 2    50   Input ~ 0
+BB_BTN_1
+Text GLabel 2550 2100 2    50   Input ~ 0
+BB_BTN_2
+Wire Wire Line
+	2550 2000 2450 2000
+Wire Wire Line
+	2550 2100 2450 2100
 $EndSCHEMATC

@@ -1,34 +1,77 @@
-"Source:","C:\Users\tjb31\Source\Repos\KiCadTest\BeagleBone-Black-Cape.sch"
-"Date:","3/2/2021 6:43:31 PM"
-"Tool:","Eeschema (5.1.9)-1"
-"Component Count:","29"
-"Ref","Value","Footprint","Datasheet","Manufacturer","Vendor"
-"AE1","50Ω","Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical","~","",""
-"AE2","50Ω","Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical","~","",""
-"C3","12pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C12","1.1pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C13","1pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C14","1pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C21","1.1pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C31","100pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C33","3.6pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C37","Do Not Stuff","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C448","3pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C487","2.2pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C489","3pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C490","6.8pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"C491","47pF","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L12","2.4nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L13","1nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L14","3.3nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L21","15nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L22","2.4nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L335","10nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L336","10nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L337","7.5nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L338","3.9nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L339","22nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"L340","3.9nH","Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~","",""
-"P8","BeagleBone_Black_Header","Socket_BeagleBone_Black:Socket_BeagleBone_Black","","",""
-"P9","BeagleBone_Black_Header","Socket_BeagleBone_Black:Socket_BeagleBone_Black","","",""
-"U1","cc1352p","Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm","","",""
+Source,C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE\BeagleBone-Black-Cape.sch
+Kicad Rev,Eeschema (5.1.9)-1
+Generated Date,9/8/2021 9:57:04 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock,Library,Library Ref
+P9,BeagleBone_Black_Header,BeagleBone-Black-Cape-rescue,Conn_02x23_Odd_Even-Connector_Generic
+P8,BeagleBone_Black_Header,BeagleBone-Black-Cape-rescue,Conn_02x23_Odd_Even-Connector_Generic
+C21,1.1pF,BeagleBone-Black-Cape-rescue,C-Device
+L12,2.4nH,BeagleBone-Black-Cape-rescue,L-Device
+L22,2.4nH,BeagleBone-Black-Cape-rescue,L-Device
+L21,15nH,BeagleBone-Black-Cape-rescue,L-Device
+C12,1.1pF,BeagleBone-Black-Cape-rescue,C-Device
+L13,1nH,BeagleBone-Black-Cape-rescue,L-Device
+C494,12pF,BeagleBone-Black-Cape-rescue,C-Device
+L14,3.3nH,BeagleBone-Black-Cape-rescue,L-Device
+C13,1pF,BeagleBone-Black-Cape-rescue,C-Device
+AE1,50Ω,BeagleBone-Black-Cape-rescue,Antenna-Device
+U1,cc1352p,cc1352,cc1352p
+L338,3.9nH,BeagleBone-Black-Cape-rescue,L-Device
+L339,22nH,BeagleBone-Black-Cape-rescue,L-Device
+L336,10nH,BeagleBone-Black-Cape-rescue,L-Device
+L335,10nH,BeagleBone-Black-Cape-rescue,L-Device
+C31,100pF,BeagleBone-Black-Cape-rescue,C-Device
+C487,2.2pF,BeagleBone-Black-Cape-rescue,C-Device
+L340,3.9nH,BeagleBone-Black-Cape-rescue,L-Device
+C489,3pF,BeagleBone-Black-Cape-rescue,C-Device
+C488,3pF,BeagleBone-Black-Cape-rescue,C-Device
+L337,7.5nH,BeagleBone-Black-Cape-rescue,L-Device
+C37,DNF,BeagleBone-Black-Cape-rescue,C-Device
+C33,3.6pF,BeagleBone-Black-Cape-rescue,C-Device
+C490,6.8pF,BeagleBone-Black-Cape-rescue,C-Device
+AE2,50Ω,BeagleBone-Black-Cape-rescue,Antenna-Device
+C14,1pF,BeagleBone-Black-Cape-rescue,C-Device
+L62,3nH,BeagleBone-Black-Cape-rescue,L-Device
+L52,15nH,BeagleBone-Black-Cape-rescue,L-Device
+C61,1.2pF,BeagleBone-Black-Cape-rescue,C-Device
+L53,3nH,BeagleBone-Black-Cape-rescue,L-Device
+C53,1.2pF,BeagleBone-Black-Cape-rescue,C-Device
+C51,12pF,BeagleBone-Black-Cape-rescue,C-Device
+C52,10pF,BeagleBone-Black-Cape-rescue,C-Device
+C62,2.7pF,BeagleBone-Black-Cape-rescue,C-Device
+L54,1.8nH,BeagleBone-Black-Cape-rescue,L-Device
+C496,1.8pF,BeagleBone-Black-Cape-rescue,C-Device
+L55,1nH,BeagleBone-Black-Cape-rescue,L-Device
+C497,1.5pF,BeagleBone-Black-Cape-rescue,C-Device
+C58,47pF,BeagleBone-Black-Cape-rescue,C-Device
+C59,DNF,BeagleBone-Black-Cape-rescue,C-Device
+AE3,50Ω,BeagleBone-Black-Cape-rescue,Antenna-Device
+R53,DNF,BeagleBone-Black-Cape-rescue,R-Device
+R54,DNF,BeagleBone-Black-Cape-rescue,R-Device
+C36,100pF,BeagleBone-Black-Cape-rescue,C-Device
+C491,47pF,BeagleBone-Black-Cape-rescue,C-Device
+CR13,TPD1E0B04DPYR,1-Channel ESD Protection Diode for USB Type-C and Antenna Protection,0.45,Texas Instruments,TPD1E0B04DPYR,595-TPD1E0B04DPYR,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E0B04DPYR/?qs=%2FP2Ij7fVdhFnd1cm2DaT7Q%3D%3D,SamacSys_Parts,TPD1E0B04DPYR
+C482,47pF,BeagleBone-Black-Cape-rescue,C-Device
+Z60,4.3nH,BeagleBone-Black-Cape-rescue,L-Device
+Z61,DNF,BeagleBone-Black-Cape-rescue,C-Device
+Z62,DNF,BeagleBone-Black-Cape-rescue,L-Device
+Z63,5.6pF,BeagleBone-Black-Cape-rescue,C-Device
+AE4,50Ω,BeagleBone-Black-Cape-rescue,Antenna-Device
+C483,DNF,BeagleBone-Black-Cape-rescue,C-Device
+AE5,50Ω,BeagleBone-Black-Cape-rescue,Antenna-Device
+C492,DNF,BeagleBone-Black-Cape-rescue,C-Device
+U2,SKY13317-373LF,2021-04-02_19-11-57,SKY13317-373LF
+TFT1,ST7735_TFT,cc1352,ST7735_TFT
+U99,TR05S3V3,pwr_BeagleBone,TR05S3V3
+L1,6.8uH,BeagleBone-Black-Cape-rescue,INDUCTOR-pspice
+C1,10uF_35V,BeagleBone-Black-Cape-rescue,CAP-pspice
+C2,10uF_35V,BeagleBone-Black-Cape-rescue,CAP-pspice
+Y1,31.768kHz,Device,Crystal
+Y2,48MHz,Device,Crystal_GND2
+C3,CAP,pspice,CAP
+C4,CAP,pspice,CAP

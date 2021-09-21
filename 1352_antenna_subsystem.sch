@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -193,12 +193,12 @@ $EndComp
 $Comp
 L cc1352:cc1352p U1
 U 1 1 603F4DE1
-P 1050 4800
-F 0 "U1" H 2209 4054 50  0001 C BNN
-F 1 "cc1352p" H 2050 3850 50  0000 R CNN
-F 2 "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 2400 3750 20  0000 R CNN
-F 3 "" H 2209 4054 50  0001 C CNN
-	1    1050 4800
+P 1000 6900
+F 0 "U1" H 2159 6154 50  0001 C BNN
+F 1 "cc1352p" H 2000 5950 50  0000 R CNN
+F 2 "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 2350 5850 20  0000 R CNN
+F 3 "" H 2159 6154 50  0001 C CNN
+	1    1000 6900
 	1    0    0    -1  
 $EndComp
 Text Label 1850 3050 0    50   ~ 0
@@ -875,16 +875,10 @@ Wire Wire Line
 Connection ~ 6050 6200
 Text GLabel 3050 6300 2    50   BiDi ~ 0
 V3_SKY
-Wire Wire Line
-	2950 6300 3050 6300
 Text GLabel 3050 6500 2    50   BiDi ~ 0
 V2_SKY
-Wire Wire Line
-	2950 6400 3050 6400
 Text GLabel 3050 6400 2    50   BiDi ~ 0
 V1_SKY
-Wire Wire Line
-	2950 6500 3050 6500
 Text GLabel 6900 1250 0    50   BiDi ~ 0
 V1_SKY
 Wire Wire Line
@@ -1092,7 +1086,7 @@ U 1 1 6068C4D3
 P 7000 1050
 F 0 "U2" H 7800 1437 60  0000 C CNN
 F 1 "SKY13317-373LF" H 7800 1331 60  0000 C CNN
-F 2 "footprints:SKY13317-373LF" H 7800 1290 60  0001 C CNN
+F 2 "ul_SKY13317373LF:SKY13317-373LF-BH" H 7800 1290 60  0001 C CNN
 F 3 "" H 7000 1050 60  0000 C CNN
 	1    7000 1050
 	1    0    0    -1  
@@ -1118,4 +1112,38 @@ Wire Wire Line
 	4450 6400 4750 6400
 Wire Wire Line
 	2350 4650 2350 4700
+Wire Wire Line
+	2900 6300 3050 6300
+Wire Wire Line
+	2900 6400 3050 6400
+Wire Wire Line
+	2900 6500 3050 6500
+Text GLabel 1450 7100 3    50   Input ~ 0
+ZNP_BTN_1
+Text GLabel 1550 7100 3    50   Input ~ 0
+ZNP_BTN_2
+Wire Wire Line
+	1450 7100 1450 7000
+Wire Wire Line
+	1550 7100 1550 7000
+Text GLabel 2250 7100 3    50   Input ~ 0
+ZNP_LED_1
+Text GLabel 2350 7100 3    50   Input ~ 0
+ZNP_LED_2
+Wire Wire Line
+	2350 7100 2350 7000
+Wire Wire Line
+	2250 7100 2250 7000
+Text GLabel 1650 7100 3    50   Input ~ 0
+ZNP_TX
+Text GLabel 1750 7100 3    50   Input ~ 0
+ZNP_RX
+Wire Wire Line
+	1650 7100 1650 7000
+Wire Wire Line
+	1750 7100 1750 7000
+Text GLabel 3050 5700 2    50   Input ~ 0
+ZNP_LED_1
+Wire Wire Line
+	3050 5700 2900 5700
 $EndSCHEMATC
