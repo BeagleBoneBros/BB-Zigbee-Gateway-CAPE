@@ -1118,32 +1118,4 @@ Wire Wire Line
 	2900 6400 3050 6400
 Wire Wire Line
 	2900 6500 3050 6500
-Text GLabel 1450 7100 3    50   Input ~ 0
-ZNP_BTN_1
-Text GLabel 1550 7100 3    50   Input ~ 0
-ZNP_BTN_2
-Wire Wire Line
-	1450 7100 1450 7000
-Wire Wire Line
-	1550 7100 1550 7000
-Text GLabel 2250 7100 3    50   Input ~ 0
-ZNP_LED_1
-Text GLabel 2350 7100 3    50   Input ~ 0
-ZNP_LED_2
-Wire Wire Line
-	2350 7100 2350 7000
-Wire Wire Line
-	2250 7100 2250 7000
-Text GLabel 1650 7100 3    50   Input ~ 0
-ZNP_TX
-Text GLabel 1750 7100 3    50   Input ~ 0
-ZNP_RX
-Wire Wire Line
-	1650 7100 1650 7000
-Wire Wire Line
-	1750 7100 1750 7000
-Text GLabel 3050 5700 2    50   Input ~ 0
-ZNP_LED_1
-Wire Wire Line
-	3050 5700 2900 5700
 $EndSCHEMATC

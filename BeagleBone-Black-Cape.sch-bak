@@ -302,4 +302,12 @@ U 613805C9
 F0 "CrystolOscillator" 50
 F1 "CrystolOscillator.sch" 50
 $EndSheet
+Text GLabel 1850 1900 0    50   Input ~ 0
+ZNP_TX
+Text GLabel 1850 2000 0    50   Input ~ 0
+ZNP_RX
+Wire Wire Line
+	1850 1900 1950 1900
+Wire Wire Line
+	1850 2000 1950 2000
 $EndSCHEMATC
