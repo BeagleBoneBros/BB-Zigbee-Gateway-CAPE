@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -125,7 +125,7 @@ Connection ~ 2350 1750
 Text GLabel 2350 1550 1    50   Input ~ 0
 X32K_Q1
 Text GLabel 3050 1550 1    50   Input ~ 0
-X32K_Q1
+X32K_Q2
 Text Notes 2100 1100 0    50   ~ 0
 Exact cap Value will need to be \ndetermined by measuring the board. \nThis will also affect the exact \ncrystal we end up getting.
 $EndSCHEMATC
