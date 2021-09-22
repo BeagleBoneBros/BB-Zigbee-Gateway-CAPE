@@ -1,4 +1,4 @@
-19095618940599377
+19098883500576820
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82278,12 +82278,26 @@ transformer flyback
 10
 10
 UserMade-BB-Zigbee-Gateway-CAPE
+IPC_1352P
+
+
+0
+10
+10
+UserMade-BB-Zigbee-Gateway-CAPE
+SKY13317-373LF
+
+
+0
+9
+9
+UserMade-BB-Zigbee-Gateway-CAPE
 XMSSJJ3G0PA-054
 
 
 0
-1
-1
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
