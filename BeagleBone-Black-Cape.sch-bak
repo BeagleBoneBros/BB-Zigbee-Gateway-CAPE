@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -160,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 4700 4450 4900
 $Sheet
-S 250  8450 11700 8250
+S 12500 6450 9850 5200
 U 60365D6B
 F0 "1352_antenna_subsystem" 50
 F1 "1352_antenna_subsystem.sch" 50
@@ -190,22 +190,16 @@ Wire Wire Line
 Wire Wire Line
 	3600 3200 3800 3200
 $Sheet
-S -12100 2000 11950 7750
+S 12450 12300 8350 4400
 U 60837686
 F0 "UI_subsystem" 50
 F1 "UI_subsystem.sch" 50
 $EndSheet
 $Sheet
-S 13500 3750 7500 3800
+S 12900 2050 7500 3800
 U 610F5588
 F0 "Power Sub System" 50
 F1 "PowerSubSystem.sch" 50
-$EndSheet
-$Sheet
-S 14700 -300 5600 3550
-U 613805C9
-F0 "CrystolOscillator" 50
-F1 "CrystolOscillator.sch" 50
 $EndSheet
 Text GLabel 3700 3000 0    50   Input ~ 0
 ZNP_TX
@@ -224,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3200 4300 3200
 $Sheet
-S -9700 -4300 8100 5100
+S 12850 -2600 7900 4050
 U 614A9A85
 F0 "Debug subsystem" 50
 F1 "Debug_subsystem.sch" 50
@@ -290,9 +284,17 @@ F 3 "" H 6750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2000 -4750 8550 4250
+S 12900 -7450 8550 4250
 U 614C2CA1
 F0 "MCU subsystem" 50
 F1 "MCU_subsystem.sch" 50
 $EndSheet
+Text GLabel 4450 3600 2    50   Output ~ 0
+BB_LED_1
+Text GLabel 4450 3700 2    50   Output ~ 0
+BB_LED_2
+Wire Wire Line
+	4300 3600 4450 3600
+Wire Wire Line
+	4300 3700 4450 3700
 $EndSCHEMATC
