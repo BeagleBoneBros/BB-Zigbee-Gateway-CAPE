@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -13,135 +13,376 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3750 4200 0    50   ~ 0
-5VIn- is just ground
-Text Notes 3700 3400 0    50   ~ 0
+Text Notes 2100 6000 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
 L pwr_BeagleBone:LM3671 U401
 U 1 1 613D6B2B
-P 5350 3300
-F 0 "U401" H 5350 3400 50  0000 C CNN
-F 1 "LM3671" H 5350 3300 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5350 3300 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 5350 3300 50  0001 C CNN
-	1    5350 3300
+P 3650 6150
+F 0 "U401" H 3650 6250 50  0000 C CNN
+F 1 "LM3671" H 3650 6150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3650 6150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 3650 6150 50  0001 C CNN
+	1    3650 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 3450 0    50   Input ~ 0
-PSU_5VIn+
 $Comp
 L Device:C_Small C401
 U 1 1 613D8B5E
-P 4700 3700
-F 0 "C401" H 4500 3750 50  0000 L CNN
-F 1 "4.7uF" H 4400 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4700 3700 50  0001 C CNN
-	1    4700 3700
+P 3000 6550
+F 0 "C401" H 2800 6600 50  0000 L CNN
+F 1 "4.7uF" H 2700 6500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3000 6550 50  0001 C CNN
+	1    3000 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3450 4700 3450
+	3000 6450 3000 6300
 Wire Wire Line
-	4700 3600 4700 3450
+	3000 6650 3000 6800
+Connection ~ 3000 6800
 Wire Wire Line
-	4700 3800 4700 3950
-Text GLabel 4500 3950 0    50   Input ~ 0
-PSU_5VIn-
+	3300 6400 3200 6400
 Wire Wire Line
-	4500 3950 4700 3950
-Connection ~ 4700 3950
+	3200 6400 3200 6300
 Wire Wire Line
-	5000 3550 4900 3550
+	3200 6300 3300 6300
 Wire Wire Line
-	4900 3550 4900 3450
+	3300 6500 3200 6500
 Wire Wire Line
-	4900 3450 5000 3450
-Wire Wire Line
-	5000 3650 4900 3650
-Wire Wire Line
-	4900 3650 4900 3950
+	3200 6500 3200 6800
 $Comp
 L Device:L_Small L401
 U 1 1 613E2221
-P 5900 3450
-F 0 "L401" V 6085 3450 50  0000 C CNN
-F 1 "2.2uH" V 5994 3450 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 5900 3450 50  0001 C CNN
-F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 5900 3450 50  0001 C CNN
-	1    5900 3450
+P 4200 6300
+F 0 "L401" V 4385 6300 50  0000 C CNN
+F 1 "2.2uH" V 4294 6300 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 4200 6300 50  0001 C CNN
+F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 4200 6300 50  0001 C CNN
+	1    4200 6300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5700 3450 5800 3450
+	4000 6300 4100 6300
 Wire Wire Line
-	6100 3650 6100 3450
+	4400 6500 4400 6300
 $Comp
 L power:GND #PWR0401
 U 1 1 613E4C24
-P 4700 4050
-F 0 "#PWR0401" H 4700 3800 50  0001 C CNN
-F 1 "GND" H 4705 3877 50  0000 C CNN
-F 2 "" H 4700 4050 50  0001 C CNN
-F 3 "" H 4700 4050 50  0001 C CNN
-	1    4700 4050
+P 3000 6900
+F 0 "#PWR0401" H 3000 6650 50  0001 C CNN
+F 1 "GND" H 3005 6727 50  0000 C CNN
+F 2 "" H 3000 6900 50  0001 C CNN
+F 3 "" H 3000 6900 50  0001 C CNN
+	1    3000 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 4050 4700 3950
+	3000 6900 3000 6800
 $Comp
 L Device:C_Small C402
 U 1 1 613E66FD
-P 6350 3700
-F 0 "C402" H 6442 3746 50  0000 L CNN
-F 1 "10uF" H 6442 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6350 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 3700 50  0001 C CNN
-	1    6350 3700
+P 4650 6550
+F 0 "C402" H 4742 6596 50  0000 L CNN
+F 1 "10uF" H 4742 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4650 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4650 6550 50  0001 C CNN
+	1    4650 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0402
 U 1 1 613EB575
-P 6350 4050
-F 0 "#PWR0402" H 6350 3800 50  0001 C CNN
-F 1 "GND" H 6355 3877 50  0000 C CNN
-F 2 "" H 6350 4050 50  0001 C CNN
-F 3 "" H 6350 4050 50  0001 C CNN
-	1    6350 4050
+P 4650 6900
+F 0 "#PWR0402" H 4650 6650 50  0001 C CNN
+F 1 "GND" H 4655 6727 50  0000 C CNN
+F 2 "" H 4650 6900 50  0001 C CNN
+F 3 "" H 4650 6900 50  0001 C CNN
+	1    4650 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 3450 2    50   Output ~ 0
-PSU_3V3Out+
+Text GLabel 4950 6300 2    50   Output ~ 0
+MCU_VDD
 Wire Wire Line
-	6350 3450 6350 3600
+	4650 6300 4650 6450
 Wire Wire Line
-	6100 3450 6350 3450
+	4400 6300 4650 6300
 Wire Wire Line
-	6350 3450 6650 3450
-Connection ~ 6350 3450
-Text GLabel 6650 3950 2    50   Output ~ 0
-PSU_3V3Out-
+	4650 6300 4950 6300
+Connection ~ 4650 6300
 Wire Wire Line
-	6650 3950 6350 3950
+	4650 6800 4650 6650
 Wire Wire Line
-	6350 3950 6350 3800
+	4650 6900 4650 6800
+Connection ~ 4650 6800
 Wire Wire Line
-	6350 4050 6350 3950
-Connection ~ 6350 3950
+	3000 6800 3200 6800
 Wire Wire Line
-	4700 3950 4900 3950
+	3200 6300 3000 6300
+Connection ~ 3200 6300
+Connection ~ 3000 6300
 Wire Wire Line
-	4900 3450 4700 3450
-Connection ~ 4900 3450
-Connection ~ 4700 3450
+	4300 6300 4400 6300
+Connection ~ 4400 6300
 Wire Wire Line
-	6000 3450 6100 3450
-Connection ~ 6100 3450
+	4000 6500 4400 6500
 Wire Wire Line
-	5700 3650 6100 3650
+	3200 6800 4650 6800
+Connection ~ 3200 6800
+$Comp
+L pwr_BeagleBone:SYS_5V #PWR?
+U 1 1 614A8F35
+P 2650 6300
+F 0 "#PWR?" H 2650 6150 50  0001 C CNN
+F 1 "SYS_5V" H 2665 6473 50  0000 C CNN
+F 2 "" H 2650 6300 60  0000 C CNN
+F 3 "" H 2650 6300 60  0000 C CNN
+	1    2650 6300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4900 3950 6350 3950
-Connection ~ 4900 3950
+	2650 6300 3000 6300
+Text GLabel 2700 2650 1    50   Input ~ 0
+VDDS
+Text GLabel 8200 2600 1    50   Input ~ 0
+VDDR
+$Comp
+L Device:C C?
+U 1 1 614ACFF1
+P 2800 2950
+F 0 "C?" H 2915 2996 50  0000 L CNN
+F 1 "0.1u" H 2915 2905 50  0000 L CNN
+F 2 "" H 2838 2800 50  0001 C CNN
+F 3 "~" H 2800 2950 50  0001 C CNN
+	1    2800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614AD67F
+P 2300 2950
+F 0 "C?" H 2415 2996 50  0000 L CNN
+F 1 "0.1u" H 2415 2905 50  0000 L CNN
+F 2 "" H 2338 2800 50  0001 C CNN
+F 3 "~" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614ADB54
+P 8450 2950
+F 0 "C?" H 8565 2996 50  0000 L CNN
+F 1 "0.1u" H 8565 2905 50  0000 L CNN
+F 2 "" H 8488 2800 50  0001 C CNN
+F 3 "~" H 8450 2950 50  0001 C CNN
+	1    8450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614ADE06
+P 4350 2950
+F 0 "C?" H 4465 2996 50  0000 L CNN
+F 1 "0.1u" H 4465 2905 50  0000 L CNN
+F 2 "" H 4388 2800 50  0001 C CNN
+F 3 "~" H 4350 2950 50  0001 C CNN
+	1    4350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614ADFDD
+P 3300 2950
+F 0 "C?" H 3415 2996 50  0000 L CNN
+F 1 "0.1u" H 3415 2905 50  0000 L CNN
+F 2 "" H 3338 2800 50  0001 C CNN
+F 3 "~" H 3300 2950 50  0001 C CNN
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614AE392
+P 8950 2950
+F 0 "C?" H 9065 2996 50  0000 L CNN
+F 1 "0.1u" H 9065 2905 50  0000 L CNN
+F 2 "" H 8988 2800 50  0001 C CNN
+F 3 "~" H 8950 2950 50  0001 C CNN
+	1    8950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614AE569
+P 3850 2950
+F 0 "C?" H 3965 2996 50  0000 L CNN
+F 1 "22u" H 3965 2905 50  0000 L CNN
+F 2 "" H 3888 2800 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 614AE740
+P 7600 2950
+F 0 "C?" H 7715 2996 50  0000 L CNN
+F 1 "22u" H 7715 2905 50  0000 L CNN
+F 2 "" H 7638 2800 50  0001 C CNN
+F 3 "~" H 7600 2950 50  0001 C CNN
+	1    7600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 614B2435
+P 7050 2800
+F 0 "L?" H 7050 3015 50  0000 C CNN
+F 1 "6.8u" H 7050 2924 50  0000 C CNN
+F 2 "" H 7050 2800 50  0001 C CNN
+F 3 "~" H 7050 2800 50  0001 C CNN
+	1    7050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B60EB
+P 2300 3100
+F 0 "#PWR?" H 2300 2850 50  0001 C CNN
+F 1 "GND" H 2305 2927 50  0000 C CNN
+F 2 "" H 2300 3100 50  0001 C CNN
+F 3 "" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B633D
+P 2800 3100
+F 0 "#PWR?" H 2800 2850 50  0001 C CNN
+F 1 "GND" H 2805 2927 50  0000 C CNN
+F 2 "" H 2800 3100 50  0001 C CNN
+F 3 "" H 2800 3100 50  0001 C CNN
+	1    2800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B6607
+P 3300 3100
+F 0 "#PWR?" H 3300 2850 50  0001 C CNN
+F 1 "GND" H 3305 2927 50  0000 C CNN
+F 2 "" H 3300 3100 50  0001 C CNN
+F 3 "" H 3300 3100 50  0001 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B68D5
+P 3850 3100
+F 0 "#PWR?" H 3850 2850 50  0001 C CNN
+F 1 "GND" H 3855 2927 50  0000 C CNN
+F 2 "" H 3850 3100 50  0001 C CNN
+F 3 "" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B6CF8
+P 4350 3100
+F 0 "#PWR?" H 4350 2850 50  0001 C CNN
+F 1 "GND" H 4355 2927 50  0000 C CNN
+F 2 "" H 4350 3100 50  0001 C CNN
+F 3 "" H 4350 3100 50  0001 C CNN
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B73B7
+P 7600 3100
+F 0 "#PWR?" H 7600 2850 50  0001 C CNN
+F 1 "GND" H 7605 2927 50  0000 C CNN
+F 2 "" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3100 50  0001 C CNN
+	1    7600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B76A1
+P 8450 3100
+F 0 "#PWR?" H 8450 2850 50  0001 C CNN
+F 1 "GND" H 8455 2927 50  0000 C CNN
+F 2 "" H 8450 3100 50  0001 C CNN
+F 3 "" H 8450 3100 50  0001 C CNN
+	1    8450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B7948
+P 8950 3100
+F 0 "#PWR?" H 8950 2850 50  0001 C CNN
+F 1 "GND" H 8955 2927 50  0000 C CNN
+F 2 "" H 8950 3100 50  0001 C CNN
+F 3 "" H 8950 3100 50  0001 C CNN
+	1    8950 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 2800 0    50   Input ~ 0
+DCDC_SW
+Wire Wire Line
+	6600 2800 6800 2800
+Wire Wire Line
+	7300 2800 7600 2800
+Connection ~ 7600 2800
+Wire Wire Line
+	7600 2800 8200 2800
+Connection ~ 8450 2800
+Wire Wire Line
+	8450 2800 8950 2800
+Wire Wire Line
+	8200 2600 8200 2800
+Connection ~ 8200 2800
+Wire Wire Line
+	8200 2800 8450 2800
+Wire Wire Line
+	2300 2800 2700 2800
+Connection ~ 2800 2800
+Wire Wire Line
+	2800 2800 3300 2800
+Connection ~ 3300 2800
+Wire Wire Line
+	3300 2800 3850 2800
+Connection ~ 3850 2800
+Wire Wire Line
+	3850 2800 4350 2800
+Wire Wire Line
+	2700 2650 2700 2800
+Connection ~ 2700 2800
+Wire Wire Line
+	2700 2800 2800 2800
+Text GLabel 1600 2800 0    50   Input ~ 0
+MCU_VDD
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 614B96C9
+P 2000 2800
+F 0 "FB?" V 1763 2800 50  0000 C CNN
+F 1 "1500 Ohm 500mA" V 1854 2800 50  0000 C CNN
+F 2 "" V 1930 2800 50  0001 C CNN
+F 3 "~" H 2000 2800 50  0001 C CNN
+	1    2000 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 2800 2300 2800
+Connection ~ 2300 2800
+Wire Wire Line
+	1600 2800 1900 2800
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -13,23 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L BeagleBone-Black-Cape-rescue:GNDD-power #PWR0105
-U 1 1 5589785A
-P 2200 3900
-F 0 "#PWR0105" H 2200 3650 50  0001 C CNN
-F 1 "GNDD" H 2200 3750 50  0000 C CNN
-F 2 "" H 2200 3900 60  0000 C CNN
-F 3 "" H 2200 3900 60  0000 C CNN
-	1    2200 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3500 2600 3500
 Wire Wire Line
 	2600 3500 2600 3600
-Wire Wire Line
-	2600 3800 2500 3800
 Wire Wire Line
 	1800 3800 1800 3600
 Wire Wire Line
@@ -40,53 +27,6 @@ Connection ~ 1800 3600
 Wire Wire Line
 	2450 3600 2600 3600
 Connection ~ 2600 3600
-Wire Wire Line
-	2200 3900 2200 3800
-Connection ~ 2200 3800
-$Comp
-L BeagleBone-Black-Cape-rescue:GNDD-power #PWR0111
-U 1 1 558978D3
-P 3250 1400
-F 0 "#PWR0111" H 3250 1150 50  0001 C CNN
-F 1 "GNDD" H 3250 1250 50  0000 C CNN
-F 2 "" H 3250 1400 60  0000 C CNN
-F 3 "" H 3250 1400 60  0000 C CNN
-	1    3250 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BeagleBone-Black-Cape-rescue:GNDD-power #PWR0101
-U 1 1 5589790A
-P 1150 1400
-F 0 "#PWR0101" H 1150 1150 50  0001 C CNN
-F 1 "GNDD" H 1150 1250 50  0000 C CNN
-F 2 "" H 1150 1400 60  0000 C CNN
-F 3 "" H 1150 1400 60  0000 C CNN
-	1    1150 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L BeagleBone-Black-Cape-rescue:GNDD-power #PWR0112
-U 1 1 558979C1
-P 9850 750
-F 0 "#PWR0112" H 9850 500 50  0001 C CNN
-F 1 "GNDD" H 9850 600 50  0000 C CNN
-F 2 "" H 9850 750 60  0000 C CNN
-F 3 "" H 9850 750 60  0000 C CNN
-	1    9850 750 
-	0    1    1    0   
-$EndComp
-$Comp
-L BeagleBone-Black-Cape-rescue:GNDD-power #PWR0113
-U 1 1 558979E8
-P 10850 750
-F 0 "#PWR0113" H 10850 500 50  0001 C CNN
-F 1 "GNDD" H 10850 600 50  0000 C CNN
-F 2 "" H 10850 750 60  0000 C CNN
-F 3 "" H 10850 750 60  0000 C CNN
-	1    10850 750 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L BeagleBone-Black-Cape-rescue:+3.3V-power #PWR0106
 U 1 1 55897A67
@@ -185,21 +125,6 @@ F 3 "" H 1350 1200 60  0000 C CNN
 	1    1350 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 2900 2800 2900
-$Comp
-L pwr_BeagleBone:GNDA_ADC #PWR0109
-U 1 1 5589865D
-P 2800 3000
-F 0 "#PWR0109" H 2800 2750 50  0001 C CNN
-F 1 "GNDA_ADC" H 2700 2850 50  0000 C CNN
-F 2 "" H 2800 3000 60  0000 C CNN
-F 3 "" H 2800 3000 60  0000 C CNN
-	1    2800 3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2450 3000 2800 3000
 Text GLabel 2550 1800 2    50   Input ~ 0
 SYS_RESETN
 Wire Wire Line
@@ -234,21 +159,12 @@ Wire Wire Line
 	1800 3600 1800 3500
 Wire Wire Line
 	2600 3600 2600 3800
-Wire Wire Line
-	2200 3800 1800 3800
 $Sheet
 S 250  8450 11700 8250
 U 60365D6B
 F0 "1352_antenna_subsystem" 50
 F1 "1352_antenna_subsystem.sch" 50
 $EndSheet
-Text GLabel 2500 3950 3    50   Input ~ 0
-GND8
-Wire Wire Line
-	2500 3800 2500 3950
-Connection ~ 2500 3800
-Wire Wire Line
-	2500 3800 2200 3800
 Text GLabel 1750 2800 0    50   Output ~ 0
 MISO_TFT
 Text GLabel 1750 2900 0    50   Output ~ 0
@@ -257,17 +173,6 @@ Text GLabel 2600 2700 2    50   Output ~ 0
 CS_TFT
 Text GLabel 2600 2800 2    50   Output ~ 0
 MOSI_TFT
-$Comp
-L pwr_BeagleBone:VDD_ADC #PWR0108
-U 1 1 558985D8
-P 2800 2900
-F 0 "#PWR0108" H 2800 2750 50  0001 C CNN
-F 1 "VDD_ADC" H 2800 3150 50  0000 C CNN
-F 2 "" H 2800 2900 60  0000 C CNN
-F 3 "" H 2800 2900 60  0000 C CNN
-	1    2800 2900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1750 2800 1950 2800
 Wire Wire Line
@@ -318,4 +223,70 @@ Wire Wire Line
 	2550 2000 2450 2000
 Wire Wire Line
 	2550 2100 2450 2100
+$Sheet
+S -9700 -4300 8100 5100
+U 614A9A85
+F0 "Debug subsystem" 50
+F1 "Debug_subsystem.sch" 50
+$EndSheet
+Wire Wire Line
+	1800 3800 2200 3800
+$Comp
+L power:GND #PWR?
+U 1 1 614B4DBF
+P 2200 3800
+F 0 "#PWR?" H 2200 3550 50  0001 C CNN
+F 1 "GND" H 2205 3627 50  0000 C CNN
+F 2 "" H 2200 3800 50  0001 C CNN
+F 3 "" H 2200 3800 50  0001 C CNN
+	1    2200 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 3800
+Wire Wire Line
+	2200 3800 2600 3800
+$Comp
+L power:GND #PWR?
+U 1 1 614B5823
+P 3250 1400
+F 0 "#PWR?" H 3250 1150 50  0001 C CNN
+F 1 "GND" H 3255 1227 50  0000 C CNN
+F 2 "" H 3250 1400 50  0001 C CNN
+F 3 "" H 3250 1400 50  0001 C CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B6213
+P 1150 1400
+F 0 "#PWR?" H 1150 1150 50  0001 C CNN
+F 1 "GND" H 1155 1227 50  0000 C CNN
+F 2 "" H 1150 1400 50  0001 C CNN
+F 3 "" H 1150 1400 50  0001 C CNN
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B8C07
+P 9850 750
+F 0 "#PWR?" H 9850 500 50  0001 C CNN
+F 1 "GND" H 9855 577 50  0000 C CNN
+F 2 "" H 9850 750 50  0001 C CNN
+F 3 "" H 9850 750 50  0001 C CNN
+	1    9850 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614B962C
+P 10850 750
+F 0 "#PWR?" H 10850 500 50  0001 C CNN
+F 1 "GND" H 10855 577 50  0000 C CNN
+F 2 "" H 10850 750 50  0001 C CNN
+F 3 "" H 10850 750 50  0001 C CNN
+	1    10850 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
