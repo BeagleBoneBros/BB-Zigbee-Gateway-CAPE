@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0202
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0112
 U 1 1 603D2468
 P 4400 3350
-F 0 "#PWR0202" H 4400 3100 50  0001 C CNN
+F 0 "#PWR0112" H 4400 3100 50  0001 C CNN
 F 1 "GND" V 4405 3222 50  0000 R CNN
 F 2 "" H 4400 3350 50  0001 C CNN
 F 3 "" H 4400 3350 50  0001 C CNN
@@ -27,10 +27,10 @@ $EndComp
 Wire Wire Line
 	4100 3350 4400 3350
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C201
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 603D700A
 P 3950 3350
-F 0 "C201" V 3698 3350 50  0000 C CNN
+F 0 "C?" V 3698 3350 50  0000 C CNN
 F 1 "100pF" V 3789 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3988 3200 50  0001 C CNN
 F 3 "~" H 3950 3350 50  0001 C CNN
@@ -54,10 +54,10 @@ TX_20dB_P
 Text GLabel 5900 5300 0    50   BiDi ~ 0
 RX_20dB_N
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L203
+L BeagleBone-Black-Cape-rescue:L-Device L?
 U 1 1 605CA70F
 P 6850 5300
-F 0 "L203" V 7040 5300 50  0000 C CNN
+F 0 "L?" V 7040 5300 50  0000 C CNN
 F 1 "3nH" V 6949 5300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 5300 50  0001 C CNN
 F 3 "~" H 6850 5300 50  0001 C CNN
@@ -65,10 +65,10 @@ F 3 "~" H 6850 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L201
+L BeagleBone-Black-Cape-rescue:L-Device L?
 U 1 1 605D71FC
 P 6150 4950
-F 0 "L201" H 6300 4900 50  0000 C CNN
+F 0 "L?" H 6300 4900 50  0000 C CNN
 F 1 "15nH" H 6300 5000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4950 50  0001 C CNN
 F 3 "~" H 6150 4950 50  0001 C CNN
@@ -78,10 +78,10 @@ $EndComp
 Wire Wire Line
 	6450 5300 6450 5400
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C202
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 605E8A57
 P 6450 5550
-F 0 "C202" H 6565 5596 50  0000 L CNN
+F 0 "C?" H 6565 5596 50  0000 L CNN
 F 1 "1.2pF" H 6565 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6488 5400 50  0001 C CNN
 F 3 "~" H 6450 5550 50  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "~" H 6450 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L202
+L BeagleBone-Black-Cape-rescue:L-Device L?
 U 1 1 605F1A20
 P 6450 4150
-F 0 "L202" H 6600 4100 50  0000 C CNN
+F 0 "L?" H 6600 4100 50  0000 C CNN
 F 1 "3nH" H 6600 4200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 4150 50  0001 C CNN
 F 3 "~" H 6450 4150 50  0001 C CNN
@@ -123,10 +123,10 @@ Connection ~ 6450 5300
 Wire Wire Line
 	7000 5300 7050 5300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C203
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 60611067
 P 6800 4650
-F 0 "C203" V 7050 4600 50  0000 L CNN
+F 0 "C?" V 7050 4600 50  0000 L CNN
 F 1 "1.2pF" V 6950 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6838 4500 50  0001 C CNN
 F 3 "~" H 6800 4650 50  0001 C CNN
@@ -139,10 +139,10 @@ Connection ~ 7050 5100
 Wire Wire Line
 	7050 5100 7050 5300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C205
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 60620B7F
 P 7000 4000
-F 0 "C205" H 7115 4046 50  0000 L CNN
+F 0 "C?" H 7115 4046 50  0000 L CNN
 F 1 "12pF" H 7115 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7038 3850 50  0001 C CNN
 F 3 "~" H 7000 4000 50  0001 C CNN
@@ -152,10 +152,10 @@ $EndComp
 Wire Wire Line
 	7000 4150 7400 4150
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C207
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 6062771A
 P 7400 4000
-F 0 "C207" H 7515 4046 50  0000 L CNN
+F 0 "C?" H 7515 4046 50  0000 L CNN
 F 1 "10nF" H 7515 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7438 3850 50  0001 C CNN
 F 3 "~" H 7400 4000 50  0001 C CNN
@@ -170,10 +170,10 @@ Connection ~ 7000 4150
 Wire Wire Line
 	7200 5100 7200 5250
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C206
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 60632FC0
 P 7200 5400
-F 0 "C206" H 7315 5446 50  0000 L CNN
+F 0 "C?" H 7315 5446 50  0000 L CNN
 F 1 "2.7pF" H 7315 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7238 5250 50  0001 C CNN
 F 3 "~" H 7200 5400 50  0001 C CNN
@@ -184,10 +184,10 @@ Wire Wire Line
 	7200 5100 7350 5100
 Connection ~ 7200 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L204
+L BeagleBone-Black-Cape-rescue:L-Device L?
 U 1 1 606403DF
 P 7500 5100
-F 0 "L204" V 7690 5100 50  0000 C CNN
+F 0 "L?" V 7690 5100 50  0000 C CNN
 F 1 "1.8nH" V 7599 5100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 5100 50  0001 C CNN
 F 3 "~" H 7500 5100 50  0001 C CNN
@@ -197,10 +197,10 @@ $EndComp
 Wire Wire Line
 	7650 5100 7750 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C208
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 60645553
 P 7750 5400
-F 0 "C208" H 7865 5446 50  0000 L CNN
+F 0 "C?" H 7865 5446 50  0000 L CNN
 F 1 "1.8pF" H 7865 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7788 5250 50  0001 C CNN
 F 3 "~" H 7750 5400 50  0001 C CNN
@@ -210,10 +210,10 @@ $EndComp
 Wire Wire Line
 	7750 5100 7750 5250
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L205
+L BeagleBone-Black-Cape-rescue:L-Device L?
 U 1 1 6064D542
 P 7900 5100
-F 0 "L205" V 8090 5100 50  0000 C CNN
+F 0 "L?" V 8090 5100 50  0000 C CNN
 F 1 "1nH" V 7999 5100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 5100 50  0001 C CNN
 F 3 "~" H 7900 5100 50  0001 C CNN
@@ -221,10 +221,10 @@ F 3 "~" H 7900 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C209
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 60652D1E
 P 8250 5400
-F 0 "C209" H 8365 5446 50  0000 L CNN
+F 0 "C?" H 8365 5446 50  0000 L CNN
 F 1 "1.5pF" H 8365 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8288 5250 50  0001 C CNN
 F 3 "~" H 8250 5400 50  0001 C CNN
@@ -243,10 +243,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 4650 8650 4650
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C210
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 6066C58A
 P 8800 4650
-F 0 "C210" V 9050 4600 50  0000 L CNN
+F 0 "C?" V 9050 4600 50  0000 L CNN
 F 1 "DNF" V 8950 4600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8838 4500 50  0001 C CNN
 F 3 "~" H 8800 4650 50  0001 C CNN
@@ -254,10 +254,10 @@ F 3 "~" H 8800 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:Antenna-Device AE201
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE?
 U 1 1 6066FAEC
 P 8950 4150
-F 0 "AE201" H 9030 4139 50  0000 L CNN
+F 0 "AE?" H 9030 4139 50  0000 L CNN
 F 1 "50Ω" H 9030 4048 50  0000 L CNN
 F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8950 4150 50  0001 C CNN
 F 3 "~" H 8950 4150 50  0001 C CNN
@@ -267,10 +267,10 @@ $EndComp
 Wire Wire Line
 	8950 4650 8950 4350
 $Comp
-L BeagleBone-Black-Cape-rescue:R-Device R201
+L BeagleBone-Black-Cape-rescue:R-Device R?
 U 1 1 6067AEFA
 P 6550 3400
-F 0 "R201" H 6620 3446 50  0000 L CNN
+F 0 "R?" H 6620 3446 50  0000 L CNN
 F 1 "0" H 6620 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6480 3400 50  0001 C CNN
 F 3 "~" H 6550 3400 50  0001 C CNN
@@ -278,10 +278,10 @@ F 3 "~" H 6550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R-Device R202
+L BeagleBone-Black-Cape-rescue:R-Device R?
 U 1 1 6067CE21
 P 6850 3400
-F 0 "R202" H 6920 3446 50  0000 L CNN
+F 0 "R?" H 6920 3446 50  0000 L CNN
 F 1 "DNF" H 6920 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6780 3400 50  0001 C CNN
 F 3 "~" H 6850 3400 50  0001 C CNN
@@ -320,10 +320,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 3350 3700 3350
 $Comp
-L cc1352:IPC_1352P TF201
+L cc1352:IPC_1352P TF?
 U 1 1 61528E3E
 P 3700 2050
-F 0 "TF201" H 3700 1950 50  0000 C CNN
+F 0 "TF?" H 3700 1950 50  0000 C CNN
 F 1 "IPC_1352P" H 3700 2200 50  0000 C CNN
 F 2 "footprints:IPC_1352P" H 3700 2500 50  0001 C CNN
 F 3 "" H 3700 2500 50  0001 C CNN
@@ -331,10 +331,10 @@ F 3 "" H 3700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0201
+L power:GND #PWR0113
 U 1 1 61529DEB
 P 4150 1150
-F 0 "#PWR0201" H 4150 900 50  0001 C CNN
+F 0 "#PWR0113" H 4150 900 50  0001 C CNN
 F 1 "GND" H 4155 977 50  0000 C CNN
 F 2 "" H 4150 1150 50  0001 C CNN
 F 3 "" H 4150 1150 50  0001 C CNN
@@ -346,10 +346,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 1150 3700 1450
 $Comp
-L power:GND #PWR0203
+L power:GND #PWR0114
 U 1 1 6152D8A3
 P 5100 2100
-F 0 "#PWR0203" H 5100 1850 50  0001 C CNN
+F 0 "#PWR0114" H 5100 1850 50  0001 C CNN
 F 1 "GND" H 5105 1927 50  0000 C CNN
 F 2 "" H 5100 2100 50  0001 C CNN
 F 3 "" H 5100 2100 50  0001 C CNN
@@ -377,10 +377,10 @@ Connection ~ 3700 3350
 Wire Wire Line
 	3700 3350 3800 3350
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C204
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 615A901D
 P 5950 2300
-F 0 "C204" V 5698 2300 50  0000 C CNN
+F 0 "C?" V 5698 2300 50  0000 C CNN
 F 1 "100pF" V 5789 2300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5988 2150 50  0001 C CNN
 F 3 "~" H 5950 2300 50  0001 C CNN
@@ -390,10 +390,10 @@ $EndComp
 Wire Wire Line
 	4800 2300 5800 2300
 $Comp
-L power:GND #PWR0205
+L power:GND #PWR0115
 U 1 1 615EEDB8
 P 7000 4250
-F 0 "#PWR0205" H 7000 4000 50  0001 C CNN
+F 0 "#PWR0115" H 7000 4000 50  0001 C CNN
 F 1 "GND" H 7005 4077 50  0000 C CNN
 F 2 "" H 7000 4250 50  0001 C CNN
 F 3 "" H 7000 4250 50  0001 C CNN
@@ -401,10 +401,10 @@ F 3 "" H 7000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0204
+L power:GND #PWR0116
 U 1 1 615F1CB4
 P 6450 5700
-F 0 "#PWR0204" H 6450 5450 50  0001 C CNN
+F 0 "#PWR0116" H 6450 5450 50  0001 C CNN
 F 1 "GND" H 6455 5527 50  0000 C CNN
 F 2 "" H 6450 5700 50  0001 C CNN
 F 3 "" H 6450 5700 50  0001 C CNN
@@ -412,10 +412,10 @@ F 3 "" H 6450 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0206
+L power:GND #PWR0117
 U 1 1 615F4055
 P 7200 5550
-F 0 "#PWR0206" H 7200 5300 50  0001 C CNN
+F 0 "#PWR0117" H 7200 5300 50  0001 C CNN
 F 1 "GND" H 7205 5377 50  0000 C CNN
 F 2 "" H 7200 5550 50  0001 C CNN
 F 3 "" H 7200 5550 50  0001 C CNN
@@ -423,10 +423,10 @@ F 3 "" H 7200 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0207
+L power:GND #PWR0118
 U 1 1 615F600A
 P 7750 5550
-F 0 "#PWR0207" H 7750 5300 50  0001 C CNN
+F 0 "#PWR0118" H 7750 5300 50  0001 C CNN
 F 1 "GND" H 7755 5377 50  0000 C CNN
 F 2 "" H 7750 5550 50  0001 C CNN
 F 3 "" H 7750 5550 50  0001 C CNN
@@ -434,10 +434,10 @@ F 3 "" H 7750 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0208
+L power:GND #PWR0119
 U 1 1 615F8577
 P 8250 5550
-F 0 "#PWR0208" H 8250 5300 50  0001 C CNN
+F 0 "#PWR0119" H 8250 5300 50  0001 C CNN
 F 1 "GND" H 8255 5377 50  0000 C CNN
 F 2 "" H 8250 5550 50  0001 C CNN
 F 3 "" H 8250 5550 50  0001 C CNN
@@ -445,10 +445,10 @@ F 3 "" H 8250 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF202
+L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF?
 U 1 1 614D9714
 P 8950 1950
-F 0 "TF202" H 9000 2715 50  0000 C CNN
+F 0 "TF?" H 9000 2715 50  0000 C CNN
 F 1 "SKY13317-373" H 9000 2624 50  0000 C CNN
 F 2 "ul_SKY13317373LF:SKY13317-373LF-BH" H 8990 2060 50  0001 C CNN
 F 3 "" H 8990 2060 50  0001 C CNN
@@ -484,10 +484,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 1450 9950 1500
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0114
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0120
 U 1 1 61500151
 P 9950 1500
-F 0 "#PWR0114" H 9950 1250 50  0001 C CNN
+F 0 "#PWR0120" H 9950 1250 50  0001 C CNN
 F 1 "GND" V 9955 1372 50  0000 R CNN
 F 2 "" H 9950 1500 50  0001 C CNN
 F 3 "" H 9950 1500 50  0001 C CNN
@@ -499,10 +499,10 @@ Wire Wire Line
 Wire Wire Line
 	10200 1650 10200 3300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C213
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 6150D584
 P 8850 3300
-F 0 "C213" V 9100 3250 50  0000 L CNN
+F 0 "C?" V 9100 3250 50  0000 L CNN
 F 1 "DNF" V 9000 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8888 3150 50  0001 C CNN
 F 3 "~" H 8850 3300 50  0001 C CNN
@@ -510,10 +510,10 @@ F 3 "~" H 8850 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:Antenna-Device AE203
+L BeagleBone-Black-Cape-rescue:Antenna-Device AE?
 U 1 1 615152E3
 P 8700 2800
-F 0 "AE203" H 8780 2789 50  0000 L CNN
+F 0 "AE?" H 8780 2789 50  0000 L CNN
 F 1 "50Ω" H 8780 2698 50  0000 L CNN
 F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8700 2800 50  0001 C CNN
 F 3 "~" H 8700 2800 50  0001 C CNN
@@ -523,10 +523,10 @@ $EndComp
 Wire Wire Line
 	8700 3300 8700 3000
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C212
+L BeagleBone-Black-Cape-rescue:C-Device C?
 U 1 1 61536BA3
 P 8900 5050
-F 0 "C212" V 9150 5000 50  0000 L CNN
+F 0 "C?" V 9150 5000 50  0000 L CNN
 F 1 "47pF" V 9050 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8938 4900 50  0001 C CNN
 F 3 "~" H 8900 5050 50  0001 C CNN
