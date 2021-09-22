@@ -238,9 +238,9 @@ Wire Wire Line
 	10150 5100 10150 4950
 Connection ~ 9300 5100
 Text GLabel 7600 4250 1    50   Input ~ 0
-ZNP_LED_1
+MCU_LED_1
 Text GLabel 8450 4250 1    50   Input ~ 0
-ZNP_LED_2
+MCU_LED_2
 Text GLabel 9300 4250 1    50   Input ~ 0
 BB_LED_1
 Text GLabel 10150 4250 1    50   Input ~ 0
@@ -288,7 +288,7 @@ F 3 "~" H 7650 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 7650 1800 1    50   Input ~ 0
-ZNP_BTN_1
+MCU_BTN_1
 Wire Wire Line
 	7650 2650 7650 2850
 Connection ~ 7650 2850
@@ -301,7 +301,7 @@ Connection ~ 9150 2850
 Wire Wire Line
 	9900 2650 9900 2850
 Text GLabel 8400 1800 1    50   Input ~ 0
-ZNP_BTN_2
+MCU_BTN_2
 Text GLabel 9150 2100 1    50   Input ~ 0
 BB_BTN_1
 Text GLabel 9900 2100 1    50   Input ~ 0

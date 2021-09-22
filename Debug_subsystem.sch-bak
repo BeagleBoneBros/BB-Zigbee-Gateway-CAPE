@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -61,7 +61,7 @@ L Connector:Conn_01x03_Female J?
 U 1 1 614ABF85
 P 7550 3550
 F 0 "J?" H 7578 3576 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 7578 3485 50  0000 L CNN
+F 1 "3.3V" H 7578 3485 50  0000 L CNN
 F 2 "" H 7550 3550 50  0001 C CNN
 F 3 "~" H 7550 3550 50  0001 C CNN
 	1    7550 3550
