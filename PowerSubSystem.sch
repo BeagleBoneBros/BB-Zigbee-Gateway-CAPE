@@ -18,10 +18,10 @@ Text Notes 3750 4200 0    50   ~ 0
 Text Notes 3700 3400 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
-L pwr_BeagleBone:LM3671 U3
+L pwr_BeagleBone:LM3671 U401
 U 1 1 613D6B2B
 P 5350 3300
-F 0 "U3" H 5350 3400 50  0000 C CNN
+F 0 "U401" H 5350 3400 50  0000 C CNN
 F 1 "LM3671" H 5350 3300 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5350 3300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 5350 3300 50  0001 C CNN
@@ -31,10 +31,10 @@ $EndComp
 Text GLabel 4500 3450 0    50   Input ~ 0
 PSU_5VIn+
 $Comp
-L Device:C_Small C?
+L Device:C_Small C401
 U 1 1 613D8B5E
 P 4700 3700
-F 0 "C?" H 4500 3750 50  0000 L CNN
+F 0 "C401" H 4500 3750 50  0000 L CNN
 F 1 "4.7uF" H 4400 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 3700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4700 3700 50  0001 C CNN
@@ -63,10 +63,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 3650 4900 3950
 $Comp
-L Device:L_Small L?
+L Device:L_Small L401
 U 1 1 613E2221
 P 5900 3450
-F 0 "L?" V 6085 3450 50  0000 C CNN
+F 0 "L401" V 6085 3450 50  0000 C CNN
 F 1 "2.2uH" V 5994 3450 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 5900 3450 50  0001 C CNN
 F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 5900 3450 50  0001 C CNN
@@ -78,10 +78,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 3650 6100 3450
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR0401
 U 1 1 613E4C24
 P 4700 4050
-F 0 "#PWR0102" H 4700 3800 50  0001 C CNN
+F 0 "#PWR0401" H 4700 3800 50  0001 C CNN
 F 1 "GND" H 4705 3877 50  0000 C CNN
 F 2 "" H 4700 4050 50  0001 C CNN
 F 3 "" H 4700 4050 50  0001 C CNN
@@ -91,10 +91,10 @@ $EndComp
 Wire Wire Line
 	4700 4050 4700 3950
 $Comp
-L Device:C_Small C?
+L Device:C_Small C402
 U 1 1 613E66FD
 P 6350 3700
-F 0 "C?" H 6442 3746 50  0000 L CNN
+F 0 "C402" H 6442 3746 50  0000 L CNN
 F 1 "10uF" H 6442 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6350 3700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 3700 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 3700 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L power:GND #PWR0402
 U 1 1 613EB575
 P 6350 4050
-F 0 "#PWR0109" H 6350 3800 50  0001 C CNN
+F 0 "#PWR0402" H 6350 3800 50  0001 C CNN
 F 1 "GND" H 6355 3877 50  0000 C CNN
 F 2 "" H 6350 4050 50  0001 C CNN
 F 3 "" H 6350 4050 50  0001 C CNN

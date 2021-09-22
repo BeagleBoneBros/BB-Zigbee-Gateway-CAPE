@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\tjb31\Source\Repos\KiCadTest\BeagleBone-Black-Cape.sch</source>
-    <date>3/2/2021 6:43:31 PM</date>
+    <source>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE\BeagleBone-Black-Cape.sch</source>
+    <date>9/8/2021 9:57:04 PM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -30,99 +30,130 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
+    <sheet number="3" name="/UI_subsystem/" tstamps="/60837686/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UI_subsystem.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power Sub System/" tstamps="/610F5588/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerSubSystem.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/CrystolOscillator/" tstamps="/613805C9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CrystolOscillator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="P9">
       <value>BeagleBone_Black_Header</value>
       <footprint>Socket_BeagleBone_Black:Socket_BeagleBone_Black</footprint>
-      <libsource lib="Connector_Generic" part="Conn_02x23_Odd_Even" description="Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Conn_02x23_Odd_Even-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55DF7DBA</tstamp>
     </comp>
     <comp ref="P8">
       <value>BeagleBone_Black_Header</value>
       <footprint>Socket_BeagleBone_Black:Socket_BeagleBone_Black</footprint>
-      <libsource lib="Connector_Generic" part="Conn_02x23_Odd_Even" description="Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Conn_02x23_Odd_Even-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55DF7DE1</tstamp>
     </comp>
     <comp ref="C21">
       <value>1.1pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>6039A1F9</tstamp>
     </comp>
-    <comp ref="C491">
-      <value>47pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
-      <tstamp>6039A7AD</tstamp>
-    </comp>
     <comp ref="L12">
       <value>2.4nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>6039AD96</tstamp>
     </comp>
     <comp ref="L22">
       <value>2.4nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>6039B183</tstamp>
     </comp>
     <comp ref="L21">
       <value>15nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>6039B788</tstamp>
     </comp>
     <comp ref="C12">
       <value>1.1pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603CD7B2</tstamp>
     </comp>
     <comp ref="L13">
       <value>1nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603CF711</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C494">
       <value>12pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603D700A</tstamp>
     </comp>
     <comp ref="L14">
       <value>3.3nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603D983C</tstamp>
     </comp>
     <comp ref="C13">
       <value>1pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603DBF1C</tstamp>
     </comp>
@@ -130,7 +161,7 @@
       <value>50Ω</value>
       <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603E2167</tstamp>
     </comp>
@@ -143,105 +174,105 @@
     </comp>
     <comp ref="L338">
       <value>3.9nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603F32AE</tstamp>
     </comp>
     <comp ref="L339">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603F44B7</tstamp>
     </comp>
     <comp ref="L336">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603F61A0</tstamp>
     </comp>
     <comp ref="L335">
       <value>10nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603F7059</tstamp>
     </comp>
     <comp ref="C31">
       <value>100pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603F96C0</tstamp>
     </comp>
     <comp ref="C487">
       <value>2.2pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603FBA21</tstamp>
     </comp>
     <comp ref="L340">
       <value>3.9nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>603FD936</tstamp>
     </comp>
     <comp ref="C489">
       <value>3pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>60424D8F</tstamp>
     </comp>
-    <comp ref="C448">
+    <comp ref="C488">
       <value>3pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>6042F403</tstamp>
     </comp>
     <comp ref="L337">
       <value>7.5nH</value>
-      <footprint>Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>60435A6E</tstamp>
     </comp>
     <comp ref="C37">
-      <value>Do Not Stuff</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>604367DD</tstamp>
     </comp>
     <comp ref="C33">
       <value>3.6pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>60437EE0</tstamp>
     </comp>
     <comp ref="C490">
       <value>6.8pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>60438EA3</tstamp>
     </comp>
@@ -249,29 +280,390 @@
       <value>50Ω</value>
       <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>60442B72</tstamp>
     </comp>
     <comp ref="C14">
       <value>1pF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
       <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
       <tstamp>604464D1</tstamp>
     </comp>
+    <comp ref="L62">
+      <value>3nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>605CA70F</tstamp>
+    </comp>
+    <comp ref="L52">
+      <value>15nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>605D71FC</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>605E8A57</tstamp>
+    </comp>
+    <comp ref="L53">
+      <value>3nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>605F1A20</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60611067</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60620B7F</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6062771A</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>2.7pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60632FC0</tstamp>
+    </comp>
+    <comp ref="L54">
+      <value>1.8nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>606403DF</tstamp>
+    </comp>
+    <comp ref="C496">
+      <value>1.8pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60645553</tstamp>
+    </comp>
+    <comp ref="L55">
+      <value>1nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6064D542</tstamp>
+    </comp>
+    <comp ref="C497">
+      <value>1.5pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60652D1E</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>606661BA</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6066C58A</tstamp>
+    </comp>
+    <comp ref="AE3">
+      <value>50Ω</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6066FAEC</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="R-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6067AEFA</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="R-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6067CE21</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6068D5E7</tstamp>
+    </comp>
+    <comp ref="C491">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>606984A5</tstamp>
+    </comp>
+    <comp ref="CR13">
+      <value>TPD1E0B04DPYR</value>
+      <footprint>TPD1E0B04DPYR</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/tpd1e0b04</datasheet>
+      <fields>
+        <field name="Description">1-Channel ESD Protection Diode for USB Type-C and Antenna Protection</field>
+        <field name="Height">0.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD1E0B04DPYR</field>
+        <field name="Mouser Part Number">595-TPD1E0B04DPYR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E0B04DPYR/?qs=%2FP2Ij7fVdhFnd1cm2DaT7Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TPD1E0B04DPYR" description="1-Channel ESD Protection Diode for USB Type-C and Antenna Protection"/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6070A573</tstamp>
+    </comp>
+    <comp ref="C482">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6071990F</tstamp>
+    </comp>
+    <comp ref="Z60">
+      <value>4.3nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6071EEC0</tstamp>
+    </comp>
+    <comp ref="Z61">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6073AC13</tstamp>
+    </comp>
+    <comp ref="Z62">
+      <value>DNF</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="L-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6074E2B9</tstamp>
+    </comp>
+    <comp ref="Z63">
+      <value>5.6pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6075DD50</tstamp>
+    </comp>
+    <comp ref="AE4">
+      <value>50Ω</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60766F16</tstamp>
+    </comp>
+    <comp ref="C483">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60773C96</tstamp>
+    </comp>
+    <comp ref="AE5">
+      <value>50Ω</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>607787F8</tstamp>
+    </comp>
+    <comp ref="C492">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="C-Device" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>60788C39</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SKY13317-373LF</value>
+      <footprint>footprints:SKY13317-373LF</footprint>
+      <libsource lib="2021-04-02_19-11-57" part="SKY13317-373LF" description=""/>
+      <sheetpath names="/1352_antenna_subsystem/" tstamps="/60365D6B/"/>
+      <tstamp>6068C4D3</tstamp>
+    </comp>
+    <comp ref="TFT1">
+      <value>ST7735_TFT</value>
+      <libsource lib="cc1352" part="ST7735_TFT" description=""/>
+      <sheetpath names="/UI_subsystem/" tstamps="/60837686/"/>
+      <tstamp>6083DD31</tstamp>
+    </comp>
+    <comp ref="U99">
+      <value>TR05S3V3</value>
+      <libsource lib="pwr_BeagleBone" part="TR05S3V3" description=""/>
+      <sheetpath names="/Power Sub System/" tstamps="/610F5588/"/>
+      <tstamp>610F8923</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>6.8uH</value>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="INDUCTOR-pspice" description=""/>
+      <sheetpath names="/Power Sub System/" tstamps="/610F5588/"/>
+      <tstamp>610F8FF3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF_35V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="CAP-pspice" description=""/>
+      <sheetpath names="/Power Sub System/" tstamps="/610F5588/"/>
+      <tstamp>610F97C7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF_35V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="BeagleBone-Black-Cape-rescue" part="CAP-pspice" description=""/>
+      <sheetpath names="/Power Sub System/" tstamps="/610F5588/"/>
+      <tstamp>610FA119</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>31.768kHz</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/CrystolOscillator/" tstamps="/613805C9/"/>
+      <tstamp>613837BD</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>48MHz</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_GND2" description="Three pin crystal, GND on pin 2"/>
+      <sheetpath names="/CrystolOscillator/" tstamps="/613805C9/"/>
+      <tstamp>613841EB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CAP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/CrystolOscillator/" tstamps="/613805C9/"/>
+      <tstamp>61384AA5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>CAP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/CrystolOscillator/" tstamps="/613805C9/"/>
+      <tstamp>61384ECD</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector_Generic" part="Conn_02x23_Odd_Even">
-      <description>Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
+    <libpart lib="2021-04-02_19-11-57" part="SKY13317-373LF">
+      <footprints>
+        <fp>MLP8_1P5X1P5_SKY</fp>
+        <fp>MLP8_1P5X1P5_SKY-M</fp>
+        <fp>MLP8_1P5X1P5_SKY-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SKY13317-373LF</field>
+        <field name="Footprint">MLP8_1P5X1P5_SKY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RFC" type="unspc"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="V1" type="BiDi"/>
+        <pin num="4" name="RF1" type="BiDi"/>
+        <pin num="5" name="RF2" type="BiDi"/>
+        <pin num="6" name="V2" type="BiDi"/>
+        <pin num="7" name="V3" type="BiDi"/>
+        <pin num="8" name="RF3" type="BiDi"/>
+        <pin num="9" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="Antenna-Device">
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="CAP-pspice">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-pspice</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="Conn_02x23_Odd_Even-Connector_Generic">
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x23_Odd_Even</field>
+        <field name="Value">Conn_02x23_Odd_Even-Connector_Generic</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -322,35 +714,17 @@
         <pin num="46" name="Pin_46" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Antenna">
-      <description>Antenna</description>
-      <docs>~</docs>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="INDUCTOR-pspice">
       <fields>
-        <field name="Reference">AE</field>
-        <field name="Value">Antenna</field>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-pspice</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="input"/>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="L">
-      <description>Inductor</description>
-      <docs>~</docs>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="L-Device">
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
@@ -359,11 +733,93 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L</field>
+        <field name="Value">L-Device</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BeagleBone-Black-Cape-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND2">
+      <description>Three pin crystal, GND on pin 2</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TPD1E0B04DPYR">
+      <description>1-Channel ESD Protection Diode for USB Type-C and Antenna Protection</description>
+      <docs>http://www.ti.com/lit/gpn/tpd1e0b04</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TPD1E0B04DPYR</field>
+        <field name="Footprint">TPD1E0B04DPYR</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/tpd1e0b04</field>
+        <field name="Description">1-Channel ESD Protection Diode for USB Type-C and Antenna Protection</field>
+        <field name="Height">0.45</field>
+        <field name="Mouser Part Number">595-TPD1E0B04DPYR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E0B04DPYR/?qs=%2FP2Ij7fVdhFnd1cm2DaT7Q%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPD1E0B04DPYR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc1352" part="ST7735_TFT">
+      <fields>
+        <field name="Reference">TFT</field>
+        <field name="Value">ST7735_TFT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LITE" type="power_in"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TFT_CS" type="input"/>
+        <pin num="6" name="CARD_CS" type="input"/>
+        <pin num="7" name="D/C" type="input"/>
+        <pin num="8" name="RESET" type="input"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="GND" type="input"/>
       </pins>
     </libpart>
     <libpart lib="cc1352" part="cc1352p">
@@ -423,89 +879,119 @@
         <pin num="48" name="VDDR_RF" type="unspc"/>
       </pins>
     </libpart>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pwr_BeagleBone" part="TR05S3V3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TR05S3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="+VOUT" type="power_out"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    <library logical="2021-04-02_19-11-57">
+      <uri>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/2021-04-02_19-11-57.lib</uri>
+    </library>
+    <library logical="BeagleBone-Black-Cape-rescue">
+      <uri>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE/BeagleBone-Black-Cape-rescue.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE/SamacSys_Parts.lib</uri>
+    </library>
     <library logical="cc1352">
-      <uri>C:\Users\tjb31\Source\Repos\KiCadTest/cc1352.lib</uri>
+      <uri>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE/cc1352.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+    <library logical="pwr_BeagleBone">
+      <uri>C:\Users\tjb31\Source\BB-Zigbee-Gateway-CAPE/pwr_BeagleBone.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(P8-Pad10)">
-      <node ref="P8" pin="10"/>
+    <net code="1" name="Net-(P8-Pad22)">
+      <node ref="P8" pin="22"/>
     </net>
-    <net code="2" name="GNDD">
-      <node ref="P9" pin="44"/>
-      <node ref="P9" pin="1"/>
-      <node ref="P9" pin="2"/>
-      <node ref="P8" pin="2"/>
-      <node ref="P9" pin="46"/>
-      <node ref="P9" pin="45"/>
-      <node ref="P9" pin="43"/>
-      <node ref="P8" pin="1"/>
-    </net>
-    <net code="3" name="+5V">
-      <node ref="P9" pin="5"/>
-      <node ref="P9" pin="6"/>
-    </net>
-    <net code="4" name="PWR_BUT">
-      <node ref="P9" pin="9"/>
-    </net>
-    <net code="5" name="Net-(P8-Pad11)">
-      <node ref="P8" pin="11"/>
-    </net>
-    <net code="6" name="Net-(P8-Pad12)">
-      <node ref="P8" pin="12"/>
-    </net>
-    <net code="7" name="Net-(P8-Pad13)">
+    <net code="2" name="Net-(P8-Pad13)">
       <node ref="P8" pin="13"/>
     </net>
-    <net code="8" name="Net-(P8-Pad14)">
+    <net code="3" name="Net-(P8-Pad14)">
       <node ref="P8" pin="14"/>
     </net>
-    <net code="9" name="Net-(P8-Pad15)">
+    <net code="4" name="Net-(P8-Pad15)">
       <node ref="P8" pin="15"/>
     </net>
-    <net code="10" name="Net-(P8-Pad16)">
+    <net code="5" name="Net-(P8-Pad16)">
       <node ref="P8" pin="16"/>
     </net>
-    <net code="11" name="Net-(P8-Pad17)">
+    <net code="6" name="Net-(P8-Pad17)">
       <node ref="P8" pin="17"/>
     </net>
-    <net code="12" name="Net-(P8-Pad18)">
+    <net code="7" name="Net-(P8-Pad18)">
       <node ref="P8" pin="18"/>
     </net>
-    <net code="13" name="Net-(P8-Pad19)">
+    <net code="8" name="Net-(P8-Pad19)">
       <node ref="P8" pin="19"/>
     </net>
-    <net code="14" name="Net-(P9-Pad35)">
-      <node ref="P9" pin="35"/>
+    <net code="9" name="Net-(P8-Pad20)">
+      <node ref="P8" pin="20"/>
     </net>
-    <net code="15" name="Net-(P9-Pad27)">
-      <node ref="P9" pin="27"/>
+    <net code="10" name="Net-(P8-Pad21)">
+      <node ref="P8" pin="21"/>
     </net>
-    <net code="16" name="Net-(P9-Pad28)">
-      <node ref="P9" pin="28"/>
+    <net code="11" name="Net-(P8-Pad12)">
+      <node ref="P8" pin="12"/>
     </net>
-    <net code="17" name="Net-(P9-Pad29)">
-      <node ref="P9" pin="29"/>
+    <net code="12" name="Net-(P8-Pad23)">
+      <node ref="P8" pin="23"/>
     </net>
-    <net code="18" name="Net-(P9-Pad30)">
-      <node ref="P9" pin="30"/>
+    <net code="13" name="Net-(P8-Pad24)">
+      <node ref="P8" pin="24"/>
     </net>
-    <net code="19" name="Net-(P9-Pad31)">
-      <node ref="P9" pin="31"/>
+    <net code="14" name="Net-(P8-Pad25)">
+      <node ref="P8" pin="25"/>
     </net>
-    <net code="20" name="VDD_ADC">
-      <node ref="P9" pin="32"/>
+    <net code="15" name="Net-(P8-Pad26)">
+      <node ref="P8" pin="26"/>
     </net>
-    <net code="21" name="Net-(P9-Pad33)">
-      <node ref="P9" pin="33"/>
+    <net code="16" name="Net-(P8-Pad27)">
+      <node ref="P8" pin="27"/>
+    </net>
+    <net code="17" name="Net-(P8-Pad28)">
+      <node ref="P8" pin="28"/>
+    </net>
+    <net code="18" name="Net-(P8-Pad29)">
+      <node ref="P8" pin="29"/>
+    </net>
+    <net code="19" name="Net-(P8-Pad3)">
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="20" name="Net-(P8-Pad30)">
+      <node ref="P8" pin="30"/>
+    </net>
+    <net code="21" name="Net-(P8-Pad31)">
+      <node ref="P8" pin="31"/>
     </net>
     <net code="22" name="Net-(P9-Pad36)">
       <node ref="P9" pin="36"/>
@@ -519,392 +1005,538 @@
     <net code="25" name="Net-(P9-Pad39)">
       <node ref="P9" pin="39"/>
     </net>
-    <net code="26" name="+3V3">
-      <node ref="P9" pin="4"/>
-      <node ref="P9" pin="3"/>
-    </net>
-    <net code="27" name="Net-(P9-Pad40)">
+    <net code="26" name="Net-(P9-Pad40)">
       <node ref="P9" pin="40"/>
     </net>
-    <net code="28" name="Net-(P9-Pad41)">
+    <net code="27" name="Net-(P9-Pad41)">
       <node ref="P9" pin="41"/>
     </net>
-    <net code="29" name="Net-(P9-Pad42)">
+    <net code="28" name="Net-(P9-Pad42)">
       <node ref="P9" pin="42"/>
     </net>
-    <net code="30" name="Net-(P8-Pad46)">
-      <node ref="P8" pin="46"/>
+    <net code="29" name="GND8">
+      <node ref="C52" pin="2"/>
+      <node ref="Z62" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="Z61" pin="2"/>
+      <node ref="CR13" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C494" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C490" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="P9" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="C496" pin="2"/>
+      <node ref="C497" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C61" pin="1"/>
+      <node ref="U99" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C488" pin="1"/>
+      <node ref="TFT1" pin="10"/>
+      <node ref="P8" pin="1"/>
+      <node ref="P9" pin="46"/>
+      <node ref="P9" pin="44"/>
+      <node ref="P9" pin="43"/>
+      <node ref="P9" pin="45"/>
+      <node ref="P8" pin="2"/>
     </net>
-    <net code="31" name="Net-(P8-Pad38)">
-      <node ref="P8" pin="38"/>
-    </net>
-    <net code="32" name="Net-(P8-Pad39)">
-      <node ref="P8" pin="39"/>
-    </net>
-    <net code="33" name="Net-(P8-Pad4)">
-      <node ref="P8" pin="4"/>
-    </net>
-    <net code="34" name="Net-(P8-Pad40)">
-      <node ref="P8" pin="40"/>
-    </net>
-    <net code="35" name="Net-(P8-Pad41)">
-      <node ref="P8" pin="41"/>
-    </net>
-    <net code="36" name="Net-(P8-Pad42)">
-      <node ref="P8" pin="42"/>
-    </net>
-    <net code="37" name="Net-(P8-Pad43)">
-      <node ref="P8" pin="43"/>
-    </net>
-    <net code="38" name="Net-(P8-Pad44)">
-      <node ref="P8" pin="44"/>
-    </net>
-    <net code="39" name="Net-(P8-Pad45)">
-      <node ref="P8" pin="45"/>
-    </net>
-    <net code="40" name="Net-(P8-Pad37)">
-      <node ref="P8" pin="37"/>
-    </net>
-    <net code="41" name="Net-(P8-Pad5)">
-      <node ref="P8" pin="5"/>
-    </net>
-    <net code="42" name="Net-(P8-Pad6)">
-      <node ref="P8" pin="6"/>
-    </net>
-    <net code="43" name="Net-(P8-Pad7)">
-      <node ref="P8" pin="7"/>
-    </net>
-    <net code="44" name="Net-(P8-Pad8)">
-      <node ref="P8" pin="8"/>
-    </net>
-    <net code="45" name="Net-(P8-Pad9)">
-      <node ref="P8" pin="9"/>
-    </net>
-    <net code="46" name="Net-(P8-Pad29)">
-      <node ref="P8" pin="29"/>
-    </net>
-    <net code="47" name="Net-(P8-Pad20)">
-      <node ref="P8" pin="20"/>
-    </net>
-    <net code="48" name="Net-(P8-Pad21)">
-      <node ref="P8" pin="21"/>
-    </net>
-    <net code="49" name="Net-(P8-Pad22)">
-      <node ref="P8" pin="22"/>
-    </net>
-    <net code="50" name="Net-(P8-Pad23)">
-      <node ref="P8" pin="23"/>
-    </net>
-    <net code="51" name="Net-(P8-Pad24)">
-      <node ref="P8" pin="24"/>
-    </net>
-    <net code="52" name="Net-(P8-Pad25)">
-      <node ref="P8" pin="25"/>
-    </net>
-    <net code="53" name="Net-(P8-Pad26)">
-      <node ref="P8" pin="26"/>
-    </net>
-    <net code="54" name="Net-(P8-Pad27)">
-      <node ref="P8" pin="27"/>
-    </net>
-    <net code="55" name="Net-(P8-Pad28)">
-      <node ref="P8" pin="28"/>
-    </net>
-    <net code="56" name="Net-(P8-Pad3)">
-      <node ref="P8" pin="3"/>
-    </net>
-    <net code="57" name="Net-(P8-Pad30)">
-      <node ref="P8" pin="30"/>
-    </net>
-    <net code="58" name="Net-(P8-Pad31)">
-      <node ref="P8" pin="31"/>
-    </net>
-    <net code="59" name="Net-(P8-Pad32)">
+    <net code="30" name="Net-(P8-Pad32)">
       <node ref="P8" pin="32"/>
     </net>
-    <net code="60" name="Net-(P8-Pad33)">
+    <net code="31" name="+5V">
+      <node ref="P9" pin="5"/>
+      <node ref="P9" pin="6"/>
+    </net>
+    <net code="32" name="Net-(P8-Pad10)">
+      <node ref="P8" pin="10"/>
+    </net>
+    <net code="33" name="Net-(P8-Pad11)">
+      <node ref="P8" pin="11"/>
+    </net>
+    <net code="34" name="MISO_TFT">
+      <node ref="P9" pin="29"/>
+      <node ref="TFT1" pin="2"/>
+    </net>
+    <net code="35" name="SCK_TFT">
+      <node ref="P9" pin="31"/>
+      <node ref="TFT1" pin="3"/>
+    </net>
+    <net code="36" name="CS_TFT">
+      <node ref="P9" pin="28"/>
+      <node ref="TFT1" pin="5"/>
+    </net>
+    <net code="37" name="MOSI_TFT">
+      <node ref="P9" pin="30"/>
+      <node ref="TFT1" pin="4"/>
+    </net>
+    <net code="38" name="D.C_TFT">
+      <node ref="TFT1" pin="7"/>
+      <node ref="P9" pin="15"/>
+    </net>
+    <net code="39" name="RST_TFT">
+      <node ref="TFT1" pin="8"/>
+      <node ref="P9" pin="12"/>
+    </net>
+    <net code="40" name="Net-(P8-Pad42)">
+      <node ref="P8" pin="42"/>
+    </net>
+    <net code="41" name="Net-(P8-Pad33)">
       <node ref="P8" pin="33"/>
     </net>
-    <net code="61" name="Net-(P8-Pad34)">
+    <net code="42" name="Net-(P8-Pad34)">
       <node ref="P8" pin="34"/>
     </net>
-    <net code="62" name="Net-(P8-Pad35)">
+    <net code="43" name="Net-(P8-Pad35)">
       <node ref="P8" pin="35"/>
     </net>
-    <net code="63" name="Net-(P8-Pad36)">
+    <net code="44" name="Net-(P8-Pad36)">
       <node ref="P8" pin="36"/>
     </net>
-    <net code="64" name="SYS_5V">
+    <net code="45" name="Net-(P8-Pad37)">
+      <node ref="P8" pin="37"/>
+    </net>
+    <net code="46" name="Net-(P8-Pad38)">
+      <node ref="P8" pin="38"/>
+    </net>
+    <net code="47" name="Net-(P8-Pad39)">
+      <node ref="P8" pin="39"/>
+    </net>
+    <net code="48" name="Net-(P8-Pad4)">
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="49" name="Net-(P8-Pad40)">
+      <node ref="P8" pin="40"/>
+    </net>
+    <net code="50" name="Net-(P8-Pad41)">
+      <node ref="P8" pin="41"/>
+    </net>
+    <net code="51" name="Net-(P8-Pad43)">
+      <node ref="P8" pin="43"/>
+    </net>
+    <net code="52" name="Net-(P8-Pad44)">
+      <node ref="P8" pin="44"/>
+    </net>
+    <net code="53" name="Net-(P8-Pad45)">
+      <node ref="P8" pin="45"/>
+    </net>
+    <net code="54" name="Net-(P8-Pad46)">
+      <node ref="P8" pin="46"/>
+    </net>
+    <net code="55" name="Net-(P8-Pad5)">
+      <node ref="P8" pin="5"/>
+    </net>
+    <net code="56" name="Net-(P8-Pad6)">
+      <node ref="P8" pin="6"/>
+    </net>
+    <net code="57" name="Net-(P8-Pad7)">
+      <node ref="P8" pin="7"/>
+    </net>
+    <net code="58" name="Net-(P8-Pad8)">
+      <node ref="P8" pin="8"/>
+    </net>
+    <net code="59" name="Net-(P8-Pad9)">
+      <node ref="P8" pin="9"/>
+    </net>
+    <net code="60" name="SYS_5V">
       <node ref="P9" pin="8"/>
       <node ref="P9" pin="7"/>
     </net>
-    <net code="65" name="Net-(P9-Pad26)">
+    <net code="61" name="+3V3">
+      <node ref="P9" pin="4"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="62" name="Net-(P9-Pad35)">
+      <node ref="P9" pin="35"/>
+    </net>
+    <net code="63" name="Net-(P9-Pad26)">
       <node ref="P9" pin="26"/>
     </net>
-    <net code="66" name="Net-(P9-Pad25)">
-      <node ref="P9" pin="25"/>
-    </net>
-    <net code="67" name="Net-(P9-Pad17)">
+    <net code="64" name="Net-(P9-Pad17)">
       <node ref="P9" pin="17"/>
     </net>
-    <net code="68" name="SYS_RESETN">
-      <node ref="P9" pin="10"/>
-    </net>
-    <net code="69" name="Net-(P9-Pad11)">
-      <node ref="P9" pin="11"/>
-    </net>
-    <net code="70" name="Net-(P9-Pad12)">
-      <node ref="P9" pin="12"/>
-    </net>
-    <net code="71" name="Net-(P9-Pad13)">
-      <node ref="P9" pin="13"/>
-    </net>
-    <net code="72" name="Net-(P9-Pad14)">
-      <node ref="P9" pin="14"/>
-    </net>
-    <net code="73" name="Net-(P9-Pad15)">
-      <node ref="P9" pin="15"/>
-    </net>
-    <net code="74" name="Net-(P9-Pad16)">
-      <node ref="P9" pin="16"/>
-    </net>
-    <net code="75" name="Net-(P9-Pad18)">
+    <net code="65" name="Net-(P9-Pad18)">
       <node ref="P9" pin="18"/>
     </net>
-    <net code="76" name="Net-(P9-Pad19)">
+    <net code="66" name="Net-(P9-Pad19)">
       <node ref="P9" pin="19"/>
     </net>
-    <net code="77" name="Net-(P9-Pad20)">
+    <net code="67" name="Net-(P9-Pad20)">
       <node ref="P9" pin="20"/>
     </net>
-    <net code="78" name="Net-(P9-Pad21)">
+    <net code="68" name="Net-(P9-Pad21)">
       <node ref="P9" pin="21"/>
     </net>
-    <net code="79" name="Net-(P9-Pad22)">
+    <net code="69" name="Net-(P9-Pad22)">
       <node ref="P9" pin="22"/>
     </net>
-    <net code="80" name="Net-(P9-Pad23)">
+    <net code="70" name="Net-(P9-Pad23)">
       <node ref="P9" pin="23"/>
     </net>
-    <net code="81" name="Net-(P9-Pad24)">
+    <net code="71" name="Net-(P9-Pad24)">
       <node ref="P9" pin="24"/>
     </net>
-    <net code="82" name="GNDA_ADC">
+    <net code="72" name="Net-(P9-Pad25)">
+      <node ref="P9" pin="25"/>
+    </net>
+    <net code="73" name="Net-(P9-Pad27)">
+      <node ref="P9" pin="27"/>
+    </net>
+    <net code="74" name="VDD_ADC">
+      <node ref="P9" pin="32"/>
+    </net>
+    <net code="75" name="Net-(P9-Pad33)">
+      <node ref="P9" pin="33"/>
+    </net>
+    <net code="76" name="Net-(P9-Pad16)">
+      <node ref="P9" pin="16"/>
+    </net>
+    <net code="77" name="GNDA_ADC">
       <node ref="P9" pin="34"/>
     </net>
-    <net code="83" name="Net-(C448-Pad2)">
-      <node ref="C487" pin="2"/>
-      <node ref="C448" pin="2"/>
-      <node ref="L339" pin="2"/>
-      <node ref="L336" pin="1"/>
-      <node ref="L340" pin="2"/>
+    <net code="78" name="PWR_BUT">
+      <node ref="P9" pin="9"/>
     </net>
-    <net code="84" name="GND">
-      <node ref="C31" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C448" pin="1"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C490" pin="2"/>
-      <node ref="C33" pin="2"/>
+    <net code="79" name="SYS_RESETN">
+      <node ref="P9" pin="10"/>
     </net>
-    <net code="85" name="Net-(U1-Pad9)">
+    <net code="80" name="Net-(P9-Pad11)">
+      <node ref="P9" pin="11"/>
+    </net>
+    <net code="81" name="Net-(P9-Pad13)">
+      <node ref="P9" pin="13"/>
+    </net>
+    <net code="82" name="Net-(P9-Pad14)">
+      <node ref="P9" pin="14"/>
+    </net>
+    <net code="83" name="Net-(C496-Pad1)">
+      <node ref="L54" pin="2"/>
+      <node ref="C496" pin="1"/>
+      <node ref="L55" pin="1"/>
+    </net>
+    <net code="84" name="Net-(AE3-Pad1)">
+      <node ref="AE3" pin="1"/>
+      <node ref="C59" pin="2"/>
+    </net>
+    <net code="87" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C51-Pad1)">
+      <node ref="C52" pin="1"/>
+      <node ref="L53" pin="1"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C51" pin="1"/>
+    </net>
+    <net code="89" name="Net-(R53-Pad1)">
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C497-Pad1)">
+      <node ref="L55" pin="2"/>
+      <node ref="C58" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C497" pin="1"/>
+    </net>
+    <net code="91" name="TX_20dB_P">
+      <node ref="L52" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="L53" pin="2"/>
+    </net>
+    <net code="92" name="RX_20dB_N">
+      <node ref="C61" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="L52" pin="2"/>
+      <node ref="L62" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1"/>
+      <node ref="L337" pin="1"/>
+      <node ref="C489" pin="1"/>
+      <node ref="L336" pin="2"/>
+    </net>
+    <net code="94" name="Net-(C53-Pad2)">
+      <node ref="L54" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C62" pin="1"/>
+      <node ref="L62" pin="2"/>
+    </net>
+    <net code="95" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1"/>
+      <node ref="C492" pin="2"/>
+    </net>
+    <net code="96" name="Net-(AE5-Pad1)">
+      <node ref="AE5" pin="1"/>
+      <node ref="C483" pin="1"/>
+    </net>
+    <net code="97" name="Net-(AE4-Pad1)">
+      <node ref="AE4" pin="1"/>
+    </net>
+    <net code="98" name="Net-(Z63-Pad2)">
+      <node ref="Z63" pin="2"/>
+    </net>
+    <net code="99" name="V3_SKY">
+      <node ref="U1" pin="41"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="100" name="V2_SKY">
+      <node ref="U1" pin="43"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="101" name="RF2_SKY">
+      <node ref="C36" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="102" name="RF1_SKY">
+      <node ref="C58" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="103" name="V1_SKY">
+      <node ref="U1" pin="42"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="104" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="105" name="RF3_SKY">
+      <node ref="U2" pin="8"/>
+      <node ref="C491" pin="2"/>
+    </net>
+    <net code="106" name="Net-(Z60-Pad2)">
+      <node ref="Z63" pin="1"/>
+      <node ref="Z60" pin="2"/>
+      <node ref="Z62" pin="1"/>
+      <node ref="Z61" pin="1"/>
+    </net>
+    <net code="107" name="Net-(C482-Pad2)">
+      <node ref="C482" pin="2"/>
+      <node ref="Z60" pin="1"/>
+    </net>
+    <net code="108" name="RFC_SKY">
+      <node ref="CR13" pin="2"/>
+      <node ref="C483" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C482" pin="1"/>
+    </net>
+    <net code="109" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="110" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="111" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="112" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="113" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="114" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="116" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="117" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="118" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="119" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="120" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="121" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="122" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="123" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="124" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="125" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="126" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="127" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="128" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="129" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="130" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="131" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="86" name="/1352_antenna_subsystem/Sub1P">
-      <node ref="U1" pin="3"/>
-      <node ref="L340" pin="1"/>
+    <net code="132" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="87" name="Net-(C487-Pad1)">
-      <node ref="C489" pin="2"/>
-      <node ref="L335" pin="2"/>
-      <node ref="L338" pin="2"/>
-      <node ref="L339" pin="1"/>
-      <node ref="C487" pin="1"/>
+    <net code="133" name="Net-(U1-Pad48)">
+      <node ref="U1" pin="48"/>
     </net>
-    <net code="88" name="Net-(AE2-Pad1)">
+    <net code="134" name="Net-(U1-Pad47)">
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="135" name="Net-(U1-Pad46)">
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="136" name="Net-(U1-Pad45)">
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="137" name="Net-(U1-Pad44)">
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="138" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="139" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="140" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="141" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="142" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="143" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="144" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="145" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="146" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="147" name="2.4P">
+      <node ref="C21" pin="1"/>
+      <node ref="L22" pin="1"/>
+      <node ref="L21" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="148" name="Net-(C14-Pad1)">
+      <node ref="C492" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C491" pin="1"/>
+      <node ref="L14" pin="2"/>
+    </net>
+    <net code="149" name="Net-(C13-Pad1)">
+      <node ref="L13" pin="2"/>
+      <node ref="L14" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="150" name="RX_TX">
+      <node ref="C31" pin="1"/>
+      <node ref="L335" pin="1"/>
+      <node ref="L12" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C494" pin="2"/>
+    </net>
+    <net code="151" name="Net-(C12-Pad1)">
+      <node ref="L13" pin="1"/>
+      <node ref="L22" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="152" name="Net-(C36-Pad1)">
+      <node ref="L337" pin="2"/>
+      <node ref="C490" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="153" name="Net-(AE2-Pad1)">
       <node ref="C37" pin="1"/>
       <node ref="AE2" pin="1"/>
     </net>
-    <net code="89" name="Net-(C14-Pad1)">
-      <node ref="C14" pin="1"/>
+    <net code="154" name="SUB1P">
+      <node ref="U1" pin="3"/>
+      <node ref="L340" pin="1"/>
     </net>
-    <net code="90" name="Net-(C33-Pad1)">
-      <node ref="C489" pin="1"/>
-      <node ref="L337" pin="1"/>
-      <node ref="L336" pin="2"/>
-      <node ref="C33" pin="1"/>
-    </net>
-    <net code="91" name="Net-(C37-Pad2)">
-      <node ref="L337" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C490" pin="1"/>
-    </net>
-    <net code="92" name="RX_TX">
-      <node ref="C3" pin="2"/>
-      <node ref="L12" pin="1"/>
+    <net code="155" name="SUB1N">
       <node ref="U1" pin="4"/>
-      <node ref="U1" pin="7"/>
-      <node ref="L335" pin="1"/>
       <node ref="L338" pin="1"/>
-      <node ref="C31" pin="1"/>
     </net>
-    <net code="93" name="Net-(C12-Pad1)">
-      <node ref="L22" pin="2"/>
-      <node ref="L13" pin="1"/>
-      <node ref="C12" pin="1"/>
+    <net code="156" name="Net-(C487-Pad2)">
+      <node ref="C487" pin="2"/>
+      <node ref="L340" pin="2"/>
+      <node ref="L336" pin="1"/>
+      <node ref="L339" pin="2"/>
+      <node ref="C488" pin="2"/>
     </net>
-    <net code="94" name="Net-(AE1-Pad1)">
-      <node ref="C491" pin="1"/>
-      <node ref="AE1" pin="1"/>
-      <node ref="L14" pin="2"/>
-    </net>
-    <net code="95" name="Net-(C13-Pad1)">
-      <node ref="L13" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="L14" pin="1"/>
-    </net>
-    <net code="96" name="Net-(C491-Pad2)">
-      <node ref="C491" pin="2"/>
-    </net>
-    <net code="97" name="/1352_antenna_subsystem/2.4P">
-      <node ref="U1" pin="1"/>
-      <node ref="L21" pin="2"/>
-      <node ref="L22" pin="1"/>
-      <node ref="C21" pin="1"/>
-    </net>
-    <net code="98" name="/1352_antenna_subsystem/2.4N">
-      <node ref="U1" pin="2"/>
-      <node ref="C12" pin="2"/>
+    <net code="157" name="2.4N">
       <node ref="L21" pin="1"/>
+      <node ref="U1" pin="2"/>
       <node ref="L12" pin="2"/>
+      <node ref="C12" pin="2"/>
     </net>
-    <net code="99" name="Net-(U1-Pad29)">
-      <node ref="U1" pin="29"/>
+    <net code="158" name="Net-(C487-Pad1)">
+      <node ref="L335" pin="2"/>
+      <node ref="C487" pin="1"/>
+      <node ref="L339" pin="1"/>
+      <node ref="L338" pin="2"/>
+      <node ref="C489" pin="2"/>
     </net>
-    <net code="100" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
+    <net code="159" name="3.3_TFT">
+      <node ref="TFT1" pin="1"/>
+      <node ref="TFT1" pin="9"/>
     </net>
-    <net code="101" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
+    <net code="160" name="Net-(TFT1-Pad6)">
+      <node ref="TFT1" pin="6"/>
     </net>
-    <net code="102" name="Net-(U1-Pad32)">
-      <node ref="U1" pin="32"/>
+    <net code="161" name="PSU_3V3Out+">
+      <node ref="U99" pin="3"/>
     </net>
-    <net code="103" name="Net-(U1-Pad33)">
-      <node ref="U1" pin="33"/>
+    <net code="162" name="Net-(C2-Pad1)">
+      <node ref="U99" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L1" pin="2"/>
     </net>
-    <net code="104" name="Net-(U1-Pad34)">
-      <node ref="U1" pin="34"/>
+    <net code="163" name="PSU_5VIn+">
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="1"/>
     </net>
-    <net code="105" name="Net-(U1-Pad35)">
-      <node ref="U1" pin="35"/>
+    <net code="164" name="X48M_P">
+      <node ref="Y2" pin="1"/>
     </net>
-    <net code="106" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
+    <net code="165" name="X48M_N">
+      <node ref="Y2" pin="3"/>
     </net>
-    <net code="107" name="Net-(U1-Pad37)">
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="108" name="Net-(U1-Pad38)">
-      <node ref="U1" pin="38"/>
-    </net>
-    <net code="109" name="Net-(U1-Pad39)">
-      <node ref="U1" pin="39"/>
-    </net>
-    <net code="110" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="111" name="Net-(U1-Pad40)">
-      <node ref="U1" pin="40"/>
-    </net>
-    <net code="112" name="Net-(U1-Pad41)">
-      <node ref="U1" pin="41"/>
-    </net>
-    <net code="113" name="Net-(U1-Pad42)">
-      <node ref="U1" pin="42"/>
-    </net>
-    <net code="114" name="Net-(U1-Pad43)">
-      <node ref="U1" pin="43"/>
-    </net>
-    <net code="115" name="Net-(U1-Pad44)">
-      <node ref="U1" pin="44"/>
-    </net>
-    <net code="116" name="Net-(U1-Pad45)">
-      <node ref="U1" pin="45"/>
-    </net>
-    <net code="117" name="Net-(U1-Pad46)">
-      <node ref="U1" pin="46"/>
-    </net>
-    <net code="118" name="Net-(U1-Pad47)">
-      <node ref="U1" pin="47"/>
-    </net>
-    <net code="119" name="Net-(U1-Pad48)">
-      <node ref="U1" pin="48"/>
-    </net>
-    <net code="120" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="121" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="122" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="123" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="124" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="125" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="126" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="127" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="128" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="129" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="130" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="131" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="132" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="133" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="134" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="135" name="Net-(U1-Pad22)">
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="136" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="137" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
-    </net>
-    <net code="138" name="Net-(U1-Pad25)">
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="139" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="140" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
+    <net code="166" name="X32K_Q1">
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="1"/>
     </net>
   </nets>
 </export>
