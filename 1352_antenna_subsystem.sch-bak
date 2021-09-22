@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -39,28 +39,8 @@ F 3 "~" H 3950 3350 50  0001 C CNN
 $EndComp
 Text Label 2900 3350 0    50   ~ 0
 RX_TX
-Text GLabel 2350 5350 1    50   BiDi ~ 0
-RX_TX
 Text GLabel 2800 3350 0    50   BiDi ~ 0
 RX_TX
-Text GLabel 1950 5350 1    50   BiDi ~ 0
-2.4P
-Text GLabel 2050 5350 1    50   BiDi ~ 0
-2.4N
-Text GLabel 2150 5350 1    50   BiDi ~ 0
-SUB1P
-Text GLabel 2250 5350 1    50   BiDi ~ 0
-SUB1N
-Wire Wire Line
-	1950 5350 1950 5400
-Wire Wire Line
-	2050 5350 2050 5400
-Wire Wire Line
-	2150 5350 2150 5400
-Wire Wire Line
-	2250 5350 2250 5400
-Wire Wire Line
-	2350 5350 2350 5400
 Text GLabel 2100 1700 0    50   BiDi ~ 0
 2.4P
 Text GLabel 2100 1900 0    50   BiDi ~ 0
@@ -69,12 +49,6 @@ Text GLabel 2150 2100 0    50   BiDi ~ 0
 SUB1P
 Text GLabel 2150 2300 0    50   BiDi ~ 0
 SUB1N
-Text GLabel 2850 5350 1    50   BiDi ~ 0
-TX_20dB_P
-Wire Wire Line
-	2850 5400 2850 5350
-Text GLabel 2950 5350 1    50   BiDi ~ 0
-RX_20dB_N
 Text GLabel 5900 4650 0    50   BiDi ~ 0
 TX_20dB_P
 Text GLabel 5900 5300 0    50   BiDi ~ 0
@@ -344,36 +318,6 @@ Connection ~ 6150 5300
 Wire Wire Line
 	6150 5300 6450 5300
 Wire Wire Line
-	2950 5350 2950 5400
-Text GLabel 2050 7800 3    50   Input ~ 0
-ZNP_BTN_1
-Text GLabel 2150 7800 3    50   Input ~ 0
-ZNP_BTN_2
-Wire Wire Line
-	2050 7800 2050 7700
-Wire Wire Line
-	2150 7800 2150 7700
-Text GLabel 2850 7800 3    50   Input ~ 0
-ZNP_LED_1
-Text GLabel 2950 7800 3    50   Input ~ 0
-ZNP_LED_2
-Wire Wire Line
-	2950 7800 2950 7700
-Wire Wire Line
-	2850 7800 2850 7700
-Text GLabel 2250 7800 3    50   Input ~ 0
-ZNP_TX
-Text GLabel 2350 7800 3    50   Input ~ 0
-ZNP_RX
-Wire Wire Line
-	2250 7800 2250 7700
-Wire Wire Line
-	2350 7800 2350 7700
-Text GLabel 3650 6400 2    50   Input ~ 0
-ZNP_LED_1
-Wire Wire Line
-	3650 6400 3500 6400
-Wire Wire Line
 	2800 3350 3700 3350
 $Comp
 L cc1352:IPC_1352P TF201
@@ -433,35 +377,6 @@ Connection ~ 3700 3350
 Wire Wire Line
 	3700 3350 3800 3350
 $Comp
-L cc1352:XMSSJJ3G0PA-054 U202
-U 1 1 61582047
-P 7000 -1800
-F 0 "U202" H 7000 -635 50  0000 C CNN
-F 1 "XMSSJJ3G0PA-054" H 7000 -726 50  0000 C CNN
-F 2 "" H 6988 -1897 50  0001 C CNN
-F 3 "" H 6988 -1897 50  0001 C CNN
-	1    7000 -1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 -2200 4600 -2200
-Wire Wire Line
-	4600 -2200 4600 -1100
-Wire Wire Line
-	4600 -1100 5900 -1100
-Wire Wire Line
-	5900 -1700 5550 -1700
-Wire Wire Line
-	5550 -1700 5550 -1600
-Wire Wire Line
-	8100 -1100 8600 -1100
-Text GLabel 8500 -2400 2    50   Input ~ 0
-SPDT_CTL
-Wire Wire Line
-	8100 -2400 8500 -2400
-Wire Wire Line
-	3500 7200 3650 7200
-$Comp
 L BeagleBone-Black-Cape-rescue:C-Device C204
 U 1 1 615A901D
 P 5950 2300
@@ -474,49 +389,6 @@ F 3 "~" H 5950 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 2300 5800 2300
-Wire Wire Line
-	4300 -1600 5000 -1600
-Wire Wire Line
-	5000 -2400 5000 -1600
-Wire Wire Line
-	5000 -2400 5900 -2400
-$Comp
-L power:GND #PWR0209
-U 1 1 615C0254
-P 5550 -1600
-F 0 "#PWR0209" H 5550 -1850 50  0001 C CNN
-F 1 "GND" H 5555 -1773 50  0000 C CNN
-F 2 "" H 5550 -1600 50  0001 C CNN
-F 3 "" H 5550 -1600 50  0001 C CNN
-	1    5550 -1600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8600 -1100 2    50   Input ~ 0
-PSU_3V3Out+
-$Comp
-L BeagleBone-Black-Cape-rescue:Antenna-Device AE202
-U 1 1 615CC691
-P 7150 -450
-F 0 "AE202" H 7230 -461 50  0000 L CNN
-F 1 "50Ω" H 7230 -552 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 7150 -450 50  0001 C CNN
-F 3 "~" H 7150 -450 50  0001 C CNN
-	1    7150 -450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BeagleBone-Black-Cape-rescue:C-Device C211
-U 1 1 615D7861
-P 7700 -250
-F 0 "C211" V 7448 -250 50  0000 C CNN
-F 1 "100pF" V 7539 -250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7738 -400 50  0001 C CNN
-F 3 "~" H 7700 -250 50  0001 C CNN
-	1    7700 -250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 -250 7150 -250
 $Comp
 L power:GND #PWR0205
 U 1 1 615EEDB8
@@ -572,27 +444,6 @@ F 3 "" H 8250 5550 50  0001 C CNN
 	1    8250 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 -250 9300 -250
-Wire Wire Line
-	9300 -1700 9300 -250
-Wire Wire Line
-	8100 -1700 9300 -1700
-$Comp
-L cc1352:cc1352p U201
-U 1 1 603F4DE1
-P 1600 7600
-F 0 "U201" H 2759 6854 50  0001 C BNN
-F 1 "cc1352p" H 2600 8500 50  0000 R CNN
-F 2 "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 2950 8650 20  0000 R CNN
-F 3 "" H 2759 6854 50  0001 C CNN
-	1    1600 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 7000 3650 7000
-Wire Wire Line
-	3500 7100 3650 7100
 $Comp
 L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF202
 U 1 1 614D9714
@@ -608,8 +459,6 @@ Wire Wire Line
 	4800 1700 5850 1700
 Wire Wire Line
 	5850 1700 5850 1550
-Wire Wire Line
-	5850 1550 8250 1550
 Wire Wire Line
 	6100 2300 7050 2300
 Wire Wire Line
@@ -673,12 +522,6 @@ F 3 "~" H 8700 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 3300 8700 3000
-Text GLabel 3650 7000 2    50   Input ~ 0
-SKY_V3_2G4
-Text GLabel 3650 7200 2    50   Input ~ 0
-SKY_V2_SUB1G
-Text GLabel 3650 7100 2    50   Input ~ 0
-SKY_V1_20DBM
 $Comp
 L BeagleBone-Black-Cape-rescue:C-Device C212
 U 1 1 61536BA3
@@ -699,4 +542,17 @@ Wire Wire Line
 Wire Wire Line
 	8750 5100 8750 5050
 Connection ~ 8350 5100
+$Comp
+L BeagleBone-Black-Cape-rescue:C-Device C?
+U 1 1 614F2671
+P 6000 1550
+F 0 "C?" V 5748 1550 50  0000 C CNN
+F 1 "47pF" V 5839 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1400 50  0001 C CNN
+F 3 "~" H 6000 1550 50  0001 C CNN
+	1    6000 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 1550 8250 1550
 $EndSCHEMATC
