@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -289,4 +289,10 @@ F 3 "" H 6750 2500 50  0001 C CNN
 	1    6750 2500
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 2000 -4750 8550 4250
+U 614C2CA1
+F0 "MCU subsystem" 50
+F1 "MCU_subsystem.sch" 50
+$EndSheet
 $EndSCHEMATC
