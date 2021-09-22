@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -377,33 +377,6 @@ Connection ~ 3700 3350
 Wire Wire Line
 	3700 3350 3800 3350
 $Comp
-L cc1352:XMSSJJ3G0PA-054 U202
-U 1 1 61582047
-P 7000 -1800
-F 0 "U202" H 7000 -635 50  0000 C CNN
-F 1 "XMSSJJ3G0PA-054" H 7000 -726 50  0000 C CNN
-F 2 "" H 6988 -1897 50  0001 C CNN
-F 3 "" H 6988 -1897 50  0001 C CNN
-	1    7000 -1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 -2200 4600 -2200
-Wire Wire Line
-	4600 -2200 4600 -1100
-Wire Wire Line
-	4600 -1100 5900 -1100
-Wire Wire Line
-	5900 -1700 5550 -1700
-Wire Wire Line
-	5550 -1700 5550 -1600
-Wire Wire Line
-	8100 -1100 8600 -1100
-Text GLabel 8500 -2400 2    50   Input ~ 0
-SPDT_CTL
-Wire Wire Line
-	8100 -2400 8500 -2400
-$Comp
 L BeagleBone-Black-Cape-rescue:C-Device C204
 U 1 1 615A901D
 P 5950 2300
@@ -416,49 +389,6 @@ F 3 "~" H 5950 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 2300 5800 2300
-Wire Wire Line
-	4300 -1600 5000 -1600
-Wire Wire Line
-	5000 -2400 5000 -1600
-Wire Wire Line
-	5000 -2400 5900 -2400
-$Comp
-L power:GND #PWR0209
-U 1 1 615C0254
-P 5550 -1600
-F 0 "#PWR0209" H 5550 -1850 50  0001 C CNN
-F 1 "GND" H 5555 -1773 50  0000 C CNN
-F 2 "" H 5550 -1600 50  0001 C CNN
-F 3 "" H 5550 -1600 50  0001 C CNN
-	1    5550 -1600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8600 -1100 2    50   Input ~ 0
-PSU_3V3Out+
-$Comp
-L BeagleBone-Black-Cape-rescue:Antenna-Device AE202
-U 1 1 615CC691
-P 7150 -450
-F 0 "AE202" H 7230 -461 50  0000 L CNN
-F 1 "50Ω" H 7230 -552 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 7150 -450 50  0001 C CNN
-F 3 "~" H 7150 -450 50  0001 C CNN
-	1    7150 -450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BeagleBone-Black-Cape-rescue:C-Device C211
-U 1 1 615D7861
-P 7700 -250
-F 0 "C211" V 7448 -250 50  0000 C CNN
-F 1 "100pF" V 7539 -250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7738 -400 50  0001 C CNN
-F 3 "~" H 7700 -250 50  0001 C CNN
-	1    7700 -250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 -250 7150 -250
 $Comp
 L power:GND #PWR0205
 U 1 1 615EEDB8
@@ -514,12 +444,6 @@ F 3 "" H 8250 5550 50  0001 C CNN
 	1    8250 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 -250 9300 -250
-Wire Wire Line
-	9300 -1700 9300 -250
-Wire Wire Line
-	8100 -1700 9300 -1700
 $Comp
 L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF202
 U 1 1 614D9714
@@ -535,8 +459,6 @@ Wire Wire Line
 	4800 1700 5850 1700
 Wire Wire Line
 	5850 1700 5850 1550
-Wire Wire Line
-	5850 1550 8250 1550
 Wire Wire Line
 	6100 2300 7050 2300
 Wire Wire Line
@@ -620,4 +542,17 @@ Wire Wire Line
 Wire Wire Line
 	8750 5100 8750 5050
 Connection ~ 8350 5100
+$Comp
+L BeagleBone-Black-Cape-rescue:C-Device C?
+U 1 1 614F2671
+P 6000 1550
+F 0 "C?" V 5748 1550 50  0000 C CNN
+F 1 "47pF" V 5839 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1400 50  0001 C CNN
+F 3 "~" H 6000 1550 50  0001 C CNN
+	1    6000 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 1550 8250 1550
 $EndSCHEMATC
