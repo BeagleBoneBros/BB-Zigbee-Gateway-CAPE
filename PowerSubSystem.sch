@@ -121,8 +121,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 3450 6650 3450
 Connection ~ 6350 3450
-Text GLabel 6650 3950 2    50   Output ~ 0
-PSU_3V3Out-
 Wire Wire Line
 	6650 3950 6350 3950
 Wire Wire Line
@@ -144,4 +142,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 3950 6350 3950
 Connection ~ 4900 3950
+Text GLabel 6650 3950 2    50   Output ~ 0
+PSU_3V3Out-
 $EndSCHEMATC

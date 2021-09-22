@@ -4,4 +4,5 @@
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name 2021-04-02_19-11-57)(type Legacy)(uri ${KIPRJMOD}/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/2021-04-02_19-11-57.lib)(options "")(descr ""))
   (lib (name BeagleBone-Black-Cape-rescue)(type Legacy)(uri ${KIPRJMOD}/BeagleBone-Black-Cape-rescue.lib)(options "")(descr ""))
+  (lib (name UserMade-BB-Zigbee-Gateway-CAPE)(type Legacy)(uri ${KIPRJMOD}/UserMade-BB-Zigbee-Gateway-CAPE.lib)(options "")(descr ""))
 )
