@@ -4,4 +4,5 @@
   (lib (name ul_SKY13317373LF)(type KiCad)(uri ${KIPRJMOD}/ul_SKY13317373LF)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/ul_SKY13317373LF/KiCAD/2021-04-02_19-11-57/footprints.pretty)(options "")(descr ""))
   (lib (name pwr_Beaglebone)(type KiCad)(uri ${KIPRJMOD}/pwr_Beaglebone.pretty)(options "")(descr ""))
+  (lib (name UserMade-BB-Zigbee-Gateway-CAPE)(type KiCad)(uri ${KIPRJMOD}/UserMade-BB-Zigbee-Gateway-CAPE.pretty)(options "")(descr ""))
 )
