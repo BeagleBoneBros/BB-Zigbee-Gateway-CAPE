@@ -542,17 +542,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 5100 8750 5050
 Connection ~ 8350 5100
-$Comp
-L BeagleBone-Black-Cape-rescue:C-Device C203
-U 1 1 614F2671
-P 6000 1550
-F 0 "C203" V 5748 1550 50  0000 C CNN
-F 1 "47pF" V 5839 1550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1400 50  0001 C CNN
-F 3 "~" H 6000 1550 50  0001 C CNN
-	1    6000 1550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6150 1550 8250 1550
+	5850 1550 8250 1550
 $EndSCHEMATC
