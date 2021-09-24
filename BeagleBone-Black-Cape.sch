@@ -284,7 +284,7 @@ F 3 "" H 6750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 12900 -7450 8550 4250
+S 13050 -7350 8550 4250
 U 614C2CA1
 F0 "MCU subsystem" 50
 F1 "MCU_subsystem.sch" 50
