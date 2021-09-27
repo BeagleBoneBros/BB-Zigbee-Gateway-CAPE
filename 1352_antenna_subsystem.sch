@@ -27,10 +27,10 @@ $EndComp
 Wire Wire Line
 	4100 3350 4400 3350
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C?
+L BeagleBone-Black-Cape-rescue:C-Device C201
 U 1 1 603D700A
 P 3950 3350
-F 0 "C?" V 3698 3350 50  0000 C CNN
+F 0 "C201" V 3698 3350 50  0000 C CNN
 F 1 "100pF" V 3789 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3988 3200 50  0001 C CNN
 F 3 "~" H 3950 3350 50  0001 C CNN
@@ -52,12 +52,12 @@ SUB1N
 Text GLabel 5900 4650 0    50   BiDi ~ 0
 TX_20dB_P
 Text GLabel 5900 5300 0    50   BiDi ~ 0
-RX_20dB_N
+TX_20dB_N
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L?
+L BeagleBone-Black-Cape-rescue:L-Device L203
 U 1 1 605CA70F
 P 6850 5300
-F 0 "L?" V 7040 5300 50  0000 C CNN
+F 0 "L203" V 7040 5300 50  0000 C CNN
 F 1 "3nH" V 6949 5300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 5300 50  0001 C CNN
 F 3 "~" H 6850 5300 50  0001 C CNN
@@ -65,10 +65,10 @@ F 3 "~" H 6850 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L?
+L BeagleBone-Black-Cape-rescue:L-Device L201
 U 1 1 605D71FC
 P 6150 4950
-F 0 "L?" H 6300 4900 50  0000 C CNN
+F 0 "L201" H 6300 4900 50  0000 C CNN
 F 1 "15nH" H 6300 5000 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4950 50  0001 C CNN
 F 3 "~" H 6150 4950 50  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "~" H 6450 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L?
+L BeagleBone-Black-Cape-rescue:L-Device L202
 U 1 1 605F1A20
 P 6450 4150
-F 0 "L?" H 6600 4100 50  0000 C CNN
+F 0 "L202" H 6600 4100 50  0000 C CNN
 F 1 "3nH" H 6600 4200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 4150 50  0001 C CNN
 F 3 "~" H 6450 4150 50  0001 C CNN
@@ -184,10 +184,10 @@ Wire Wire Line
 	7200 5100 7350 5100
 Connection ~ 7200 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L?
+L BeagleBone-Black-Cape-rescue:L-Device L204
 U 1 1 606403DF
 P 7500 5100
-F 0 "L?" V 7690 5100 50  0000 C CNN
+F 0 "L204" V 7690 5100 50  0000 C CNN
 F 1 "1.8nH" V 7599 5100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 5100 50  0001 C CNN
 F 3 "~" H 7500 5100 50  0001 C CNN
@@ -210,10 +210,10 @@ $EndComp
 Wire Wire Line
 	7750 5100 7750 5250
 $Comp
-L BeagleBone-Black-Cape-rescue:L-Device L?
+L BeagleBone-Black-Cape-rescue:L-Device L205
 U 1 1 6064D542
 P 7900 5100
-F 0 "L?" V 8090 5100 50  0000 C CNN
+F 0 "L205" V 8090 5100 50  0000 C CNN
 F 1 "1nH" V 7999 5100 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 5100 50  0001 C CNN
 F 3 "~" H 7900 5100 50  0001 C CNN
@@ -267,10 +267,10 @@ $EndComp
 Wire Wire Line
 	8950 4650 8950 4350
 $Comp
-L BeagleBone-Black-Cape-rescue:R-Device R?
+L BeagleBone-Black-Cape-rescue:R-Device R201
 U 1 1 6067AEFA
 P 6550 3400
-F 0 "R?" H 6620 3446 50  0000 L CNN
+F 0 "R201" H 6620 3446 50  0000 L CNN
 F 1 "0" H 6620 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6480 3400 50  0001 C CNN
 F 3 "~" H 6550 3400 50  0001 C CNN
@@ -278,10 +278,10 @@ F 3 "~" H 6550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R-Device R?
+L BeagleBone-Black-Cape-rescue:R-Device R202
 U 1 1 6067CE21
 P 6850 3400
-F 0 "R?" H 6920 3446 50  0000 L CNN
+F 0 "R202" H 6920 3446 50  0000 L CNN
 F 1 "DNF" H 6920 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6780 3400 50  0001 C CNN
 F 3 "~" H 6850 3400 50  0001 C CNN
@@ -320,10 +320,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 3350 3700 3350
 $Comp
-L cc1352:IPC_1352P TF?
+L cc1352:IPC_1352P TF201
 U 1 1 61528E3E
 P 3700 2050
-F 0 "TF?" H 3700 1950 50  0000 C CNN
+F 0 "TF201" H 3700 1950 50  0000 C CNN
 F 1 "IPC_1352P" H 3700 2200 50  0000 C CNN
 F 2 "footprints:IPC_1352P" H 3700 2500 50  0001 C CNN
 F 3 "" H 3700 2500 50  0001 C CNN
@@ -445,10 +445,10 @@ F 3 "" H 8250 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF?
+L UserMade-BB-Zigbee-Gateway-CAPE:SKY13317-373 TF202
 U 1 1 614D9714
 P 8950 1950
-F 0 "TF?" H 9000 2715 50  0000 C CNN
+F 0 "TF202" H 9000 2715 50  0000 C CNN
 F 1 "SKY13317-373" H 9000 2624 50  0000 C CNN
 F 2 "ul_SKY13317373LF:SKY13317-373LF-BH" H 8990 2060 50  0001 C CNN
 F 3 "" H 8990 2060 50  0001 C CNN

@@ -16,10 +16,10 @@ $EndDescr
 Text Notes 2100 6000 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
-L pwr_BeagleBone:LM3671 U?
+L pwr_BeagleBone:LM3671 U401
 U 1 1 613D6B2B
 P 3650 6150
-F 0 "U?" H 3650 6250 50  0000 C CNN
+F 0 "U401" H 3650 6250 50  0000 C CNN
 F 1 "LM3671" H 3650 6150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3650 6150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 3650 6150 50  0001 C CNN
@@ -53,10 +53,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 6500 3200 6800
 $Comp
-L Device:L_Small L?
+L Device:L_Small L401
 U 1 1 613E2221
 P 4200 6300
-F 0 "L?" V 4385 6300 50  0000 C CNN
+F 0 "L401" V 4385 6300 50  0000 C CNN
 F 1 "2.2uH" V 4294 6300 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 4200 6300 50  0001 C CNN
 F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 4200 6300 50  0001 C CNN

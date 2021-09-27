@@ -134,10 +134,10 @@ PWR_BTN
 Wire Wire Line
 	3800 2900 3700 2900
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P?
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P101
 U 1 1 55DF7DBA
 P 4000 3600
-F 0 "P?" H 4000 4800 50  0000 C CNN
+F 0 "P101" H 4000 4800 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 4050 3650 50  0000 C CNN
 F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4000 2750 60  0001 C CNN
 F 3 "" H 4000 2750 60  0000 C CNN
@@ -145,10 +145,10 @@ F 3 "" H 4000 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P?
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P102
 U 1 1 55DF7DE1
 P 6200 3600
-F 0 "P?" H 6200 4800 50  0000 C CNN
+F 0 "P102" H 6200 4800 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 6250 3650 50  0000 C CNN
 F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 6200 2750 60  0001 C CNN
 F 3 "" H 6200 2750 60  0000 C CNN
@@ -251,10 +251,10 @@ F 3 "" H 5100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR0107
 U 1 1 614B6213
 P 3000 2500
-F 0 "#PWR0101" H 3000 2250 50  0001 C CNN
+F 0 "#PWR0107" H 3000 2250 50  0001 C CNN
 F 1 "GND" H 3005 2327 50  0000 C CNN
 F 2 "" H 3000 2500 50  0001 C CNN
 F 3 "" H 3000 2500 50  0001 C CNN
