@@ -91,7 +91,7 @@ SKY_V2_SUB1G
 Text GLabel 5000 4400 2    50   Input ~ 0
 SKY_V1_20DBM
 $Comp
-L power:GND #PWR0602
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0602
 U 1 1 614C8FCE
 P 2150 4200
 F 0 "#PWR0602" H 2150 3950 50  0001 C CNN
@@ -129,7 +129,7 @@ Connection ~ 2750 4100
 Wire Wire Line
 	2750 4100 2650 4100
 $Comp
-L Device:R_US R601
+L BeagleBone-Black-Cape-rescue:R_US-Device R601
 U 1 1 614CB248
 P 1700 3650
 F 0 "R601" H 1768 3696 50  0000 L CNN
@@ -149,7 +149,7 @@ Wire Wire Line
 	2000 3800 2000 3500
 Connection ~ 2000 3800
 $Comp
-L Device:C C602
+L BeagleBone-Black-Cape-rescue:C-Device C602
 U 1 1 614CF3BD
 P 2150 4050
 F 0 "C602" H 2265 4096 50  0000 L CNN
@@ -169,7 +169,7 @@ Wire Wire Line
 	1700 3400 1600 3400
 Connection ~ 1700 3400
 $Comp
-L Device:C C601
+L BeagleBone-Black-Cape-rescue:C-Device C601
 U 1 1 614D5273
 P 2050 3000
 F 0 "C601" H 2165 3046 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "~" H 2050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0601
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0601
 U 1 1 614D592A
 P 2050 3150
 F 0 "#PWR0601" H 2050 2900 50  0001 C CNN
@@ -214,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2850 2050 2850
 $Comp
-L power:GND #PWR0603
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0603
 U 1 1 614DC14A
 P 3150 5100
 F 0 "#PWR0603" H 3150 4850 50  0001 C CNN
@@ -235,7 +235,7 @@ MCU_TDO
 Wire Wire Line
 	3400 5100 3400 5000
 $Comp
-L Device:Crystal Y?
+L BeagleBone-Black-Cape-rescue:Crystal-Device Y?
 U 1 1 614E7AAF
 P 7450 4000
 AR Path="/613805C9/614E7AAF" Ref="Y?"  Part="1" 
@@ -248,7 +248,7 @@ F 3 "https://www.mouser.com/datasheet/2/122/ECX-12R-1314062.pdf" H 7450 4000 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND2 Y?
+L BeagleBone-Black-Cape-rescue:Crystal_GND2-Device Y?
 U 1 1 614E7AB5
 P 8750 4300
 AR Path="/613805C9/614E7AB5" Ref="Y?"  Part="1" 
@@ -261,7 +261,7 @@ F 3 "https://www.mouser.com/datasheet/2/909/cx2016db_e-1316650.pdf" H 8750 4300 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L BeagleBone-Black-Cape-rescue:CAP-pspice C?
 U 1 1 614E7ABB
 P 7100 4350
 AR Path="/613805C9/614E7ABB" Ref="C?"  Part="1" 
@@ -274,7 +274,7 @@ F 3 "~" H 7100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:CAP C?
+L BeagleBone-Black-Cape-rescue:CAP-pspice C?
 U 1 1 614E7AC1
 P 7800 4350
 AR Path="/613805C9/614E7AC1" Ref="C?"  Part="1" 
@@ -295,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 4000 7800 4100
 $Comp
-L power:GND #PWR?
+L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7ACB
 P 8750 4600
 AR Path="/613805C9/614E7ACB" Ref="#PWR?"  Part="1" 
@@ -308,7 +308,7 @@ F 3 "" H 8750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7AD1
 P 7800 4700
 AR Path="/613805C9/614E7AD1" Ref="#PWR?"  Part="1" 
@@ -321,7 +321,7 @@ F 3 "" H 7800 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7AD7
 P 7100 4700
 AR Path="/613805C9/614E7AD7" Ref="#PWR?"  Part="1" 
@@ -364,7 +364,7 @@ X32K_Q2
 Text Notes 6850 3350 0    50   ~ 0
 Exact cap Value will need to be \ndetermined by measuring the board. \nThis will also affect the exact \ncrystal we end up getting.
 $Comp
-L power:GND #PWR0143
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0143
 U 1 1 614D787A
 P 4500 7100
 F 0 "#PWR0143" H 4500 6850 50  0001 C CNN
@@ -375,7 +375,7 @@ F 3 "" H 4500 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0144
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0144
 U 1 1 614D8142
 P 5100 7100
 F 0 "#PWR0144" H 5100 6850 50  0001 C CNN
@@ -388,7 +388,7 @@ $EndComp
 Text GLabel 2700 5950 0    50   Input ~ 0
 MCU_VDD
 $Comp
-L Device:R_US R16
+L BeagleBone-Black-Cape-rescue:R_US-Device R16
 U 1 1 614D91BC
 P 3450 6100
 F 0 "R16" H 3518 6146 50  0000 L CNN
@@ -405,7 +405,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 5950 3450 5950
 $Comp
-L Device:R_US R17
+L BeagleBone-Black-Cape-rescue:R_US-Device R17
 U 1 1 614DDC0C
 P 4950 6100
 F 0 "R17" H 5018 6146 50  0000 L CNN
@@ -416,7 +416,7 @@ F 3 "~" H 4950 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C26
+L BeagleBone-Black-Cape-rescue:C-Device C26
 U 1 1 614E11ED
 P 5100 6950
 F 0 "C26" H 5215 6996 50  0000 L CNN
@@ -470,7 +470,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 6500 3800 6500
 $Comp
-L Device:R_US R14
+L BeagleBone-Black-Cape-rescue:R_US-Device R14
 U 1 1 614EF3D8
 P 2900 6300
 F 0 "R14" H 2968 6346 50  0000 L CNN
@@ -481,7 +481,7 @@ F 3 "~" H 2900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R15
+L BeagleBone-Black-Cape-rescue:R_US-Device R15
 U 1 1 614F0C42
 P 3200 6300
 F 0 "R15" H 3268 6346 50  0000 L CNN
@@ -510,7 +510,7 @@ Connection ~ 2900 5950
 Wire Wire Line
 	2900 5950 2700 5950
 $Comp
-L UserMade-BB-Zigbee-Gateway-CAPE:MX25R8035FZUIL0 U3
+L Flash_Usr:MX25R8035FZUIL0 U3
 U 1 1 615019E6
 P 4300 6700
 F 0 "U3" H 4844 6746 50  0000 L CNN
