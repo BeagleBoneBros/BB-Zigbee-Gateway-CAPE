@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J?
+L Connector:Conn_ARM_JTAG_SWD_10 J1
 U 1 1 614AA0C1
 P 5150 3550
-F 0 "J?" H 4707 3596 50  0000 R CNN
+F 0 "J1" H 4707 3596 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 4707 3505 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5150 3550 50  0001 C CNN
 F 3 "https://1bitsquared.com/products/jtag-swd-smd-connector" V 4800 2300 50  0001 C CNN
@@ -57,10 +57,10 @@ Connection ~ 5100 4200
 Text GLabel 5150 2950 1    50   Input ~ 0
 MCU_VDD
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J2
 U 1 1 614ABF85
 P 7550 3550
-F 0 "J?" H 7578 3576 50  0000 L CNN
+F 0 "J2" H 7578 3576 50  0000 L CNN
 F 1 "3.3V" H 7578 3485 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 3550 50  0001 C CNN
 F 3 "~" H 7550 3550 50  0001 C CNN

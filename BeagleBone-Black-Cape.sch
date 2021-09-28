@@ -134,10 +134,10 @@ PWR_BTN
 Wire Wire Line
 	3800 2900 3700 2900
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P?
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P1
 U 1 1 55DF7DBA
 P 4000 3600
-F 0 "P?" H 4000 4800 50  0000 C CNN
+F 0 "P1" H 4000 4800 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 4050 3650 50  0000 C CNN
 F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4000 2750 60  0001 C CNN
 F 3 "" H 4000 2750 60  0000 C CNN
@@ -145,10 +145,10 @@ F 3 "" H 4000 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P?
+L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P2
 U 1 1 55DF7DE1
 P 6200 3600
-F 0 "P?" H 6200 4800 50  0000 C CNN
+F 0 "P2" H 6200 4800 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 6250 3650 50  0000 C CNN
 F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 6200 2750 60  0001 C CNN
 F 3 "" H 6200 2750 60  0000 C CNN

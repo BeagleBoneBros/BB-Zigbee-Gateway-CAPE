@@ -16,10 +16,10 @@ $EndDescr
 Text Notes 2100 6000 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
-L pwr_BeagleBone:LM3671 U?
+L pwr_BeagleBone:LM3671 U1
 U 1 1 613D6B2B
 P 3650 6150
-F 0 "U?" H 3650 6250 50  0000 C CNN
+F 0 "U1" H 3650 6250 50  0000 C CNN
 F 1 "LM3671" H 3650 6150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3650 6150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 3650 6150 50  0001 C CNN
@@ -27,10 +27,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-d
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 613D8B5E
 P 3000 6550
-F 0 "C?" H 2800 6600 50  0000 L CNN
+F 0 "C16" H 2800 6600 50  0000 L CNN
 F 1 "4.7uF" H 2700 6500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 6550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3000 6550 50  0001 C CNN
@@ -53,10 +53,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 6500 3200 6800
 $Comp
-L Device:L_Small L?
+L Device:L_Small L6
 U 1 1 613E2221
 P 4200 6300
-F 0 "L?" V 4385 6300 50  0000 C CNN
+F 0 "L6" V 4385 6300 50  0000 C CNN
 F 1 "2.2uH" V 4294 6300 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 4200 6300 50  0001 C CNN
 F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 4200 6300 50  0001 C CNN
@@ -81,10 +81,10 @@ $EndComp
 Wire Wire Line
 	3000 6900 3000 6800
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 613E66FD
 P 4650 6550
-F 0 "C?" H 4742 6596 50  0000 L CNN
+F 0 "C20" H 4742 6596 50  0000 L CNN
 F 1 "10uF" H 4742 6505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4650 6550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4650 6550 50  0001 C CNN
@@ -148,10 +148,10 @@ VDDS
 Text GLabel 8200 2600 1    50   Input ~ 0
 VDDR
 $Comp
-L Device:C C?
+L Device:C C15
 U 1 1 614ACFF1
 P 2800 2950
-F 0 "C?" H 2915 2996 50  0000 L CNN
+F 0 "C15" H 2915 2996 50  0000 L CNN
 F 1 "0.1u" H 2915 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2838 2800 50  0001 C CNN
 F 3 "~" H 2800 2950 50  0001 C CNN
@@ -159,10 +159,10 @@ F 3 "~" H 2800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C14
 U 1 1 614AD67F
 P 2300 2950
-F 0 "C?" H 2415 2996 50  0000 L CNN
+F 0 "C14" H 2415 2996 50  0000 L CNN
 F 1 "0.1u" H 2415 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 2800 50  0001 C CNN
 F 3 "~" H 2300 2950 50  0001 C CNN
@@ -170,10 +170,10 @@ F 3 "~" H 2300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C22
 U 1 1 614ADB54
 P 8450 2950
-F 0 "C?" H 8565 2996 50  0000 L CNN
+F 0 "C22" H 8565 2996 50  0000 L CNN
 F 1 "0.1u" H 8565 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8488 2800 50  0001 C CNN
 F 3 "~" H 8450 2950 50  0001 C CNN
@@ -181,10 +181,10 @@ F 3 "~" H 8450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C19
 U 1 1 614ADE06
 P 4350 2950
-F 0 "C?" H 4465 2996 50  0000 L CNN
+F 0 "C19" H 4465 2996 50  0000 L CNN
 F 1 "0.1u" H 4465 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 2800 50  0001 C CNN
 F 3 "~" H 4350 2950 50  0001 C CNN
@@ -192,10 +192,10 @@ F 3 "~" H 4350 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C17
 U 1 1 614ADFDD
 P 3300 2950
-F 0 "C?" H 3415 2996 50  0000 L CNN
+F 0 "C17" H 3415 2996 50  0000 L CNN
 F 1 "0.1u" H 3415 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3338 2800 50  0001 C CNN
 F 3 "~" H 3300 2950 50  0001 C CNN
@@ -203,10 +203,10 @@ F 3 "~" H 3300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C23
 U 1 1 614AE392
 P 8950 2950
-F 0 "C?" H 9065 2996 50  0000 L CNN
+F 0 "C23" H 9065 2996 50  0000 L CNN
 F 1 "0.1u" H 9065 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 2800 50  0001 C CNN
 F 3 "~" H 8950 2950 50  0001 C CNN
@@ -214,10 +214,10 @@ F 3 "~" H 8950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C18
 U 1 1 614AE569
 P 3850 2950
-F 0 "C?" H 3965 2996 50  0000 L CNN
+F 0 "C18" H 3965 2996 50  0000 L CNN
 F 1 "22u" H 3965 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3888 2800 50  0001 C CNN
 F 3 "~" H 3850 2950 50  0001 C CNN
@@ -225,10 +225,10 @@ F 3 "~" H 3850 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C21
 U 1 1 614AE740
 P 7600 2950
-F 0 "C?" H 7715 2996 50  0000 L CNN
+F 0 "C21" H 7715 2996 50  0000 L CNN
 F 1 "22u" H 7715 2905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7638 2800 50  0001 C CNN
 F 3 "~" H 7600 2950 50  0001 C CNN
@@ -236,10 +236,10 @@ F 3 "~" H 7600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L?
+L pspice:INDUCTOR L7
 U 1 1 614B2435
 P 7050 2800
-F 0 "L?" H 7050 3015 50  0000 C CNN
+F 0 "L7" H 7050 3015 50  0000 C CNN
 F 1 "6.8u" H 7050 2924 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 7050 2800 50  0001 C CNN
 F 3 "~" H 7050 2800 50  0001 C CNN
@@ -370,10 +370,10 @@ Wire Wire Line
 Text GLabel 1600 2800 0    50   Input ~ 0
 MCU_VDD
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB1
 U 1 1 614B96C9
 P 2000 2800
-F 0 "FB?" V 1763 2800 50  0000 C CNN
+F 0 "FB1" V 1763 2800 50  0000 C CNN
 F 1 "1500 Ohm 500mA" V 1854 2800 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1930 2800 50  0001 C CNN
 F 3 "~https://www.mouser.com/ProductDetail/Murata-Electronics/BLM18HE152SH1D?qs=vdi0iO8H4N1rw7arGlbEGA%3D%3D" H 2000 2800 50  0001 C CNN
