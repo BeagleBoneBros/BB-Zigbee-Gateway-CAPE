@@ -226,7 +226,7 @@ $EndSheet
 Wire Wire Line
 	3650 4900 4050 4900
 $Comp
-L power:GND #PWR0105
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0105
 U 1 1 614B4DBF
 P 4050 4900
 F 0 "#PWR0105" H 4050 4650 50  0001 C CNN
@@ -240,7 +240,7 @@ Connection ~ 4050 4900
 Wire Wire Line
 	4050 4900 4450 4900
 $Comp
-L power:GND #PWR0109
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0109
 U 1 1 614B5823
 P 5100 2500
 F 0 "#PWR0109" H 5100 2250 50  0001 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 5100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0101
 U 1 1 614B6213
 P 3000 2500
 F 0 "#PWR0101" H 3000 2250 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 3000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0110
 U 1 1 614B8C07
 P 5750 2500
 F 0 "#PWR0110" H 5750 2250 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 5750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0111
 U 1 1 614B962C
 P 6750 2500
 F 0 "#PWR0111" H 6750 2250 50  0001 C CNN
