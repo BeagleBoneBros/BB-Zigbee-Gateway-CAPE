@@ -265,8 +265,8 @@ L BeagleBone-Black-Cape-rescue:CAP-pspice C?
 U 1 1 614E7ABB
 P 7100 4350
 AR Path="/613805C9/614E7ABB" Ref="C?"  Part="1" 
-AR Path="/614C2CA1/614E7ABB" Ref="C603"  Part="1" 
-F 0 "C603" H 7278 4396 50  0000 L CNN
+AR Path="/614C2CA1/614E7ABB" Ref="C604"  Part="1" 
+F 0 "C604" H 7278 4396 50  0000 L CNN
 F 1 "CAP" H 7278 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7100 4350 50  0001 C CNN
 F 3 "~" H 7100 4350 50  0001 C CNN
@@ -278,8 +278,8 @@ L BeagleBone-Black-Cape-rescue:CAP-pspice C?
 U 1 1 614E7AC1
 P 7800 4350
 AR Path="/613805C9/614E7AC1" Ref="C?"  Part="1" 
-AR Path="/614C2CA1/614E7AC1" Ref="C604"  Part="1" 
-F 0 "C604" H 7978 4396 50  0000 L CNN
+AR Path="/614C2CA1/614E7AC1" Ref="C605"  Part="1" 
+F 0 "C605" H 7978 4396 50  0000 L CNN
 F 1 "CAP" H 7978 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7800 4350 50  0001 C CNN
 F 3 "~" H 7800 4350 50  0001 C CNN
@@ -299,8 +299,8 @@ L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7ACB
 P 8750 4600
 AR Path="/613805C9/614E7ACB" Ref="#PWR?"  Part="1" 
-AR Path="/614C2CA1/614E7ACB" Ref="#PWR0606"  Part="1" 
-F 0 "#PWR0606" H 8750 4350 50  0001 C CNN
+AR Path="/614C2CA1/614E7ACB" Ref="#PWR0608"  Part="1" 
+F 0 "#PWR0608" H 8750 4350 50  0001 C CNN
 F 1 "GND" H 8755 4427 50  0000 C CNN
 F 2 "" H 8750 4600 50  0001 C CNN
 F 3 "" H 8750 4600 50  0001 C CNN
@@ -312,8 +312,8 @@ L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7AD1
 P 7800 4700
 AR Path="/613805C9/614E7AD1" Ref="#PWR?"  Part="1" 
-AR Path="/614C2CA1/614E7AD1" Ref="#PWR0605"  Part="1" 
-F 0 "#PWR0605" H 7800 4450 50  0001 C CNN
+AR Path="/614C2CA1/614E7AD1" Ref="#PWR0607"  Part="1" 
+F 0 "#PWR0607" H 7800 4450 50  0001 C CNN
 F 1 "GND" H 7805 4527 50  0000 C CNN
 F 2 "" H 7800 4700 50  0001 C CNN
 F 3 "" H 7800 4700 50  0001 C CNN
@@ -325,8 +325,8 @@ L BeagleBone-Black-Cape-rescue:GND-power #PWR?
 U 1 1 614E7AD7
 P 7100 4700
 AR Path="/613805C9/614E7AD7" Ref="#PWR?"  Part="1" 
-AR Path="/614C2CA1/614E7AD7" Ref="#PWR0604"  Part="1" 
-F 0 "#PWR0604" H 7100 4450 50  0001 C CNN
+AR Path="/614C2CA1/614E7AD7" Ref="#PWR0606"  Part="1" 
+F 0 "#PWR0606" H 7100 4450 50  0001 C CNN
 F 1 "GND" H 7105 4527 50  0000 C CNN
 F 2 "" H 7100 4700 50  0001 C CNN
 F 3 "" H 7100 4700 50  0001 C CNN
@@ -364,10 +364,10 @@ X32K_Q2
 Text Notes 6850 3350 0    50   ~ 0
 Exact cap Value will need to be \ndetermined by measuring the board. \nThis will also affect the exact \ncrystal we end up getting.
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0143
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0604
 U 1 1 614D787A
 P 4500 7100
-F 0 "#PWR0143" H 4500 6850 50  0001 C CNN
+F 0 "#PWR0604" H 4500 6850 50  0001 C CNN
 F 1 "GND" H 4505 6927 50  0000 C CNN
 F 2 "" H 4500 7100 50  0001 C CNN
 F 3 "" H 4500 7100 50  0001 C CNN
@@ -375,10 +375,10 @@ F 3 "" H 4500 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0144
+L BeagleBone-Black-Cape-rescue:GND-power #PWR0605
 U 1 1 614D8142
 P 5100 7100
-F 0 "#PWR0144" H 5100 6850 50  0001 C CNN
+F 0 "#PWR0605" H 5100 6850 50  0001 C CNN
 F 1 "GND" H 5105 6927 50  0000 C CNN
 F 2 "" H 5100 7100 50  0001 C CNN
 F 3 "" H 5100 7100 50  0001 C CNN
@@ -388,10 +388,10 @@ $EndComp
 Text GLabel 2700 5950 0    50   Input ~ 0
 MCU_VDD
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R16
+L BeagleBone-Black-Cape-rescue:R_US-Device R604
 U 1 1 614D91BC
 P 3450 6100
-F 0 "R16" H 3518 6146 50  0000 L CNN
+F 0 "R604" H 3518 6146 50  0000 L CNN
 F 1 "2.2k" H 3518 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3490 6090 50  0001 C CNN
 F 3 "~" H 3450 6100 50  0001 C CNN
@@ -405,10 +405,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 5950 3450 5950
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R17
+L BeagleBone-Black-Cape-rescue:R_US-Device R605
 U 1 1 614DDC0C
 P 4950 6100
-F 0 "R17" H 5018 6146 50  0000 L CNN
+F 0 "R605" H 5018 6146 50  0000 L CNN
 F 1 "0" H 5018 6055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4990 6090 50  0001 C CNN
 F 3 "~" H 4950 6100 50  0001 C CNN
@@ -416,10 +416,10 @@ F 3 "~" H 4950 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C26
+L BeagleBone-Black-Cape-rescue:C-Device C603
 U 1 1 614E11ED
 P 5100 6950
-F 0 "C26" H 5215 6996 50  0000 L CNN
+F 0 "C603" H 5215 6996 50  0000 L CNN
 F 1 "0.1u" H 5215 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5138 6800 50  0001 C CNN
 F 3 "~" H 5100 6950 50  0001 C CNN
@@ -470,10 +470,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 6500 3800 6500
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R14
+L BeagleBone-Black-Cape-rescue:R_US-Device R602
 U 1 1 614EF3D8
 P 2900 6300
-F 0 "R14" H 2968 6346 50  0000 L CNN
+F 0 "R602" H 2968 6346 50  0000 L CNN
 F 1 "DNS" H 2968 6255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2940 6290 50  0001 C CNN
 F 3 "~" H 2900 6300 50  0001 C CNN
@@ -481,10 +481,10 @@ F 3 "~" H 2900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R15
+L BeagleBone-Black-Cape-rescue:R_US-Device R603
 U 1 1 614F0C42
 P 3200 6300
-F 0 "R15" H 3268 6346 50  0000 L CNN
+F 0 "R603" H 3268 6346 50  0000 L CNN
 F 1 "DNS" H 3268 6255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3240 6290 50  0001 C CNN
 F 3 "~" H 3200 6300 50  0001 C CNN
@@ -510,10 +510,12 @@ Connection ~ 2900 5950
 Wire Wire Line
 	2900 5950 2700 5950
 $Comp
-L Flash_Usr:MX25R8035FZUIL0 U3
+L BeagleBone-Black-Cape-rescue:MX25R8035FZUIL0-Flash_Usr U?
 U 1 1 615019E6
 P 4300 6700
-F 0 "U3" H 4844 6746 50  0000 L CNN
+AR Path="/615019E6" Ref="U?"  Part="1" 
+AR Path="/614C2CA1/615019E6" Ref="U602"  Part="1" 
+F 0 "U602" H 4844 6746 50  0000 L CNN
 F 1 "MX25R8035FZUIL0" H 4844 6655 50  0000 L CNN
 F 2 "Package_SO:SOP-8_5.28x5.23mm_P1.27mm" H 4300 6100 50  0001 C CNN
 F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 4300 6700 50  0001 C CNN
