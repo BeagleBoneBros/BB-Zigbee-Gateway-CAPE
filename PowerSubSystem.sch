@@ -143,7 +143,7 @@ F 3 "" H 2650 6300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2650 6300 3000 6300
-Text GLabel 2700 2650 1    50   Input ~ 0
+Text GLabel 2200 2650 1    50   Input ~ 0
 VDDS
 Text GLabel 8200 2600 1    50   Input ~ 0
 VDDR
@@ -351,8 +351,6 @@ Wire Wire Line
 Connection ~ 8200 2800
 Wire Wire Line
 	8200 2800 8450 2800
-Wire Wire Line
-	2300 2800 2700 2800
 Connection ~ 2800 2800
 Wire Wire Line
 	2800 2800 3300 2800
@@ -363,10 +361,7 @@ Connection ~ 3850 2800
 Wire Wire Line
 	3850 2800 4350 2800
 Wire Wire Line
-	2700 2650 2700 2800
-Connection ~ 2700 2800
-Wire Wire Line
-	2700 2800 2800 2800
+	2200 2650 2200 2800
 Text GLabel 1600 2800 0    50   Input ~ 0
 MCU_VDD
 $Comp
@@ -381,8 +376,27 @@ F 3 "~https://www.mouser.com/ProductDetail/Murata-Electronics/BLM18HE152SH1D?qs=
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2100 2800 2300 2800
+	2100 2800 2200 2800
 Connection ~ 2300 2800
 Wire Wire Line
 	1600 2800 1900 2800
+Text Notes 2700 2750 0    50   ~ 0
+PIN 22
+Connection ~ 2200 2800
+Wire Wire Line
+	2200 2800 2300 2800
+Wire Wire Line
+	2300 2800 2800 2800
+Text Notes 2250 2750 0    50   ~ 0
+PIN 13
+Text Notes 3200 2750 0    50   ~ 0
+PIN 44\n
+Text Notes 3800 2750 0    50   ~ 0
+PIN 34
+Text Notes 7450 2750 0    50   ~ 0
+PIN 33
+Text Notes 8350 2700 0    50   ~ 0
+PIN 45
+Text Notes 8750 2700 0    50   ~ 0
+PIN 48\n
 $EndSCHEMATC

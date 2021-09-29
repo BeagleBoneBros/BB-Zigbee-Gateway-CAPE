@@ -78,10 +78,10 @@ $EndComp
 Wire Wire Line
 	6450 5300 6450 5400
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C203
+L BeagleBone-Black-Cape-rescue:C-Device C204
 U 1 1 605E8A57
 P 6450 5550
-F 0 "C203" H 6565 5596 50  0000 L CNN
+F 0 "C204" H 6565 5596 50  0000 L CNN
 F 1 "1.2pF" H 6565 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6488 5400 50  0001 C CNN
 F 3 "~" H 6450 5550 50  0001 C CNN
@@ -123,10 +123,10 @@ Connection ~ 6450 5300
 Wire Wire Line
 	7000 5300 7050 5300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C204
+L BeagleBone-Black-Cape-rescue:C-Device C205
 U 1 1 60611067
 P 6800 4650
-F 0 "C204" V 7050 4600 50  0000 L CNN
+F 0 "C205" V 7050 4600 50  0000 L CNN
 F 1 "1.2pF" V 6950 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6838 4500 50  0001 C CNN
 F 3 "~" H 6800 4650 50  0001 C CNN
@@ -139,10 +139,10 @@ Connection ~ 7050 5100
 Wire Wire Line
 	7050 5100 7050 5300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C205
+L BeagleBone-Black-Cape-rescue:C-Device C206
 U 1 1 60620B7F
 P 7000 4000
-F 0 "C205" H 7115 4046 50  0000 L CNN
+F 0 "C206" H 7115 4046 50  0000 L CNN
 F 1 "12pF" H 7115 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7038 3850 50  0001 C CNN
 F 3 "~" H 7000 4000 50  0001 C CNN
@@ -152,10 +152,10 @@ $EndComp
 Wire Wire Line
 	7000 4150 7400 4150
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C207
+L BeagleBone-Black-Cape-rescue:C-Device C208
 U 1 1 6062771A
 P 7400 4000
-F 0 "C207" H 7515 4046 50  0000 L CNN
+F 0 "C208" H 7515 4046 50  0000 L CNN
 F 1 "10nF" H 7515 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7438 3850 50  0001 C CNN
 F 3 "~" H 7400 4000 50  0001 C CNN
@@ -170,10 +170,10 @@ Connection ~ 7000 4150
 Wire Wire Line
 	7200 5100 7200 5250
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C206
+L BeagleBone-Black-Cape-rescue:C-Device C207
 U 1 1 60632FC0
 P 7200 5400
-F 0 "C206" H 7315 5446 50  0000 L CNN
+F 0 "C207" H 7315 5446 50  0000 L CNN
 F 1 "2.7pF" H 7315 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7238 5250 50  0001 C CNN
 F 3 "~" H 7200 5400 50  0001 C CNN
@@ -197,10 +197,10 @@ $EndComp
 Wire Wire Line
 	7650 5100 7750 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C208
+L BeagleBone-Black-Cape-rescue:C-Device C209
 U 1 1 60645553
 P 7750 5400
-F 0 "C208" H 7865 5446 50  0000 L CNN
+F 0 "C209" H 7865 5446 50  0000 L CNN
 F 1 "1.8pF" H 7865 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7788 5250 50  0001 C CNN
 F 3 "~" H 7750 5400 50  0001 C CNN
@@ -221,10 +221,10 @@ F 3 "~" H 7900 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C209
+L BeagleBone-Black-Cape-rescue:C-Device C210
 U 1 1 60652D1E
 P 8250 5400
-F 0 "C209" H 8365 5446 50  0000 L CNN
+F 0 "C210" H 8365 5446 50  0000 L CNN
 F 1 "1.5pF" H 8365 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8288 5250 50  0001 C CNN
 F 3 "~" H 8250 5400 50  0001 C CNN
@@ -243,10 +243,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 4650 8650 4650
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C210
+L BeagleBone-Black-Cape-rescue:C-Device C211
 U 1 1 6066C58A
 P 8800 4650
-F 0 "C210" V 9050 4600 50  0000 L CNN
+F 0 "C211" V 9050 4600 50  0000 L CNN
 F 1 "DNF" V 8950 4600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8838 4500 50  0001 C CNN
 F 3 "~" H 8800 4650 50  0001 C CNN
@@ -499,10 +499,10 @@ Wire Wire Line
 Wire Wire Line
 	10200 1650 10200 3300
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C211
+L BeagleBone-Black-Cape-rescue:C-Device C212
 U 1 1 6150D584
 P 8850 3300
-F 0 "C211" V 9100 3250 50  0000 L CNN
+F 0 "C212" V 9100 3250 50  0000 L CNN
 F 1 "DNF" V 9000 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8888 3150 50  0001 C CNN
 F 3 "~" H 8850 3300 50  0001 C CNN
@@ -523,10 +523,10 @@ $EndComp
 Wire Wire Line
 	8700 3300 8700 3000
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C212
+L BeagleBone-Black-Cape-rescue:C-Device C213
 U 1 1 61536BA3
 P 8900 5050
-F 0 "C212" V 9150 5000 50  0000 L CNN
+F 0 "C213" V 9150 5000 50  0000 L CNN
 F 1 "47pF" V 9050 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8938 4900 50  0001 C CNN
 F 3 "~" H 8900 5050 50  0001 C CNN
@@ -543,16 +543,18 @@ Wire Wire Line
 	8750 5100 8750 5050
 Connection ~ 8350 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C3
+L BeagleBone-Black-Cape-rescue:C-Device C203
 U 1 1 614F2671
-P 6000 1550
-F 0 "C3" V 5748 1550 50  0000 C CNN
-F 1 "47pF" V 5839 1550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1400 50  0001 C CNN
-F 3 "~" H 6000 1550 50  0001 C CNN
-	1    6000 1550
+P 6150 1550
+F 0 "C203" V 5898 1550 50  0000 C CNN
+F 1 "47pF" V 5989 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 1400 50  0001 C CNN
+F 3 "~" H 6150 1550 50  0001 C CNN
+	1    6150 1550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 1550 8250 1550
+	5850 1550 6000 1550
+Wire Wire Line
+	6300 1550 8250 1550
 $EndSCHEMATC
