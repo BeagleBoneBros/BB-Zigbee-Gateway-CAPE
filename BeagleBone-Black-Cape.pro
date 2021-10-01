@@ -1,4 +1,4 @@
-update=9/28/2021 9:24:12 PM
+update=9/30/2021 9:13:13 PM
 version=1
 last_client=kicad
 [general]
@@ -243,3 +243,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=E:/Google Drive/1. Fall 2021/PCB AD/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
