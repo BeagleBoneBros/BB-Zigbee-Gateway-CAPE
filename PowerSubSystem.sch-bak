@@ -390,7 +390,7 @@ Wire Wire Line
 Text Notes 2250 2750 0    50   ~ 0
 PIN 13
 Text Notes 3200 2750 0    50   ~ 0
-PIN 14\n
+PIN 44\n
 Text Notes 3800 2750 0    50   ~ 0
 PIN 34
 Text Notes 7450 2750 0    50   ~ 0
