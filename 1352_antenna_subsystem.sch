@@ -288,9 +288,9 @@ F 3 "~" H 6850 3400 50  0001 C CNN
 	1    6850 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 3000 3    50   Output ~ 0
+Text GLabel 6500 2950 3    50   Output ~ 0
 VDDS
-Text GLabel 6850 3000 3    50   Output ~ 0
+Text GLabel 6850 2950 3    50   Output ~ 0
 VDDR
 Connection ~ 7000 3850
 Connection ~ 7750 5100
@@ -557,4 +557,10 @@ Wire Wire Line
 	5850 1550 6000 1550
 Wire Wire Line
 	6300 1550 8250 1550
+Wire Wire Line
+	6850 2950 6850 3250
+Wire Wire Line
+	6550 3250 6550 2950
+Wire Wire Line
+	6550 2950 6500 2950
 $EndSCHEMATC

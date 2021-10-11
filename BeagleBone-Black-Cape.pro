@@ -1,4 +1,4 @@
-update=Sun 10 Oct 2021 09:27:04 PM EDT
+update=10/11/2021 7:43:06 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=BeagleBone-Black-Cape.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=1
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
