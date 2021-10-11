@@ -278,14 +278,14 @@ U 614C2CA1
 F0 "MCU subsystem" 50
 F1 "MCU_subsystem.sch" 50
 $EndSheet
-Text GLabel 4450 3550 2    50   Output ~ 0
+Text GLabel 6650 3550 2    50   Output ~ 0
 BB_LED_1
-Text GLabel 4450 3650 2    50   Output ~ 0
+Text GLabel 6650 3650 2    50   Output ~ 0
 BB_LED_2
 Wire Wire Line
-	4300 3550 4450 3550
+	6500 3550 6650 3550
 Wire Wire Line
-	4300 3650 4450 3650
+	6500 3650 6650 3650
 $Comp
 L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P102
 U 1 1 55DF7DE1

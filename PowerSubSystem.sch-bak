@@ -13,136 +13,136 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2100 6000 0    50   ~ 0
+Text Notes 2050 6000 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
 L pwr_BeagleBone:LM3671 U401
 U 1 1 613D6B2B
-P 3650 6150
-F 0 "U401" H 3650 6250 50  0000 C CNN
-F 1 "LM3671" H 3650 6150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3650 6150 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 3650 6150 50  0001 C CNN
-	1    3650 6150
+P 3600 6150
+F 0 "U401" H 3600 6250 50  0000 C CNN
+F 1 "LM3671" H 3600 6150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3600 6150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631307057229&ref_url=https%253A%252F%252Fwww.mouser.com%252F" H 3600 6150 50  0001 C CNN
+	1    3600 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L BeagleBone-Black-Cape-rescue:C_Small-Device C403
 U 1 1 613D8B5E
-P 3000 6550
-F 0 "C403" H 2800 6600 50  0000 L CNN
-F 1 "4.7uF" H 2700 6500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 6550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3000 6550 50  0001 C CNN
-	1    3000 6550
+P 2950 6550
+F 0 "C403" H 2750 6600 50  0000 L CNN
+F 1 "4.7uF" H 2650 6500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2950 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2950 6550 50  0001 C CNN
+	1    2950 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6450 3000 6300
+	2950 6450 2950 6300
 Wire Wire Line
-	3000 6650 3000 6800
-Connection ~ 3000 6800
+	2950 6650 2950 6800
+Connection ~ 2950 6800
 Wire Wire Line
-	3300 6400 3200 6400
+	3250 6400 3150 6400
 Wire Wire Line
-	3200 6400 3200 6300
+	3150 6400 3150 6300
 Wire Wire Line
-	3200 6300 3300 6300
+	3150 6300 3250 6300
 Wire Wire Line
-	3300 6500 3200 6500
+	3250 6500 3150 6500
 Wire Wire Line
-	3200 6500 3200 6800
+	3150 6500 3150 6800
 $Comp
 L BeagleBone-Black-Cape-rescue:L_Small-Device L401
 U 1 1 613E2221
-P 4200 6300
-F 0 "L401" V 4385 6300 50  0000 C CNN
-F 1 "2.2uH" V 4294 6300 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 4200 6300 50  0001 C CNN
-F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 4200 6300 50  0001 C CNN
-	1    4200 6300
+P 4150 6300
+F 0 "L401" V 4335 6300 50  0000 C CNN
+F 1 "2.2uH" V 4244 6300 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 4150 6300 50  0001 C CNN
+F 3 "~https://www.mouser.com/datasheet/2/54/cm322522-777598.pdf" H 4150 6300 50  0001 C CNN
+	1    4150 6300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 6300 4100 6300
+	3950 6300 4050 6300
 Wire Wire Line
-	4400 6500 4400 6300
+	4350 6500 4350 6300
 $Comp
 L BeagleBone-Black-Cape-rescue:GND-power #PWR0404
 U 1 1 613E4C24
-P 3000 6900
-F 0 "#PWR0404" H 3000 6650 50  0001 C CNN
-F 1 "GND" H 3005 6727 50  0000 C CNN
-F 2 "" H 3000 6900 50  0001 C CNN
-F 3 "" H 3000 6900 50  0001 C CNN
-	1    3000 6900
+P 2950 6900
+F 0 "#PWR0404" H 2950 6650 50  0001 C CNN
+F 1 "GND" H 2955 6727 50  0000 C CNN
+F 2 "" H 2950 6900 50  0001 C CNN
+F 3 "" H 2950 6900 50  0001 C CNN
+	1    2950 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6900 3000 6800
+	2950 6900 2950 6800
 $Comp
 L BeagleBone-Black-Cape-rescue:C_Small-Device C407
 U 1 1 613E66FD
-P 4650 6550
-F 0 "C407" H 4742 6596 50  0000 L CNN
-F 1 "10uF" H 4742 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4650 6550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4650 6550 50  0001 C CNN
-	1    4650 6550
+P 4600 6550
+F 0 "C407" H 4692 6596 50  0000 L CNN
+F 1 "10uF" H 4692 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4600 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4600 6550 50  0001 C CNN
+	1    4600 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L BeagleBone-Black-Cape-rescue:GND-power #PWR0408
 U 1 1 613EB575
-P 4650 6900
-F 0 "#PWR0408" H 4650 6650 50  0001 C CNN
-F 1 "GND" H 4655 6727 50  0000 C CNN
-F 2 "" H 4650 6900 50  0001 C CNN
-F 3 "" H 4650 6900 50  0001 C CNN
-	1    4650 6900
+P 4600 6900
+F 0 "#PWR0408" H 4600 6650 50  0001 C CNN
+F 1 "GND" H 4605 6727 50  0000 C CNN
+F 2 "" H 4600 6900 50  0001 C CNN
+F 3 "" H 4600 6900 50  0001 C CNN
+	1    4600 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 6300 2    50   Output ~ 0
+Text GLabel 4900 6300 2    50   Output ~ 0
 MCU_VDD
 Wire Wire Line
-	4650 6300 4650 6450
+	4600 6300 4600 6450
 Wire Wire Line
-	4400 6300 4650 6300
+	4350 6300 4600 6300
 Wire Wire Line
-	4650 6300 4950 6300
-Connection ~ 4650 6300
+	4600 6300 4900 6300
+Connection ~ 4600 6300
 Wire Wire Line
-	4650 6800 4650 6650
+	4600 6800 4600 6650
 Wire Wire Line
-	4650 6900 4650 6800
-Connection ~ 4650 6800
+	4600 6900 4600 6800
+Connection ~ 4600 6800
 Wire Wire Line
-	3000 6800 3200 6800
+	2950 6800 3150 6800
 Wire Wire Line
-	3200 6300 3000 6300
-Connection ~ 3200 6300
-Connection ~ 3000 6300
+	3150 6300 2950 6300
+Connection ~ 3150 6300
+Connection ~ 2950 6300
 Wire Wire Line
-	4300 6300 4400 6300
-Connection ~ 4400 6300
+	4250 6300 4350 6300
+Connection ~ 4350 6300
 Wire Wire Line
-	4000 6500 4400 6500
+	3950 6500 4350 6500
 Wire Wire Line
-	3200 6800 4650 6800
-Connection ~ 3200 6800
+	3150 6800 4600 6800
+Connection ~ 3150 6800
 $Comp
 L pwr_BeagleBone:SYS_5V #PWR0402
 U 1 1 614A8F35
-P 2650 6300
-F 0 "#PWR0402" H 2650 6150 50  0001 C CNN
-F 1 "SYS_5V" H 2665 6473 50  0000 C CNN
-F 2 "" H 2650 6300 60  0000 C CNN
-F 3 "" H 2650 6300 60  0000 C CNN
-	1    2650 6300
+P 2600 6300
+F 0 "#PWR0402" H 2600 6150 50  0001 C CNN
+F 1 "SYS_5V" H 2615 6473 50  0000 C CNN
+F 2 "" H 2600 6300 60  0000 C CNN
+F 3 "" H 2600 6300 60  0000 C CNN
+	1    2600 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 6300 3000 6300
+	2600 6300 2950 6300
 Text GLabel 2200 2650 1    50   Input ~ 0
 VDDS
 Text GLabel 8200 2600 1    50   Input ~ 0
@@ -153,7 +153,7 @@ U 1 1 614ACFF1
 P 2800 2950
 F 0 "C402" H 2915 2996 50  0000 L CNN
 F 1 "0.1u" H 2915 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2838 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2838 2800 50  0001 C CNN
 F 3 "~" H 2800 2950 50  0001 C CNN
 	1    2800 2950
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 614AD67F
 P 2300 2950
 F 0 "C401" H 2415 2996 50  0000 L CNN
 F 1 "0.1u" H 2415 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2338 2800 50  0001 C CNN
 F 3 "~" H 2300 2950 50  0001 C CNN
 	1    2300 2950
 	1    0    0    -1  
