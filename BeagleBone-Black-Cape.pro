@@ -1,4 +1,4 @@
-update=9/30/2021 9:13:13 PM
+update=Sun 10 Oct 2021 06:17:59 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=E:/Google Drive/1. Fall 2021/PCB AD/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -36,8 +46,10 @@ ViaDiameter1=0.6
 ViaDrill1=0.4
 ViaDiameter2=0.4
 ViaDrill2=0.3
-ViaDiameter3=2
-ViaDrill3=1.5
+ViaDiameter3=1.2
+ViaDrill3=0.9
+ViaDiameter4=2
+ViaDrill4=1.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -243,13 +255,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=E:/Google Drive/1. Fall 2021/PCB AD/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
