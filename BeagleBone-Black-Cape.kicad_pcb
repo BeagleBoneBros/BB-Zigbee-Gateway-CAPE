@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 22)
     (tracks 855)
     (zones 0)
     (modules 77)
@@ -13,7 +13,7 @@
   (layers
     (0 F.Cu signal)
     (1 GNDP.Cu power hide)
-    (2 PWRP.Cu power hide)
+    (2 PWRP.Cu power)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -2591,7 +2591,7 @@
     (tags "Hirose U.FL Coaxial")
     (path /60365D6B/615152E3)
     (attr smd)
-    (fp_text reference AE201 (at 0.475 -3.2 90) (layer F.SilkS)
+    (fp_text reference AE201 (at -0.225 -3.2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 50Ω (at 0.475 3.2 90) (layer F.Fab)
@@ -3268,7 +3268,7 @@
     (tags "Hirose U.FL Coaxial")
     (path /60365D6B/6066FAEC)
     (attr smd)
-    (fp_text reference AE202 (at 0.475 -3.2 90) (layer F.SilkS)
+    (fp_text reference AE202 (at -0.25 -3.175 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 50Ω (at 0.475 3.2 90) (layer F.Fab)
@@ -3722,6 +3722,12 @@
     )
   )
 
+  (gr_text Rev-2 (at 126.2951 126.9824) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)))
+  )
+  (gr_text "BeagleBone Green \nIoT Gateway" (at 126.5451 124.5324) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text - (at 164.2951 48.7574) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
