@@ -338,8 +338,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 4600 7800 4700
 Wire Wire Line
-	8750 4500 8750 4600
-Wire Wire Line
 	8600 4300 8450 4300
 Wire Wire Line
 	8450 4300 8450 4150
@@ -522,4 +520,15 @@ F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide
 	1    4300 6700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8700 4500 8700 4550
+Wire Wire Line
+	8700 4550 8750 4550
+Wire Wire Line
+	8800 4550 8800 4500
+Wire Wire Line
+	8750 4600 8750 4550
+Connection ~ 8750 4550
+Wire Wire Line
+	8750 4550 8800 4550
 $EndSCHEMATC
