@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power
+# +3.3V-power-BeagleBone-Black-Cape-rescue
 #
-DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-BeagleBone-Black-Cape-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power-BeagleBone-Black-Cape-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5V-power
+# +5V-power-BeagleBone-Black-Cape-rescue
 #
-DEF +5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power-BeagleBone-Black-Cape-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power-BeagleBone-Black-Cape-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Antenna-Device
+# Antenna-Device-BeagleBone-Black-Cape-rescue
 #
-DEF Antenna-Device AE 0 40 N N 1 F N
+DEF Antenna-Device-BeagleBone-Black-Cape-rescue AE 0 40 N N 1 F N
 F0 "AE" -75 75 50 H V R CNN
-F1 "Antenna-Device" -75 0 50 H V R CNN
+F1 "Antenna-Device-BeagleBone-Black-Cape-rescue" -75 0 50 H V R CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -45,11 +45,11 @@ X A 1 0 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# C-Device
+# C-Device-BeagleBone-Black-Cape-rescue
 #
-DEF C-Device C 0 10 N Y 1 F N
+DEF C-Device-BeagleBone-Black-Cape-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device" 25 -100 50 H V L CNN
+F1 "C-Device-BeagleBone-Black-Cape-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -63,11 +63,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CAP-pspice
+# CAP-pspice-BeagleBone-Black-Cape-rescue
 #
-DEF CAP-pspice C 0 10 Y Y 1 F N
+DEF CAP-pspice-BeagleBone-Black-Cape-rescue C 0 10 Y Y 1 F N
 F0 "C" 100 150 50 V V C CNN
-F1 "CAP-pspice" 100 -150 50 V V C CNN
+F1 "CAP-pspice-BeagleBone-Black-Cape-rescue" 100 -150 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -78,11 +78,11 @@ X ~ 2 0 -250 200 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_Small-Device
+# C_Small-Device-BeagleBone-Black-Cape-rescue
 #
-DEF C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device-BeagleBone-Black-Cape-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device-BeagleBone-Black-Cape-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -96,11 +96,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x03_Female-Connector
+# Conn_01x03_Female-Connector-BeagleBone-Black-Cape-rescue
 #
-DEF Conn_01x03_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x03_Female-Connector-BeagleBone-Black-Cape-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Conn_01x03_Female-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Female-Connector-BeagleBone-Black-Cape-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -119,11 +119,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x23_Odd_Even-Connector_Generic
+# Conn_02x23_Odd_Even-Connector_Generic-BeagleBone-Black-Cape-rescue
 #
-DEF Conn_02x23_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x23_Odd_Even-Connector_Generic-BeagleBone-Black-Cape-rescue J 0 40 Y N 1 F N
 F0 "J" 50 1200 50 H V C CNN
-F1 "Conn_02x23_Odd_Even-Connector_Generic" 50 -1200 50 H V C CNN
+F1 "Conn_02x23_Odd_Even-Connector_Generic-BeagleBone-Black-Cape-rescue" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -226,11 +226,11 @@ X Pin_9 9 -200 700 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_ARM_JTAG_SWD_10-Connector
+# Conn_ARM_JTAG_SWD_10-Connector-BeagleBone-Black-Cape-rescue
 #
-DEF Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
+DEF Conn_ARM_JTAG_SWD_10-Connector-BeagleBone-Black-Cape-rescue J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
+F1 "Conn_ARM_JTAG_SWD_10-Connector-BeagleBone-Black-Cape-rescue" -100 550 50 H V R BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -259,11 +259,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal-Device
+# Crystal-Device-BeagleBone-Black-Cape-rescue
 #
-DEF Crystal-Device Y 0 40 N N 1 F N
+DEF Crystal-Device-BeagleBone-Black-Cape-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Crystal-Device" 0 -150 50 H V C CNN
+F1 "Crystal-Device-BeagleBone-Black-Cape-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -280,11 +280,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal_GND2-Device
+# Crystal_GND2-Device-BeagleBone-Black-Cape-rescue
 #
-DEF Crystal_GND2-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND2-Device-BeagleBone-Black-Cape-rescue Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
-F1 "Crystal_GND2-Device" 0 150 50 H V C CNN
+F1 "Crystal_GND2-Device-BeagleBone-Black-Cape-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -304,11 +304,11 @@ X 3 3 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead_Small-Device
+# Ferrite_Bead_Small-Device-BeagleBone-Black-Cape-rescue
 #
-DEF Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-Device-BeagleBone-Black-Cape-rescue FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-Device-BeagleBone-Black-Cape-rescue" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -325,11 +325,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# GND-power-BeagleBone-Black-Cape-rescue
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power-BeagleBone-Black-Cape-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "GND-power-BeagleBone-Black-Cape-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -338,25 +338,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GNDD-power
+# INDUCTOR-pspice-BeagleBone-Black-Cape-rescue
 #
-DEF GNDD-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GNDD-power" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# INDUCTOR-pspice
-#
-DEF INDUCTOR-pspice L 0 0 N Y 1 F N
+DEF INDUCTOR-pspice-BeagleBone-Black-Cape-rescue L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "INDUCTOR-pspice" 0 -50 50 H V C CNN
+F1 "INDUCTOR-pspice-BeagleBone-Black-Cape-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -369,11 +355,33 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# L-Device
+# IPC_1352P-cc1352
 #
-DEF L-Device L 0 40 N N 1 F N
+DEF IPC_1352P-cc1352 TF 0 40 Y Y 1 F N
+F0 "TF" 0 -100 50 H V C CNN
+F1 "IPC_1352P-cc1352" 0 100 50 H V C CNN
+F2 "" 0 450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+DRAW
+S -1000 500 1000 -500 0 1 0 N
+X ANT_2.4GHz 1 1100 350 100 L 50 50 1 1 B
+X GND 10 0 600 100 D 50 50 1 1 I
+X GND 2 1100 150 100 L 50 50 1 1 I
+X GND 3 1100 -50 100 L 50 50 1 1 I
+X ANT_SubGHz 4 1100 -250 100 L 50 50 1 1 I
+X RX_TX 5 0 -600 100 U 50 50 1 1 B
+X RF_N_SubGHz 6 -1100 -250 100 R 50 50 1 1 B
+X RX_P_SubGHz 7 -1100 -50 100 R 50 50 1 1 B
+X RF_N_2.4GHz 8 -1100 150 100 R 50 50 1 1 B
+X RF_P_2.4GHz 9 -1100 350 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# L-Device-BeagleBone-Black-Cape-rescue
+#
+DEF L-Device-BeagleBone-Black-Cape-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L-Device" 75 0 50 V V C CNN
+F1 "L-Device-BeagleBone-Black-Cape-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -392,11 +400,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED-Device
+# LED-Device-BeagleBone-Black-Cape-rescue
 #
-DEF LED-Device D 0 40 N N 1 F N
+DEF LED-Device-BeagleBone-Black-Cape-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device-BeagleBone-Black-Cape-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -415,11 +423,28 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Small-Device
+# LM3671-pwr_BeagleBone
 #
-DEF L_Small-Device L 0 10 N N 1 F N
+DEF LM3671-pwr_BeagleBone U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "LM3671-pwr_BeagleBone" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -50 250 -400 0 1 0 N
+X V_IN 1 -350 -150 100 R 50 50 1 1 I
+X GND 2 -350 -350 100 R 50 50 1 1 P
+X EN 3 -350 -250 100 R 50 50 1 1 I
+X FB 4 350 -350 100 L 50 50 1 1 I
+X SW 5 350 -150 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# L_Small-Device-BeagleBone-Black-Cape-rescue
+#
+DEF L_Small-Device-BeagleBone-Black-Cape-rescue L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_Small-Device" 30 -40 50 H V L CNN
+F1 "L_Small-Device-BeagleBone-Black-Cape-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -438,11 +463,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MX25R8035FZUIL0-Flash_Usr
+# MX25R8035FZUIL0-Flash_Usr-BeagleBone-Black-Cape-rescue
 #
-DEF MX25R8035FZUIL0-Flash_Usr U 0 20 Y Y 1 F N
+DEF MX25R8035FZUIL0-Flash_Usr-BeagleBone-Black-Cape-rescue U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "MX25R8035FZUIL0-Flash_Usr" 600 350 50 H V C CNN
+F1 "MX25R8035FZUIL0-Flash_Usr-BeagleBone-Black-Cape-rescue" 600 350 50 H V C CNN
 F2 "Package_SO:SOP-8_5.28x5.23mm_P1.27mm" 0 -600 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -461,11 +486,11 @@ X VCC 8 200 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# R-Device
+# R-Device-BeagleBone-Black-Cape-rescue
 #
-DEF R-Device R 0 0 N Y 1 F N
+DEF R-Device-BeagleBone-Black-Cape-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R-Device" 0 0 50 V V C CNN
+F1 "R-Device-BeagleBone-Black-Cape-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -478,11 +503,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_US-Device
+# R_US-Device-BeagleBone-Black-Cape-rescue
 #
-DEF R_US-Device R 0 0 N Y 1 F N
+DEF R_US-Device-BeagleBone-Black-Cape-rescue R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "R_US-Device" -100 0 50 V V C CNN
+F1 "R_US-Device-BeagleBone-Black-Cape-rescue" -100 0 50 V V C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -499,11 +524,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push-Switch
+# ST7735_TFT-cc1352
 #
-DEF SW_Push-Switch SW 0 40 N N 1 F N
+DEF ST7735_TFT-cc1352 TFT 0 40 Y Y 1 F N
+F0 "TFT" 727 -815 50 V V C CNN
+F1 "ST7735_TFT-cc1352" 639 -815 50 V V C CNN
+F2 "" 727 -815 50 V I C CNN
+F3 "" 727 -815 50 V I C CNN
+DRAW
+S 1400 0 0 -1600 0 1 0 N
+X LITE 1 1500 -300 100 L 50 50 1 1 W
+X GND 10 1500 -1200 100 L 50 50 1 1 I
+X MISO 2 1500 -400 100 L 50 50 1 1 O
+X SCK 3 1500 -500 100 L 50 50 1 1 I
+X MOSI 4 1500 -600 100 L 50 50 1 1 I
+X TFT_CS 5 1500 -700 100 L 50 50 1 1 I
+X CARD_CS 6 1500 -800 100 L 50 50 1 1 I
+X D/C 7 1500 -900 100 L 50 50 1 1 I
+X RESET 8 1500 -1000 100 L 50 50 1 1 I
+X VCC 9 1500 -1100 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SW_Push-Switch-BeagleBone-Black-Cape-rescue
+#
+DEF SW_Push-Switch-BeagleBone-Black-Cape-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch-BeagleBone-Black-Cape-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -513,6 +560,82 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# SYS_5V-pwr_BeagleBone
+#
+DEF SYS_5V-pwr_BeagleBone #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "SYS_5V-pwr_BeagleBone" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X SYS_5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# cc1352p-cc1352
+#
+DEF cc1352p-cc1352 U 0 40 Y Y 1 F N
+F0 "U" 1159 1354 50 H I C BNN
+F1 "cc1352p-cc1352" 890 779 50 H V C CNN
+F2 "Package_DFN_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" 964 683 20 H V C CNN
+F3 "" 1159 1354 50 H I C CNN
+DRAW
+S 0 2099 1799 0 0 1 0 N
+X EGP 49 350 -100 100 U 50 50 0 0 U
+X RF_P_2_4GHZ 1 350 2200 100 D 50 50 1 1 B
+X DIO_5 10 1550 -100 100 U 50 50 1 1 B
+X DIO_6 11 1450 -100 100 U 50 50 1 1 B
+X DIO_7 12 1350 -100 100 U 50 50 1 1 B
+X VDDS2 13 -100 1000 100 R 50 50 1 1 B
+X DIO_8 14 1250 -100 100 U 50 50 1 1 B
+X DIO_9 15 1150 -100 100 U 50 50 1 1 B
+X DIO_10 16 1050 -100 100 U 50 50 1 1 B
+X DIO_11 17 950 -100 100 U 50 50 1 1 B
+X DIO_12 18 850 -100 100 U 50 50 1 1 B
+X DIO_13 19 750 -100 100 U 50 50 1 1 B
+X RF_N_2_4GHZ 2 450 2200 100 D 50 50 1 1 B
+X DIO_14 20 650 -100 100 U 50 50 1 1 B
+X DIO_15 21 550 -100 100 U 50 50 1 1 B
+X VDDS3 22 -100 900 100 R 50 50 1 1 B
+X DCOUPL 23 -100 1200 100 R 50 50 1 1 U
+X JTAG_TMSC 24 -100 500 100 R 50 50 1 1 B
+X JTAG_TCKC 25 -100 600 100 R 50 50 1 1 I
+X DIO_16 26 450 -100 100 U 50 50 1 1 B
+X DIO_17 27 1450 2200 100 D 50 50 1 1 B
+X DIO_18 28 1900 1600 100 L 50 50 1 1 B
+X DIO_19 29 1900 1500 100 L 50 50 1 1 B
+X RF_P_SUB_1GHZ 3 550 2200 100 D 50 50 1 1 B
+X DIO_20 30 1900 1400 100 L 50 50 1 1 B
+X DIO_21 31 1900 1300 100 L 50 50 1 1 B
+X DIO_22 32 1900 1200 100 L 50 50 1 1 B
+X DCDC_SW 33 -100 1300 100 R 50 50 1 1 w
+X VDDS_DCDC 34 -100 1400 100 R 50 50 1 1 W
+X RESET_N 35 -100 1500 100 R 50 50 1 1 I
+X DIO_23 36 1900 1100 100 L 50 50 1 1 B
+X DIO_24 37 1900 1000 100 L 50 50 1 1 B
+X DIO_25 38 1900 900 100 L 50 50 1 1 B
+X DIO_26 39 1900 800 100 L 50 50 1 1 B
+X RF_N_SUB_1GHZ 4 650 2200 100 D 50 50 1 1 B
+X DIO_27 40 1900 700 100 L 50 50 1 1 B
+X DIO_28 41 1900 600 100 L 50 50 1 1 B
+X DIO_29 42 1900 500 100 L 50 50 1 1 B
+X DIO_30 43 1900 400 100 L 50 50 1 1 B
+X VDDS 44 -100 1100 100 R 50 50 1 1 B
+X VDDR 45 -100 800 100 R 50 50 1 1 U
+X X48M_N 46 1150 2200 100 D 50 50 1 1 B
+X X48M_P 47 1050 2200 100 D 50 50 1 1 B
+X VDDR_RF 48 -100 700 100 R 50 50 1 1 U
+X TX_20DBM_P 5 1250 2200 100 D 50 50 1 1 O
+X TX_20DBM_N 6 1350 2200 100 D 50 50 1 1 O
+X RX_TX 7 750 2200 100 D 50 50 1 1 B
+X X32K_Q1 8 850 2200 100 D 50 50 1 1 B
+X X32K_Q2 9 950 2200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

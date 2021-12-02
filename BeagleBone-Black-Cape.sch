@@ -28,7 +28,7 @@ Wire Wire Line
 	4300 4650 4450 4650
 Connection ~ 4450 4650
 $Comp
-L BeagleBone-Black-Cape-rescue:+3.3V-power #PWR0106
+L UserMade-BB-Zigbee-Gateway-CAPE:+3.3V-power #PWR0106
 U 1 1 55897A67
 P 4450 2250
 F 0 "#PWR0106" H 4450 2100 50  0001 C CNN
@@ -39,7 +39,7 @@ F 3 "" H 4450 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:+5V-power #PWR0107
+L UserMade-BB-Zigbee-Gateway-CAPE:+5V-power #PWR0107
 U 1 1 55897A7F
 P 4650 2250
 F 0 "#PWR0107" H 4650 2100 50  0001 C CNN
@@ -62,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 2750 4300 2750
 $Comp
-L BeagleBone-Black-Cape-rescue:+3.3V-power #PWR0104
+L UserMade-BB-Zigbee-Gateway-CAPE:+3.3V-power #PWR0104
 U 1 1 55897EE7
 P 3650 2250
 F 0 "#PWR0104" H 3650 2100 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 3650 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:+5V-power #PWR0103
+L UserMade-BB-Zigbee-Gateway-CAPE:+5V-power #PWR0103
 U 1 1 55897EF8
 P 3450 2250
 F 0 "#PWR0103" H 3450 2100 50  0001 C CNN
@@ -104,7 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2450 6750 2450
 $Comp
-L pwr_BeagleBone:SYS_5V #PWR0108
+L UserMade-BB-Zigbee-Gateway-CAPE:SYS_5V #PWR0108
 U 1 1 55898497
 P 4900 2250
 F 0 "#PWR0108" H 4900 2100 50  0001 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 4900 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pwr_BeagleBone:SYS_5V #PWR0102
+L UserMade-BB-Zigbee-Gateway-CAPE:SYS_5V #PWR0102
 U 1 1 558984AF
 P 3200 2250
 F 0 "#PWR0102" H 3200 2100 50  0001 C CNN
@@ -134,7 +134,7 @@ PWR_BTN
 Wire Wire Line
 	3800 2850 3700 2850
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P101
+L UserMade-BB-Zigbee-Gateway-CAPE:Conn_02x23_Odd_Even-Connector_Generic P101
 U 1 1 55DF7DBA
 P 4000 3550
 F 0 "P101" H 4000 4750 50  0000 C CNN
@@ -215,7 +215,7 @@ $EndSheet
 Wire Wire Line
 	3650 4850 4050 4850
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0105
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0105
 U 1 1 614B4DBF
 P 4050 4850
 F 0 "#PWR0105" H 4050 4600 50  0001 C CNN
@@ -229,7 +229,7 @@ Connection ~ 4050 4850
 Wire Wire Line
 	4050 4850 4450 4850
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0109
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0109
 U 1 1 614B5823
 P 5100 2450
 F 0 "#PWR0109" H 5100 2200 50  0001 C CNN
@@ -240,7 +240,7 @@ F 3 "" H 5100 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0101
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0101
 U 1 1 614B6213
 P 3000 2450
 F 0 "#PWR0101" H 3000 2200 50  0001 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 3000 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0110
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0110
 U 1 1 614B8C07
 P 5750 2450
 F 0 "#PWR0110" H 5750 2200 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 5750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0111
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0111
 U 1 1 614B962C
 P 6750 2450
 F 0 "#PWR0111" H 6750 2200 50  0001 C CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3650 6650 3650
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_02x23_Odd_Even-Connector_Generic P102
+L UserMade-BB-Zigbee-Gateway-CAPE:Conn_02x23_Odd_Even-Connector_Generic P102
 U 1 1 55DF7DE1
 P 6200 3550
 F 0 "P102" H 6200 4750 50  0000 C CNN

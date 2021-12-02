@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 2050 6000 0    50   ~ 0
 5Vin+ Comes from the 5V output \nof the beaglebone. The one \nthat is connected to the 12V \ninput.
 $Comp
-L pwr_BeagleBone:LM3671 U401
+L UserMade-BB-Zigbee-Gateway-CAPE:LM3671 U401
 U 1 1 613D6B2B
 P 3600 6150
 F 0 "U401" H 3600 6250 50  0000 C CNN
@@ -27,7 +27,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/lm3671.pdf?HQS=dis-mous-null-mousermode-d
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C_Small-Device C403
+L UserMade-BB-Zigbee-Gateway-CAPE:C_Small-Device C403
 U 1 1 613D8B5E
 P 2950 6550
 F 0 "C403" H 2750 6600 50  0000 L CNN
@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6500 3150 6800
 $Comp
-L BeagleBone-Black-Cape-rescue:L_Small-Device L401
+L UserMade-BB-Zigbee-Gateway-CAPE:L_Small-Device L401
 U 1 1 613E2221
 P 4150 6300
 F 0 "L401" V 4335 6300 50  0000 C CNN
@@ -68,7 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6500 4350 6300
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0404
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0404
 U 1 1 613E4C24
 P 2950 6900
 F 0 "#PWR0404" H 2950 6650 50  0001 C CNN
@@ -81,7 +81,7 @@ $EndComp
 Wire Wire Line
 	2950 6900 2950 6800
 $Comp
-L BeagleBone-Black-Cape-rescue:C_Small-Device C407
+L UserMade-BB-Zigbee-Gateway-CAPE:C_Small-Device C407
 U 1 1 613E66FD
 P 4600 6550
 F 0 "C407" H 4692 6596 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4600 6550 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0408
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0408
 U 1 1 613EB575
 P 4600 6900
 F 0 "#PWR0408" H 4600 6650 50  0001 C CNN
@@ -131,7 +131,7 @@ Wire Wire Line
 	3150 6800 4600 6800
 Connection ~ 3150 6800
 $Comp
-L pwr_BeagleBone:SYS_5V #PWR0402
+L UserMade-BB-Zigbee-Gateway-CAPE:SYS_5V #PWR0402
 U 1 1 614A8F35
 P 2600 6300
 F 0 "#PWR0402" H 2600 6150 50  0001 C CNN
@@ -148,7 +148,7 @@ VDDS
 Text GLabel 8200 2600 1    50   Input ~ 0
 VDDR
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C402
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C402
 U 1 1 614ACFF1
 P 2800 2950
 F 0 "C402" H 2915 2996 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "~" H 2800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C401
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C401
 U 1 1 614AD67F
 P 2300 2950
 F 0 "C401" H 2415 2996 50  0000 L CNN
@@ -170,7 +170,7 @@ F 3 "~" H 2300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C409
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C409
 U 1 1 614ADB54
 P 8450 2950
 F 0 "C409" H 8565 2996 50  0000 L CNN
@@ -181,7 +181,7 @@ F 3 "~" H 8450 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C406
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C406
 U 1 1 614ADE06
 P 4350 2950
 F 0 "C406" H 4465 2996 50  0000 L CNN
@@ -192,7 +192,7 @@ F 3 "~" H 4350 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C404
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C404
 U 1 1 614ADFDD
 P 3300 2950
 F 0 "C404" H 3415 2996 50  0000 L CNN
@@ -203,7 +203,7 @@ F 3 "~" H 3300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C410
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C410
 U 1 1 614AE392
 P 8950 2950
 F 0 "C410" H 9065 2996 50  0000 L CNN
@@ -214,7 +214,7 @@ F 3 "~" H 8950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C405
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C405
 U 1 1 614AE569
 P 3850 2950
 F 0 "C405" H 3965 2996 50  0000 L CNN
@@ -225,7 +225,7 @@ F 3 "~" H 3850 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:C-Device C408
+L UserMade-BB-Zigbee-Gateway-CAPE:C-Device C408
 U 1 1 614AE740
 P 7600 2950
 F 0 "C408" H 7715 2996 50  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "~" H 7600 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:INDUCTOR-pspice L402
+L UserMade-BB-Zigbee-Gateway-CAPE:INDUCTOR-pspice L402
 U 1 1 614B2435
 P 7050 2800
 F 0 "L402" H 7050 3015 50  0000 C CNN
@@ -247,7 +247,7 @@ F 3 "~" H 7050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0401
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0401
 U 1 1 614B60EB
 P 2300 3100
 F 0 "#PWR0401" H 2300 2850 50  0001 C CNN
@@ -258,7 +258,7 @@ F 3 "" H 2300 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0403
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0403
 U 1 1 614B633D
 P 2800 3100
 F 0 "#PWR0403" H 2800 2850 50  0001 C CNN
@@ -269,7 +269,7 @@ F 3 "" H 2800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0405
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0405
 U 1 1 614B6607
 P 3300 3100
 F 0 "#PWR0405" H 3300 2850 50  0001 C CNN
@@ -280,7 +280,7 @@ F 3 "" H 3300 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0406
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0406
 U 1 1 614B68D5
 P 3850 3100
 F 0 "#PWR0406" H 3850 2850 50  0001 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 3850 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0407
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0407
 U 1 1 614B6CF8
 P 4350 3100
 F 0 "#PWR0407" H 4350 2850 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 4350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0409
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0409
 U 1 1 614B73B7
 P 7600 3100
 F 0 "#PWR0409" H 7600 2850 50  0001 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 7600 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0410
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0410
 U 1 1 614B76A1
 P 8450 3100
 F 0 "#PWR0410" H 8450 2850 50  0001 C CNN
@@ -324,7 +324,7 @@ F 3 "" H 8450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0411
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0411
 U 1 1 614B7948
 P 8950 3100
 F 0 "#PWR0411" H 8950 2850 50  0001 C CNN
@@ -365,7 +365,7 @@ Wire Wire Line
 Text GLabel 1600 2800 0    50   Input ~ 0
 MCU_VDD
 $Comp
-L BeagleBone-Black-Cape-rescue:Ferrite_Bead_Small-Device FB401
+L UserMade-BB-Zigbee-Gateway-CAPE:Ferrite_Bead_Small-Device FB401
 U 1 1 614B96C9
 P 2000 2800
 F 0 "FB401" V 1763 2800 50  0000 C CNN

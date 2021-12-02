@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_ARM_JTAG_SWD_10-Connector J501
+L UserMade-BB-Zigbee-Gateway-CAPE:Conn_ARM_JTAG_SWD_10-Connector J501
 U 1 1 614AA0C1
 P 5150 3550
 F 0 "J501" H 4707 3596 50  0000 R CNN
@@ -35,7 +35,7 @@ MCU_TCK
 Text GLabel 5650 3250 2    50   Input ~ 0
 MCU_RESET
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0501
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0501
 U 1 1 614AB0A8
 P 5100 4200
 F 0 "#PWR0501" H 5100 3950 50  0001 C CNN
@@ -57,7 +57,7 @@ Connection ~ 5100 4200
 Text GLabel 5150 2950 1    50   Input ~ 0
 MCU_VDD
 $Comp
-L BeagleBone-Black-Cape-rescue:Conn_01x03_Female-Connector J502
+L UserMade-BB-Zigbee-Gateway-CAPE:Conn_01x03_Female-Connector J502
 U 1 1 614ABF85
 P 7550 3550
 F 0 "J502" H 7578 3576 50  0000 L CNN
@@ -70,7 +70,7 @@ $EndComp
 Text GLabel 7350 3450 0    50   Input ~ 0
 MCU_VDD
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0502
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0502
 U 1 1 614AC7F9
 P 7150 3800
 F 0 "#PWR0502" H 7150 3550 50  0001 C CNN

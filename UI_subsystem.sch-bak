@@ -26,7 +26,7 @@ SCK_TFT
 Text GLabel 3150 3050 0    50   Output ~ 0
 D.C_TFT
 $Comp
-L cc1352:ST7735_TFT TFT301
+L UserMade-BB-Zigbee-Gateway-CAPE:ST7735_TFT TFT301
 U 1 1 6083DD31
 P 4800 3950
 F 0 "TFT301" H 5550 3050 50  0000 R CNN
@@ -49,7 +49,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3550 3300 3550
 $Comp
-L BeagleBone-Black-Cape-rescue:SW_Push-Switch ZNP_BTN_301
+L UserMade-BB-Zigbee-Gateway-CAPE:SW_Push-Switch ZNP_BTN_301
 U 1 1 614536C0
 P 7650 2450
 F 0 "ZNP_BTN_301" H 7650 2735 50  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "~" H 7650 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:SW_Push-Switch ZNP_BTN_302
+L UserMade-BB-Zigbee-Gateway-CAPE:SW_Push-Switch ZNP_BTN_302
 U 1 1 614542E2
 P 8400 2450
 F 0 "ZNP_BTN_302" H 8400 2735 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "~" H 8400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:SW_Push-Switch BB_BTN_301
+L UserMade-BB-Zigbee-Gateway-CAPE:SW_Push-Switch BB_BTN_301
 U 1 1 614544C6
 P 9150 2450
 F 0 "BB_BTN_301" H 9150 2735 50  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "~" H 9150 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:SW_Push-Switch BB_BTN_302
+L UserMade-BB-Zigbee-Gateway-CAPE:SW_Push-Switch BB_BTN_302
 U 1 1 61454891
 P 9900 2450
 F 0 "BB_BTN_302" H 9900 2735 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "~" H 9900 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:LED-Device PWR301
+L UserMade-BB-Zigbee-Gateway-CAPE:LED-Device PWR301
 U 1 1 614557C3
 P 6800 4800
 F 0 "PWR301" V 6839 4682 50  0000 R CNN
@@ -104,7 +104,7 @@ F 3 "~" H 6800 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:LED-Device MCU_L_301
+L UserMade-BB-Zigbee-Gateway-CAPE:LED-Device MCU_L_301
 U 1 1 614568E7
 P 7600 4800
 F 0 "MCU_L_301" V 7639 4682 50  0000 R CNN
@@ -115,7 +115,7 @@ F 3 "~" H 7600 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:LED-Device MCU_L_302
+L UserMade-BB-Zigbee-Gateway-CAPE:LED-Device MCU_L_302
 U 1 1 61456F00
 P 8450 4800
 F 0 "MCU_L_302" V 8489 4682 50  0000 R CNN
@@ -126,7 +126,7 @@ F 3 "~" H 8450 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:LED-Device BB_L_301
+L UserMade-BB-Zigbee-Gateway-CAPE:LED-Device BB_L_301
 U 1 1 614573C9
 P 9300 4800
 F 0 "BB_L_301" V 9339 4682 50  0000 R CNN
@@ -137,7 +137,7 @@ F 3 "~" H 9300 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:LED-Device BB_L_302
+L UserMade-BB-Zigbee-Gateway-CAPE:LED-Device BB_L_302
 U 1 1 61457651
 P 10150 4800
 F 0 "BB_L_302" V 10189 4682 50  0000 R CNN
@@ -148,7 +148,7 @@ F 3 "~" H 10150 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R301
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R301
 U 1 1 614578E4
 P 6800 4450
 F 0 "R301" H 6868 4496 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "~" H 6800 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0302
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0302
 U 1 1 61458C9B
 P 6800 5200
 F 0 "#PWR0302" H 6800 4950 50  0001 C CNN
@@ -172,7 +172,7 @@ $EndComp
 Wire Wire Line
 	6800 4950 6800 5100
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R303
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R303
 U 1 1 61463DB5
 P 7600 4450
 F 0 "R303" H 7668 4496 50  0000 L CNN
@@ -183,7 +183,7 @@ F 3 "~" H 7600 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R306
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R306
 U 1 1 614640E9
 P 8450 4450
 F 0 "R306" H 8518 4496 50  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "~" H 8450 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R307
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R307
 U 1 1 614643AB
 P 9300 4450
 F 0 "R307" H 9368 4496 50  0000 L CNN
@@ -205,7 +205,7 @@ F 3 "~" H 9300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R309
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R309
 U 1 1 61464797
 P 10150 4450
 F 0 "R309" H 10218 4496 50  0000 L CNN
@@ -266,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 4600 6800 4650
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0303
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0303
 U 1 1 61474E36
 P 7650 2850
 F 0 "#PWR0303" H 7650 2600 50  0001 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 7650 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R304
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R304
 U 1 1 61481C85
 P 7650 1950
 F 0 "R304" H 7718 1996 50  0000 L CNN
@@ -342,7 +342,7 @@ Wire Wire Line
 	10200 1750 10200 1600
 Connection ~ 10200 1600
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R305
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R305
 U 1 1 61482BE5
 P 8400 1950
 F 0 "R305" H 8468 1996 50  0000 L CNN
@@ -353,7 +353,7 @@ F 3 "~" H 8400 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R308
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R308
 U 1 1 614833DA
 P 9450 1900
 F 0 "R308" H 9518 1946 50  0000 L CNN
@@ -364,7 +364,7 @@ F 3 "~" H 9450 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R310
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R310
 U 1 1 614839E0
 P 10200 1900
 F 0 "R310" H 10268 1946 50  0000 L CNN
@@ -381,7 +381,7 @@ MCU_VDD
 Wire Wire Line
 	10200 1450 10200 1600
 $Comp
-L BeagleBone-Black-Cape-rescue:SW_Push-Switch ZNP_RESET301
+L UserMade-BB-Zigbee-Gateway-CAPE:SW_Push-Switch ZNP_RESET301
 U 1 1 614AD723
 P 6900 2450
 F 0 "ZNP_RESET301" H 6900 2735 50  0000 C CNN
@@ -392,7 +392,7 @@ F 3 "434133025816" H 6900 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BeagleBone-Black-Cape-rescue:R_US-Device R302
+L UserMade-BB-Zigbee-Gateway-CAPE:R_US-Device R302
 U 1 1 614AD729
 P 6900 1950
 F 0 "R302" H 6968 1996 50  0000 L CNN
@@ -411,7 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2850 6900 2850
 $Comp
-L BeagleBone-Black-Cape-rescue:GND-power #PWR0301
+L UserMade-BB-Zigbee-Gateway-CAPE:GND-power #PWR0301
 U 1 1 614B24A7
 P 2400 2800
 F 0 "#PWR0301" H 2400 2550 50  0001 C CNN
